@@ -1,0 +1,236 @@
+{
+  "integrations": [
+    {
+      "id": "adobestock",
+      "name": "Adobe Stock",
+      "homepage": "https://stock.adobe.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "alamy",
+      "name": "Alamy",
+      "homepage": "https://www.alamy.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "artic",
+      "name": "Art Institute of Chicago",
+      "homepage": "https://www.artic.edu",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "burst",
+      "name": "Burst (Shopify)",
+      "homepage": "https://burst.shopify.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland Museum of Art",
+      "homepage": "https://www.clevelandart.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana",
+      "homepage": "https://www.europeana.eu",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "homepage": "https://www.flaticon.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr (Creative Commons)",
+      "homepage": "https://www.flickr.com/creativecommons/",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "freepik",
+      "name": "Freepik",
+      "homepage": "https://www.freepik.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "gettyimages",
+      "name": "Getty Images",
+      "homepage": "https://www.gettyimages.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "homepage": "https://iconify.design",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive (images)",
+      "homepage": "https://archive.org/details/image",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "istock",
+      "name": "iStock",
+      "homepage": "https://www.istockphoto.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "loc",
+      "name": "Library of Congress",
+      "homepage": "https://www.loc.gov/photos/",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA Image and Video Library",
+      "homepage": "https://images.nasa.gov",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "nga",
+      "name": "National Gallery of Art",
+      "homepage": "https://www.nga.gov/open-access-images.html",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "nypl",
+      "name": "NYPL Digital Collections",
+      "homepage": "https://digitalcollections.nypl.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "openclipart",
+      "name": "Openclipart",
+      "homepage": "https://openclipart.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse",
+      "homepage": "https://openverse.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pexels",
+      "name": "Pexels",
+      "homepage": "https://www.pexels.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "homepage": "https://pixabay.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "rawpixel",
+      "name": "Rawpixel",
+      "homepage": "https://www.rawpixel.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "rijksmuseum",
+      "name": "Rijksmuseum",
+      "homepage": "https://www.rijksmuseum.nl/en/collection",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "shutterstock",
+      "name": "Shutterstock",
+      "homepage": "https://www.shutterstock.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "smithsonian",
+      "name": "Smithsonian Open Access",
+      "homepage": "https://www.si.edu/openaccess",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "stocksnap",
+      "name": "StockSnap.io",
+      "homepage": "https://stocksnap.io",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "svgrepo",
+      "name": "SVG Repo",
+      "homepage": "https://www.svgrepo.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "met",
+      "name": "The Metropolitan Museum of Art",
+      "homepage": "https://www.metmuseum.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "nounproject",
+      "name": "The Noun Project",
+      "homepage": "https://thenounproject.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "undraw",
+      "name": "unDraw",
+      "homepage": "https://undraw.co",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "homepage": "https://unsplash.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "vecteezy",
+      "name": "Vecteezy",
+      "homepage": "https://www.vecteezy.com",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch"
+    }
+  ],
+  "rejected": 8
+}

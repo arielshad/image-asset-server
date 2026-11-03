@@ -1,0 +1,164 @@
+---
+// /sources/<id>: one video site as Image Asset Server sees it: what it holds
+// (from the daily census), how it is searched, its licence, and its images in
+// the curated collections.
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { SITE } from "@/lib/site";
+import ImageCard from "@/components/collections/ImageCard.astro";
+import Breadcrumbs from "@/components/collections/Breadcrumbs.astro";
+import { COLLECTIONS_PATH, countLabel, sourcePages, sourcePath, sourceSearchHref, type SourcePage } from "@/lib/collections";
+import { allGuides, guidePath } from "@/lib/guides";
+import { COUNTED_ON, categoryName, fmt } from "@/lib/catalog";
+import { breadcrumbs, collectionPage, sourceEntity } from "@/lib/schema";
+import { SOURCE_COUNT } from "@/lib/site";
+import { VERDICT_LABELS, categoryLabel, type Verdict } from "@/lib/vocab";
+
+export async function getStaticPaths() {
+  return (await sourcePages()).map((page) => ({ params: { id: page.provider.id }, props: { page } }));
+}
+
+interface Props {
+  page: SourcePage;
+}
+const { page: s } = Astro.props;
+const p = s.provider;
+const t = s.census;
+const path = sourcePath(p.id);
+const access = { api: "Official or public API", static: "A published catalogue of the collection, fetched once and cached", scrape: "The site's public pages, read politely and cached", link: "Not searched directly: the site does not allow automated search, so results link to the same search on the site" } as const;
+const pricing = { free: "Free", freemium: "Free and paid", paid: "Paid" } as const;
+const image = (x: string, n: number) => (x.length > n ? `${x.slice(0, n - 1).trimEnd()}…` : x);
+// Titles stay within 70 characters with the site name; long source names get a shorter tail.
+const fits = (t: string) => t.length + 3 + SITE.name.length <= 70;
+const title = [`${p.name}: free video, licence and downloads`, `${p.name}: free video and licences`, `${p.name}: free video`].find(fits) ?? p.name;
+const description = image(`${p.name}: ${p.license ?? "licence set per image"}, ${p.supportsDownload ? "watch and download images straight from the source" : "linked searches"}. Searched alongside ${SOURCE_COUNT - 1} other video sites. ${p.description}`, 160);
+const trail = [{ name: "Home", path: "/" }, { name: "Sources", path: "/docs/sources" }, { name: p.name, path }];
+const byCategory = t ? Object.entries(t.byCategory).sort((a, b) => b[1] - a[1]) : [];
+const categories = t?.categories ? Object.keys(t.categories).slice(0, 10) : [];
+const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.categories[0]}` : ""}`;
+const n = s.notes;
+const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.includes(g.id)) : [];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  markdown={`${path}.md`}
+  noindex={!s.indexable}
+  schema={[
+    collectionPage({ title, description, path, about: [p.name], images: s.images }),
+    sourceEntity({ id: p.id, name: p.name, homepage: p.homepage, description: p.description, license: p.license, free: p.pricing === "free" }),
+    breadcrumbs(trail),
+  ]}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumbs trail={trail} />
+    <header class="mt-6 max-w-3xl">
+      <p class="text-sm font-medium text-primary">Source</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">{p.name}</h1>
+      <p class="mt-4 text-pretty text-lg text-muted-foreground">{p.description}</p>
+      <p class="mt-6 flex flex-wrap gap-3">
+        {p.access !== "link" && <a href={searchLink} class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90">Search {p.name}</a>}
+        <a href={p.homepage} rel="noopener" class="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium transition hover:bg-accent">Visit {p.name} <span aria-hidden="true" class="ml-1">↗</span></a>
+      </p>
+    </header>
+
+    <dl class="mt-10 grid gap-px overflow-hidden rounded-xl border bg-border text-sm sm:grid-cols-2 lg:grid-cols-3">
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Licence</dt><dd class="mt-1 font-medium">{p.license ?? "Set per image"}{p.licenseVerdict && <span class="block text-xs font-normal text-muted-foreground">{VERDICT_LABELS[p.licenseVerdict as Verdict] ?? p.licenseVerdict}</span>}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Pricing</dt><dd class="mt-1 font-medium">{pricing[p.pricing as keyof typeof pricing]}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Direct download</dt><dd class="mt-1 font-medium">{p.supportsDownload ? "Yes, straight from the source" : "No, results link to the source site"}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Footage</dt><dd class="mt-1 font-medium">{p.categories.map(categoryLabel).join(", ") || "Various"}</dd></div>
+      <div class="bg-background p-4 sm:col-span-2"><dt class="text-muted-foreground">How it is searched</dt><dd class="mt-1 font-medium">{access[p.access as keyof typeof access]}</dd></div>
+      {t && (
+        <div class="bg-background p-4"><dt class="text-muted-foreground">Videos (counted {COUNTED_ON})</dt><dd class="mt-1 font-medium">{fmt(t.total, t.atLeast)}{t.free !== undefined && t.pricing !== "free" ? `, ${fmt(t.free)} free` : ""}</dd></div>
+      )}
+      {t && byCategory.length > 0 && (
+        <div class="bg-background p-4"><dt class="text-muted-foreground">By category</dt><dd class="mt-1 font-medium">{byCategory.slice(0, 4).map(([k, n]) => `${categoryName(k)} ${fmt(n)}`).join(", ")}</dd></div>
+      )}
+      {t?.addedLast30Days !== undefined && (
+        <div class="bg-background p-4"><dt class="text-muted-foreground">New in the last 30 days</dt><dd class="mt-1 font-medium">{fmt(t.addedLast30Days)}</dd></div>
+      )}
+    </dl>
+    {categories.length > 0 && (
+      <p class="mt-4 text-sm text-muted-foreground">Biggest categories: {categories.join(", ")}.</p>
+    )}
+
+    {n && (
+      <div class="mt-14 grid gap-12 lg:grid-cols-[1fr_18rem]">
+        <article class="min-w-0 max-w-3xl space-y-8">
+          <section aria-labelledby="about-source">
+            <h2 id="about-source" class="text-xl font-semibold tracking-tight">What {p.name} is</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.about}</p>
+          </section>
+          <section aria-labelledby="best-for">
+            <h2 id="best-for" class="text-xl font-semibold tracking-tight">Best for</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.bestFor}</p>
+          </section>
+          <section aria-labelledby="licence">
+            <h2 id="licence" class="text-xl font-semibold tracking-tight">Licence and what it means for your video</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.licence}</p>
+          </section>
+          <section aria-labelledby="how">
+            <h2 id="how" class="text-xl font-semibold tracking-tight">How Image Asset Server searches it</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.searching}</p>
+          </section>
+        </article>
+        <aside class="min-w-0 space-y-8 text-sm">
+          {n.examples.length > 0 && (
+            <section aria-labelledby="try">
+              <h2 id="try" class="font-medium">Example searches</h2>
+              <ul class="mt-3 flex flex-wrap gap-2">
+                {n.examples.map((e) => <li><a href={sourceSearchHref(p.id, e)} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{e.label}</a></li>)}
+              </ul>
+              <p class="mt-3 text-muted-foreground">Over the API: <code class="text-xs">/v1/search?q=…&amp;providers={p.id}</code></p>
+            </section>
+          )}
+          {guides.length > 0 && (
+            <section aria-labelledby="guides">
+              <h2 id="guides" class="font-medium">Guides</h2>
+              <ul class="mt-3 divide-y rounded-xl border">
+                {guides.map((g) => <li class="px-3 py-2"><a href={guidePath(g.id)} class="hover:text-primary underline underline-offset-2 hover:decoration-2">{g.data.title}</a></li>)}
+              </ul>
+            </section>
+          )}
+        </aside>
+      </div>
+    )}
+
+    {s.images.length > 0 && (
+      <section class="mt-14" aria-labelledby="examples">
+        <h2 id="examples" class="text-2xl font-semibold tracking-tight">{p.name} in the collections</h2>
+        <p class="mt-2 text-sm text-muted-foreground">Some of the {p.name} images picked for the curated collections below. Hover one to watch its preview, straight from {p.name}.</p>
+        <ul class="mt-6 grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {s.images.map((a) => <ImageCard image={a} />)}
+        </ul>
+      </section>
+    )}
+
+    {s.collections.length > 0 && (
+      <section class="mt-14 max-w-3xl" aria-labelledby="collections">
+        <h2 id="collections" class="text-xl font-semibold tracking-tight">Collections with {p.name} footage</h2>
+        <ul class="mt-4 divide-y rounded-xl border text-sm">
+          {s.collections.map(({ collection: c, count }) => (
+            <li class="flex items-center justify-between gap-3 px-4 py-3">
+              <a href={c.path} class="font-medium hover:text-primary underline underline-offset-2 hover:decoration-2">{c.topic.data.title}</a>
+              <span class="text-muted-foreground">{count} of {countLabel(c.images)}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {t?.highlights?.length ? (
+      <section class="mt-14 max-w-3xl" aria-labelledby="popular">
+        <h2 id="popular" class="text-xl font-semibold tracking-tight">Notable on {p.name}</h2>
+        <ul class="mt-4 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
+          {t.highlights.map((h) => <li>{h.label}: <a href={h.url} rel="noopener" class="text-primary underline underline-offset-2 hover:decoration-2">{h.title}</a>{h.value !== undefined && ` (${fmt(h.value)})`}</li>)}
+        </ul>
+      </section>
+    ) : null}
+
+    <p class="mt-16 text-sm text-muted-foreground">
+      See <a href={`/docs/sources#${p.id}`} class="text-primary underline underline-offset-2 hover:decoration-2">all {SOURCE_COUNT} sources and their licences</a>, the <a href="/stats" class="text-primary underline underline-offset-2 hover:decoration-2">daily catalog census</a>, or <a href={COLLECTIONS_PATH} class="text-primary underline underline-offset-2 hover:decoration-2">browse the collections</a>.
+    </p>
+  </div>
+</BaseLayout>

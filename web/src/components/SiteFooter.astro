@@ -1,0 +1,34 @@
+---
+import Logo from "./Logo.astro";
+import { SITE, SOURCE_COUNT } from "@/lib/site";
+const cols = [
+  { title: "Product", links: [["Search footage", "/search"], ["Sequence builder", "/sequence"], ["Footage collections", "/footage"], ["Sources", "/docs/sources"], ["Statistics", "/stats"], ["About", "/about"], ["Contact", "/contact"], ["Privacy", "/privacy"]] },
+  { title: "Learn", links: [["Guides", "/guides"], ["Licences explained", "/docs/licences"], ["Glossary", "/glossary"], ["FAQ", "/docs/faq"], ["Free footage for commercial use", "/guides/free-stock-footage-commercial-use"], ["NASA footage rules", "/guides/nasa-footage-rules"], ["How to credit CC BY video", "/guides/credit-cc-by-video"]] },
+  { title: "Developers", links: [["Quick start", "/docs"], ["Coding agents & MCP", "/docs/mcp"], ["REST API guide", "/docs/api"], ["API reference", "/docs/api/reference"], ["CLI", "/docs/cli"], ["Self-hosting", "/docs/self-hosting"]] },
+  { title: "For AI agents", links: [["AGENTS.md", "/AGENTS.md"], ["llms.txt", "/llms.txt"], ["llms-full.txt", "/llms-full.txt"], ["OpenAPI 3.1", "/openapi.json"]] },
+];
+---
+<footer class="border-t border-border/60">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(4,1fr)]">
+    <div class="space-y-3">
+      <a href="/" class="flex items-center gap-2 font-semibold"><Logo class="size-6" id="logo-footer" />{SITE.name}</a>
+      <p class="max-w-xs text-sm text-muted-foreground">
+        One search box for {SOURCE_COUNT} stock video sites, with a licence verdict on every image. Free, non-commercial and open source (Apache-2.0), built for editors, developers and AI agents.
+      </p>
+    </div>
+    {cols.map((c) => (
+      <div>
+        <h2 class="mb-3 text-sm font-medium">{c.title}</h2>
+        <ul class="space-y-2 text-sm text-muted-foreground">
+          {c.links.map(([label, href]) => <li><a class="transition-colors hover:text-foreground" href={href}>{label}</a></li>)}
+        </ul>
+      </div>
+    ))}
+  </div>
+  <div class="border-t border-border/60">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-5 text-xs text-muted-foreground sm:px-6">
+      <p>Images belong to their creators and stream from their sources: no video passes through this site. Check each image's licence before you publish.</p>
+      <p><a href={SITE.repo} class="hover:text-foreground" rel="noopener">Open source on GitHub</a></p>
+    </div>
+  </div>
+</footer>

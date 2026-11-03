@@ -1,0 +1,17 @@
+---
+interface Props { class?: string; id?: string }
+// Each instance needs its own gradient id: the header and footer both render a logo.
+const { class: className = "size-6", id = "logo" } = Astro.props;
+const gradient = `${id}-gradient`;
+// A play triangle inside a rounded frame (same as public/favicon.svg, without the dark tile).
+---
+<svg class={className} viewBox="0 0 32 32" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id={gradient} x1="3" y1="4" x2="29" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--color-primary)" />
+      <stop offset="1" stop-color="var(--color-brand-2)" />
+    </linearGradient>
+  </defs>
+  <rect x="2.5" y="5.5" width="27" height="21" rx="4.5" stroke={`url(#${gradient})`} stroke-width="2.6" />
+  <path d="M12.6 10.6v10.8a.9.9 0 0 0 1.4.76l8.6-5.4a.9.9 0 0 0 0-1.52l-8.6-5.4a.9.9 0 0 0-1.4.76Z" fill={`url(#${gradient})`} />
+</svg>

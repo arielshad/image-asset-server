@@ -1,0 +1,70 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import ImageSetBuilder from "@/components/imageset/ImageSetBuilder";
+import { breadcrumbs, howTo } from "@/lib/schema";
+import { MCP_NAME, MCP_URL, SITE } from "@/lib/site";
+
+const title = "Image set builder";
+const description = "List the images a page, deck or post needs and get one free, licence-checked image per slot, with alternatives, HTML snippets with credit captions and a download script.";
+const steps = [
+  { name: "List the images", text: "One image per line, described like a search ('hero: mountain lake at sunrise'). Add '(1200px)' to set a slot's width; '3 icons: rocket, shield, chart' makes one slot per item." },
+  { name: "Set the defaults", text: "A width, an orientation and a kind (photo, illustration, painting, vector, icon) for slots that don't say. Commercial-safe is on by default." },
+  { name: "Review the picks", text: "Each slot gets the best matching image with direct files, at least half the slot's width where possible, plus alternatives. Check the verdicts and notes." },
+  { name: "Export", text: "Download images.json for your code, credits.html for <figure> snippets with credit captions, download.sh to fetch the files, and ATTRIBUTION.md for the credits." },
+];
+---
+
+<BaseLayout title={title} description={description} schema={[howTo({ title, description, path: "/build", steps }), breadcrumbs([{ name: "Home", path: "/" }, { name: title, path: "/build" }])]}>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <header class="max-w-3xl">
+      <p class="text-sm font-medium text-primary">Image set builder</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">Every image a page needs, licence-checked, in one go</h1>
+      <p class="mt-3 text-pretty text-muted-foreground">
+        Write the images you need: a hero, a few icons, a background, an illustration. Each one is searched across every source with its shape, size and kind, and the best image with direct files is picked, with alternatives. The images stay on the sources: the exports point at their files.
+      </p>
+    </header>
+    <div class="mt-8">
+      <ImageSetBuilder client:load />
+    </div>
+    <noscript>
+      <p class="mt-6 text-sm text-muted-foreground">
+        The image set builder needs JavaScript. Without it, call the API: <code>curl -X POST {SITE.url}/v1/sets -H "content-type: application/json" -d '&#123;"slots":"hero: mountain lake at sunrise\n3 icons: rocket, shield, chart","width":1600&#125;'</code>
+      </p>
+    </noscript>
+
+    <section class="mt-16 grid max-w-5xl gap-10 lg:grid-cols-2" aria-labelledby="how">
+      <div>
+        <h2 id="how" class="text-xl font-semibold tracking-tight">How it picks the images</h2>
+        <ol class="mt-4 space-y-3 text-sm text-muted-foreground">
+          {steps.map((s, i) => (
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-primary/15 text-[11px] font-semibold text-primary">{i + 1}</span><span><strong class="font-medium text-foreground">{s.name}.</strong> {s.text}</span></li>
+          ))}
+        </ol>
+        <p class="mt-4 text-sm text-muted-foreground">
+          An image is never used twice. For each pick the smallest file at least as wide as the slot is chosen (a 1920 px copy, not a 60 MB TIFF). When a pick is smaller than its slot, the wrong shape or editorial-only, the slot says so.
+        </p>
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold tracking-tight">What the exports do</h2>
+        <dl class="mt-4 space-y-3 text-sm">
+          <div><dt class="font-mono text-xs font-medium">images.json</dt><dd class="mt-0.5 text-muted-foreground">Every pick with its file URL, pixel size, format, suggested alt text, licence, verdict and credit line, ready for a static site or a slide generator.</dd></div>
+          <div><dt class="font-mono text-xs font-medium">credits.html</dt><dd class="mt-0.5 text-muted-foreground">One <code class="text-xs">&lt;figure&gt;</code> per image with <code class="text-xs">width</code>, <code class="text-xs">height</code>, alt text and the credit in the <code class="text-xs">&lt;figcaption&gt;</code>: what CC BY asks for.</dd></div>
+          <div><dt class="font-mono text-xs font-medium">download.sh</dt><dd class="mt-0.5 text-muted-foreground">A POSIX shell script that curls every pick into <code class="text-xs">./images</code> with tidy file names, straight from the sources.</dd></div>
+          <div><dt class="font-mono text-xs font-medium">ATTRIBUTION.md, credits.json</dt><dd class="mt-0.5 text-muted-foreground">Every image with its source, author, licence and credit line, for a credits page or your repository.</dd></div>
+        </dl>
+        <p class="mt-4 text-sm"><a href="/guides/ai-agent-find-and-license-images" class="text-primary underline underline-offset-2">Guide: let an AI agent find and license images →</a></p>
+      </div>
+    </section>
+
+    <section class="mt-16 max-w-3xl" aria-labelledby="api">
+      <h2 id="api" class="text-xl font-semibold tracking-tight">From code or an agent</h2>
+      <p class="mt-2 text-sm text-muted-foreground">The same set over the REST API:</p>
+      <pre class="mt-2 overflow-x-auto rounded-lg border bg-[#0d0d12] p-3 text-xs text-zinc-200"><code>{`curl -X POST ${SITE.url}/v1/sets \\
+  -H "content-type: application/json" \\
+  -d '{"slots":["hero: mountain lake at sunrise (1920px)","3 icons: rocket, shield, chart","botanical illustration of a rose"],"width":1600}'`}</code></pre>
+      <p class="mt-3 text-sm text-muted-foreground">
+        From a terminal: <code class="text-xs">npx image-asset-server set slots.txt --width 1600 --download</code>. Or connect <code class="text-xs">{MCP_URL}</code> to your agent (as <code class="text-xs">{MCP_NAME}</code>) and ask for “images for a landing page: a hero, three feature icons and a background”. Run locally, <code class="text-xs">build_image_set</code> with <code class="text-xs">download=true</code> also saves the images next to the exports, which then use the local files. <a href="/docs/mcp" class="text-primary underline underline-offset-2 hover:decoration-2">Agent setup</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

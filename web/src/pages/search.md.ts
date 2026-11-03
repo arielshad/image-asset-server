@@ -1,0 +1,50 @@
+// Markdown twin of /search: how to search, as URLs and API calls.
+import type { APIRoute } from "astro";
+import { SEARCHED, SITE, SOURCE_COUNT } from "@/lib/site";
+import { CATEGORY_DEFS, STYLES } from "@/lib/vocab";
+
+export const GET: APIRoute = () =>
+  new Response(
+    [
+      "# Search free stock video",
+      "",
+      `> One search across ${SOURCE_COUNT} video sites (${SEARCHED.map((p) => p.name).join(", ")}, plus deep links into Pexels, Pixabay and paid stock libraries) for b-roll, backgrounds, nature, cities, space, science and archive films, with a poster, a playable preview, resolution, orientation, length and a licence verdict on every result.`,
+      "",
+      `The search page (${SITE.url}/search) is an interactive app. Every search is a URL, and the same parameters work on the JSON API:`,
+      "",
+      `- Web: ${SITE.url}/search?q=ocean+waves&orientation=portrait&min_resolution=1080&commercial=true`,
+      `- API: \`curl "${SITE.url}/v1/search?q=ocean+waves&orientation=portrait&min_resolution=1080&commercial=true"\``,
+      "",
+      "Video is never streamed through the server: posters, previews and the player load straight from the source sites.",
+      "",
+      "## Parameters",
+      "",
+      "| Parameter | Meaning |",
+      "| --- | --- |",
+      "| `q` | Free text, the way an editor describes a shot: `ocean waves at sunset`, `4k vertical drone city`, `rocket launch slow motion`. Resolution (`4k`, `1080p`), orientation (`vertical`, `9:16`), length (`10s`) and frame rate (`60fps`) words become filters. |",
+      "| `category` | Comma-separated categories (below). A parent matches its children. |",
+      `| \`style\` | ${STYLES.map((s) => `\`${s.id}\``).join(", ")}. Ranked first; filtered only with \`strict=true\`. |`,
+      "| `orientation` | `landscape`, `portrait` (vertical, 9:16) or `square`. |",
+      "| `min_resolution` | Short side in pixels: `720`, `1080`, `1440`, `2160` (or `hd`, `fhd`, `4k`). A vertical 1080×1920 image counts as 1080. |",
+      "| `min_duration`, `max_duration` | Length in seconds. |",
+      "| `min_fps` | Minimum frame rate, e.g. `50` for slow-motion headroom. |",
+      "| `audio` | `true` / `false`: only images with or without a sound track. |",
+      "| `commercial` | `true`: only images cleared for commercial use (verdict `yes` or `yes-with-credit`). Editorial-only images can still appear: check `license.editorial`. |",
+      "| `free` | `true`: no paid images. |",
+      "| `downloadable` | `true`: only images with direct file links. |",
+      "| `strict` | `true`: drop images whose orientation, resolution, length or fps is unknown when you filter on them. |",
+      "| `providers` | Source ids, e.g. `nasa,wikimediacommons`. |",
+      "| `image` | Opens one image's player and details, e.g. `image=nasa:<id>` (web only). |",
+      "",
+      "## Categories",
+      "",
+      ...CATEGORY_DEFS.map((c) => `- \`${c.id}\`: ${c.label}`),
+      "",
+      `Full API: ${SITE.url}/docs/api.md · OpenAPI: ${SITE.url}/openapi.json · Agent guide: ${SITE.url}/AGENTS.md`,
+      "",
+      "---",
+      `Source: ${SITE.url}/search`,
+      "",
+    ].join("\n"),
+    { headers: { "content-type": "text/markdown; charset=utf-8" } },
+  );

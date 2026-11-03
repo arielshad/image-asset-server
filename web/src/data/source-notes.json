@@ -1,0 +1,263 @@
+{
+  "nasa": {
+    "about": "The NASA Image and Video Library (images.nasa.gov) is NASA's public archive of about 140,000 photos from its centres and missions: Hubble, Webb and Chandra views of galaxies and nebulae, planets from passing probes, Earth from the International Space Station, launches, astronauts at work, aircraft research and the people of NASA.",
+    "bestFor": "Space and astronomy pictures, Earth from orbit, rockets and astronauts, science illustrations. Originals are often several thousand pixels across, with resized 640–1920 px copies.",
+    "licence": "NASA media is generally not copyrighted in the US, and NASA allows commercial use with credit. It asks you not to use the NASA insignia or logotype, not to imply endorsement, and to get permission before using identifiable astronauts or staff in advertising. Images credited to partners such as ESA or a university may be copyrighted by them: those are marked 'check the terms'. All NASA images carry the editorial flag here because of the endorsement and insignia rules.",
+    "searching": "Through NASA's official, keyless API at images-api.nasa.gov. A search returns titles, descriptions, keywords, dates, a thumbnail and the original's size; opening an image reads its file list (original, large, medium, small). Thumbnails and downloads come straight from images-assets.nasa.gov.",
+    "examples": [
+      {
+        "label": "Nebulae",
+        "q": "hubble nebula"
+      },
+      {
+        "label": "Earth from the ISS",
+        "q": "earth from space station",
+        "category": "space.earth"
+      },
+      {
+        "label": "Saturn",
+        "q": "saturn"
+      },
+      {
+        "label": "Astronauts",
+        "q": "astronaut spacewalk",
+        "category": "space.missions"
+      },
+      {
+        "label": "Rocket launches",
+        "q": "rocket launch"
+      }
+    ],
+    "guides": [
+      "nasa-image-rules",
+      "free-images-commercial-use"
+    ]
+  },
+  "met": {
+    "about": "The Metropolitan Museum of Art in New York has released over 400,000 images of public-domain works in its collection under CC0: paintings, prints and drawings, photographs, armour, ceramics, textiles and objects from every period and culture.",
+    "bestFor": "Paintings and old masters, Japanese prints, decorative arts, antiquities and early photographs, at print resolution.",
+    "licence": "Open Access images are CC0: free for any use, including commercial, with no credit required (the museum appreciates one). Only works marked public domain are searched here.",
+    "searching": "Through the museum's keyless Collection API: a search returns matching object ids (public-domain works with images only), and each result's record gives its title, artist, date, department and image links. Records are cached for a day.",
+    "examples": [
+      {
+        "label": "Van Gogh",
+        "q": "van gogh"
+      },
+      {
+        "label": "Japanese prints",
+        "q": "hokusai"
+      },
+      {
+        "label": "Flowers in art",
+        "q": "flowers",
+        "category": "art.painting"
+      },
+      {
+        "label": "Armour",
+        "q": "armor"
+      },
+      {
+        "label": "Early photographs",
+        "q": "daguerreotype"
+      }
+    ],
+    "guides": [
+      "museum-open-access-art",
+      "free-images-commercial-use"
+    ]
+  },
+  "artic": {
+    "about": "The Art Institute of Chicago publishes over 60,000 public-domain artworks under CC0 through its open API: Impressionist and Post-Impressionist paintings (Monet, Seurat, Caillebotte), American art, prints and drawings, photography and Asian art.",
+    "bestFor": "Impressionist paintings, prints and drawings, American art, delivered through IIIF at any size you need.",
+    "licence": "Public-domain works are released under CC0: free for any use. Only works the museum marks public domain are searched.",
+    "searching": "Through the museum's keyless API (api.artic.edu), filtered to public-domain works. Images come from its IIIF image server, which renders any width on request: 400 px for thumbnails, 843 px for display, larger for downloads.",
+    "examples": [
+      {
+        "label": "Monet",
+        "q": "monet"
+      },
+      {
+        "label": "Impressionism",
+        "q": "impressionism",
+        "category": "art.painting"
+      },
+      {
+        "label": "Etchings",
+        "q": "etching"
+      },
+      {
+        "label": "Chicago",
+        "q": "chicago"
+      },
+      {
+        "label": "Japanese prints",
+        "q": "woodblock print"
+      }
+    ],
+    "guides": [
+      "museum-open-access-art"
+    ]
+  },
+  "cleveland": {
+    "about": "The Cleveland Museum of Art has released over 30,000 images of public-domain works as CC0 through its Open Access API: paintings, prints, drawings, photographs, textiles, ceramics and objects, with web, print and full-resolution TIFF files.",
+    "bestFor": "High-resolution art for print: the full files are TIFFs of several thousand pixels.",
+    "licence": "Open Access works are CC0: free for any use, with no credit required. Only CC0 works are searched.",
+    "searching": "Through the keyless Open Access API (openaccess-api.clevelandart.org), filtered to CC0 works with images. Each result carries its web (≈1000 px), print (≈3400 px) and full TIFF files.",
+    "examples": [
+      {
+        "label": "Landscapes",
+        "q": "landscape",
+        "category": "art.painting"
+      },
+      {
+        "label": "Botanical",
+        "q": "flowers"
+      },
+      {
+        "label": "Egypt",
+        "q": "egyptian"
+      },
+      {
+        "label": "Prints",
+        "q": "woodcut"
+      },
+      {
+        "label": "Textiles",
+        "q": "textile"
+      }
+    ],
+    "guides": [
+      "museum-open-access-art"
+    ]
+  },
+  "loc": {
+    "about": "The Library of Congress holds millions of digitised photographs, prints, drawings, maps and posters: Civil War and Depression-era photography, historic American buildings, travel posters, early aviation and antique maps.",
+    "bestFor": "Historical photographs, old maps, posters and architectural drawings, especially American history.",
+    "licence": "Each item carries the library's rights statement. Items marked 'No known restrictions on publication' are shown as free to use (credit the collection as a courtesy). 'Rights status not evaluated' and 'Publication may be restricted' are shown as 'check the terms'.",
+    "searching": "Through the keyless loc.gov JSON API (the photos, prints and drawings format), limited to items whose images are online. Thumbnails and larger copies come straight from tile.loc.gov.",
+    "examples": [
+      {
+        "label": "Old maps",
+        "q": "map",
+        "category": "archive.map"
+      },
+      {
+        "label": "New York streets",
+        "q": "new york street"
+      },
+      {
+        "label": "Lighthouses",
+        "q": "lighthouse"
+      },
+      {
+        "label": "Travel posters",
+        "q": "travel poster"
+      },
+      {
+        "label": "Aviation",
+        "q": "airplane"
+      }
+    ],
+    "guides": [
+      "free-images-commercial-use"
+    ]
+  },
+  "wikimediacommons": {
+    "about": "Wikimedia Commons is the media library behind Wikipedia: over 100 million freely licensed files, most of them photos, drawings, maps and diagrams, uploaded by volunteers, institutions and photographers, each with its licence recorded per file.",
+    "bestFor": "Almost anything: places and landmarks, plants and animals, historical images, maps, diagrams and SVG drawings.",
+    "licence": "Set per file: CC0 and public domain (free for any use), CC BY (credit needed), CC BY-SA (share-alike: an edited version must carry the same licence). The verdict and credit line come from the file's own licence data.",
+    "searching": "Through the public MediaWiki API with a descriptive User-Agent, searching bitmap and drawing files. Thumbnails and resized copies (960 to 3840 px) come from upload.wikimedia.org; SVG originals stay vectors.",
+    "examples": [
+      {
+        "label": "Landmarks",
+        "q": "eiffel tower"
+      },
+      {
+        "label": "Animals",
+        "q": "red fox",
+        "category": "animals"
+      },
+      {
+        "label": "Diagrams",
+        "q": "diagram svg"
+      },
+      {
+        "label": "Old maps",
+        "q": "old map",
+        "category": "archive.map"
+      },
+      {
+        "label": "Flowers",
+        "q": "tulip"
+      }
+    ],
+    "guides": [
+      "credit-cc-by-images",
+      "free-images-commercial-use"
+    ]
+  },
+  "iconify": {
+    "about": "Iconify gathers over 200,000 icons from about 200 open-source icon sets (Material Design, Tabler, Phosphor, Lucide, Font Awesome Free, Remix and many more) behind one keyless API.",
+    "bestFor": "Interface and feature icons, logos-style symbols and pictograms, as clean SVGs that recolour with CSS.",
+    "licence": "Set per icon set: mostly MIT, Apache 2.0, ISC or the SIL Open Font License (commercial use allowed; keep the licence notice), and a few CC BY sets (credit needed). Each icon shows its set's licence.",
+    "searching": "Through the public Iconify API (api.iconify.design). Icons are SVGs served by Iconify: thumbnails, previews and downloads are the same vector file.",
+    "examples": [
+      {
+        "label": "Rocket",
+        "q": "rocket"
+      },
+      {
+        "label": "Arrows",
+        "q": "arrow"
+      },
+      {
+        "label": "Social",
+        "q": "github"
+      },
+      {
+        "label": "Weather",
+        "q": "weather"
+      },
+      {
+        "label": "Shopping cart",
+        "q": "cart"
+      }
+    ],
+    "guides": [
+      "transparent-png-and-svg-icons"
+    ]
+  },
+  "openverse": {
+    "about": "Openverse (openverse.org), run by WordPress.org, indexes over 800 million openly licensed images from Flickr, Wikimedia Commons, museums and other sites, with the licence of each.",
+    "bestFor": "Creative Commons photos from Flickr and smaller collections that aren't searched directly here.",
+    "licence": "Set per image: CC0, public domain mark, CC BY, CC BY-SA and the non-commercial licences. Commercial-safe searches ask Openverse for commercial licences only.",
+    "searching": "Through the public Openverse API without a key (anonymous rate limits apply, so results are cached). It re-indexes other sources, so an image also found on Wikimedia Commons is shown once, from Commons.",
+    "examples": [
+      {
+        "label": "Coffee",
+        "q": "coffee cup"
+      },
+      {
+        "label": "Street photography",
+        "q": "street photography"
+      },
+      {
+        "label": "Dogs",
+        "q": "dog",
+        "category": "animals"
+      },
+      {
+        "label": "Food",
+        "q": "breakfast"
+      },
+      {
+        "label": "Architecture",
+        "q": "modern architecture"
+      }
+    ],
+    "guides": [
+      "credit-cc-by-images",
+      "free-images-commercial-use"
+    ]
+  }
+}

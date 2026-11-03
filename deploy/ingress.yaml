@@ -1,0 +1,30 @@
+# Ingress for image.shep.bot. DNS is the *.shep.bot wildcard; TLS terminates at
+# the edge Caddy, which issues the cert on demand because this Ingress declares
+# the host (shep-infra: infra/edge-tls-ask) and forwards plain HTTP here.
+#
+# No image streams through here (downloads are 302 redirects to the sources),
+# so nginx keeps its default buffering. The read timeout covers the slowest
+# response we do serve: an image set plan (POST /v1/sets), which searches
+# every source once per slot.
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: image-asset-server
+  namespace: image-asset-server
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "120"
+    nginx.ingress.kubernetes.io/proxy-body-size: "1m"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: image.shep.bot
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: image-asset-server
+                port:
+                  number: 80

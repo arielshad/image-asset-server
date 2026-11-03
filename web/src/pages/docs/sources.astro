@@ -13,13 +13,13 @@ const headings = [{ depth: 2, slug: "all-sources", text: "All sources" }, { dept
 <DocsLayout
   title="Sources & licences"
   crumb="Sources & licences"
-  description={`The ${SOURCE_COUNT} video sites searched or linked (NASA, Wikimedia Commons, Internet Archive, Pexels, Pixabay…) with footage, pricing, licences and downloads.`}
+  description={`The ${SOURCE_COUNT} image sites searched or linked (NASA, the Met, Wikimedia Commons, Iconify, Unsplash, Pexels…) with what they hold, pricing, licences and downloads.`}
   headings={headings}
   schema={[sourcesList()]}
 >
   <h1>Sources &amp; licences</h1>
   <p>
-    One search covers {SOURCE_COUNT} sites. Each result keeps its source's licence and gets a verdict on commercial use and an editorial flag, so you can tell at a glance whether a image can go into a commercial video and whether you have to credit it. Video never passes through this server: posters, previews and downloads come straight from each source.
+    One search covers {SOURCE_COUNT} sites. Each result keeps its source's licence and gets a verdict on commercial use and an editorial flag, so you can tell at a glance whether an image can be used commercially and whether you have to credit it. No image passes through this server: thumbnails, previews and downloads come straight from each source.
   </p>
 
   <h2 id="all-sources">All sources</h2>
@@ -61,14 +61,14 @@ const headings = [{ depth: 2, slug: "all-sources", text: "All sources" }, { dept
 
   <h2 id="how-sources-are-searched">How sources are searched</h2>
   <ul>
-    <li><strong>API</strong>: the source's official or public JSON API (NASA's Image and Video Library and Scientific Visualization Studio, the MediaWiki API for Wikimedia Commons, the Internet Archive's advanced search). These give the licence per image, author, frame size, length and direct files.</li>
-    <li><strong>Deep link</strong>: the site needs an API key, sells its footage, or its terms forbid automated search or aggregation (Pexels, Pixabay, Coverr, Mixkit, the paid stock libraries and others). Every search response includes a link that runs the same query on that site, so you still know where else to look.</li>
+    <li><strong>API</strong>: the source's official or public JSON API (NASA's Image and Video Library, the Met's Collection API, the Art Institute of Chicago's API and IIIF server, the Cleveland Museum of Art's Open Access API, loc.gov, the MediaWiki API for Wikimedia Commons, Iconify and Openverse). These give the licence per image, author, pixel size and direct files.</li>
+    <li><strong>Deep link</strong>: the site needs an API key, sells its images, or its terms forbid automated search or aggregation (Unsplash, Pexels, Pixabay, Flickr, the Smithsonian, Freepik, the paid stock libraries and others). Every search response includes a link that runs the same query on that site, so you still know where else to look.</li>
   </ul>
   <p>Every source has its own timeout. A slow or failing site shows up in the per-source report and never fails the search. Categories, orientation and resolution that a source doesn't state are filled in from titles, tags and frame sizes; facts only a image's own page holds are read when you open it.</p>
 
   <h2 id="licences">Licences</h2>
   <p>
-    Each result's <code>license</code> carries an SPDX-style <code>id</code>, a <code>name</code>, whether credit is required, who asserted it (<code>source</code>, <code>site</code> or <code>uploader</code>), an <code>editorial</code> flag and a <code>verdict</code> on commercial use. <strong>CC0</strong> and public-domain images need no credit. <strong>NASA media</strong> is generally not copyrighted in the US but needs credit and comes with endorsement and insignia rules. <strong>CC BY</strong> needs a credit line, <strong>share-alike</strong> licences relicense the whole video, <strong>NC</strong> and <strong>ND</strong> licences rule out commercial use, and uploader-asserted licences are never better than "check the terms".
-    The full rules, with examples, are in <a href="/docs/licences">Video licences explained</a>.
+    Each result's <code>license</code> carries an SPDX-style <code>id</code>, a <code>name</code>, whether credit is required, who asserted it (<code>source</code>, <code>site</code> or <code>uploader</code>), an <code>editorial</code> flag and a <code>verdict</code> on commercial use. <strong>CC0</strong> and public-domain images need no credit. <strong>NASA media</strong> is generally not copyrighted in the US but needs credit and comes with endorsement and insignia rules. <strong>CC BY</strong> needs a credit line, <strong>share-alike</strong> licences require an edited version to carry the same licence, <strong>MIT, Apache and OFL</strong> icon sets allow commercial use with their licence notice kept, <strong>NC</strong> and <strong>ND</strong> licences rule out commercial use, and uploader-asserted licences are never better than "check the terms".
+    The full rules, with examples, are in <a href="/docs/licences">Image licences explained</a>.
   </p>
 </DocsLayout>

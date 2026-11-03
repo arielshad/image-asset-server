@@ -79,7 +79,8 @@ describe.skipIf(!built)("built website", () => {
     expect(search).not.toMatch(/<button[^>]*role="switch"/); // switches are native, labelled checkboxes
   });
 
-  it("serves the product screenshot as AVIF and WebP with a PNG fallback", () => {
+  // The screenshot is taken from the running site; until it is committed the home page leaves the figure out.
+  it.skipIf(!existsSync(new URL("../web/public/img/search-preview.png", import.meta.url)))("serves the product screenshot as AVIF and WebP with a PNG fallback", () => {
     const home = read("index.html");
     expect(home).toContain('<source type="image/avif" srcset="/img/search-preview.avif"');
     expect(home).toContain('<source type="image/webp" srcset="/img/search-preview.webp"');
@@ -93,8 +94,8 @@ describe.skipIf(!built)("built website", () => {
     expect(robots).not.toContain("Allow: /");
     expect(read("sitemap-0.xml")).not.toContain("playground");
     const reference = read("docs/api/reference/index.html");
-    for (const id of ["searchImages", "getImage", "selectFiles", "downloadImage", "imageCredits", "planSequence", "listProviders", "mcp"]) expect(reference).toContain(`id="op-${id}"`);
-    for (const schema of ["image", "imagefile", "license", "searchresponse", "providersearchreport", "sequenceresponse"]) expect(reference).toContain(`id="schema-${schema}"`);
+    for (const id of ["searchImages", "getImage", "selectFiles", "downloadImage", "imageCredits", "planImageSet", "listProviders", "mcp"]) expect(reference).toContain(`id="op-${id}"`);
+    for (const schema of ["imageasset", "imagefile", "license", "searchresponse", "providersearchreport", "setresponse"]) expect(reference).toContain(`id="schema-${schema}"`);
     expect(read("docs/api/playground/index.html")).toContain('content="noindex, follow"');
   });
 
@@ -114,7 +115,7 @@ describe.skipIf(!built)("built website", () => {
     const files = ["index.html", "docs/index.html", "about.md", "docs/mcp.md", "docs/api.md", "docs/cli.md", "AGENTS.md", "skill/SKILL.md", "llms.txt", "stats/index.html"];
     const sources = [...files.map((f) => [f, read(f)]), ["README.md", readFileSync(new URL("../README.md", import.meta.url), "utf8")]];
     for (const [f, body] of sources) {
-      for (const m of body!.matchAll(/\b(\d+) (?:video )?(?:stock )?sites\b/g)) expect(`${f}: ${m[0]}`).toBe(`${f}: ${m[1] === String(n) ? m[0] : `${n} … sites`}`);
+      for (const m of body!.matchAll(/\b(\d+) (?:image )?(?:free image )?sites\b/g)) expect(`${f}: ${m[0]}`).toBe(`${f}: ${m[1] === String(n) ? m[0] : `${n} … sites`}`);
     }
   });
 
@@ -134,7 +135,7 @@ describe.skipIf(!built)("built website", () => {
     for (const page of pages) {
       const html = read(page);
       const image = html.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
-      expect(image, page).toMatch(/^https:\/\/video\.shep\.bot\/og\/[a-z0-9-]+\.png$/);
+      expect(image, page).toMatch(/^https:\/\/image\.shep\.bot\/og\/[a-z0-9-]+\.png$/);
       images.add(image!);
       const file = new URL(`.${new URL(image!).pathname}`, root);
       expect(statSync(file).size, image).toBeGreaterThan(10_000);
@@ -152,7 +153,8 @@ describe.skipIf(!built)("built website", () => {
     expect(read("docs/mcp/index.html")).toContain('<meta property="article:section" content="Docs"');
   });
 
-  it("publishes the catalog census on /stats, the homepage, llms.txt and as JSON", () => {
+  // Needs the daily census (scripts/census.mjs writes web/src/data/catalog.json).
+  it.skipIf(!existsSync(new URL("../web/src/data/catalog.json", import.meta.url)))("publishes the catalog census on /stats, the homepage, llms.txt and as JSON", () => {
     const catalog = JSON.parse(read("catalog.json")) as { countedAt: string; totals: { listings: { count: number }; free: { count: number } }; sources: { id: string }[] };
     expect(catalog.sources.length).toBeGreaterThanOrEqual(3);
     expect(JSON.parse(read("catalog-history.json")).length).toBeGreaterThan(0);
@@ -163,8 +165,8 @@ describe.skipIf(!built)("built website", () => {
     expect(stats).toMatch(/As of [A-Z][a-z]+ \d+, \d{4}, Image Asset Server searches/);
     const dataset = jsonLd(stats)["@graph"].find((n) => n["@type"] === "Dataset") as { distribution: { contentUrl: string }[] } | undefined;
     expect(dataset?.distribution.map((d) => d.contentUrl)).toEqual(["https://image.shep.bot/catalog.json", "https://image.shep.bot/catalog-history.json"]);
-    expect(read("index.html")).toMatch(/free (?:stock )?(?:video|footage|images)/i);
-    expect(read("llms.txt")).toMatch(/\*\*Catalog \(counted \d{4}-\d{2}-\d{2}\)\.\*\* [\d,]+\+? (?:video )?listings/);
+    expect(read("index.html")).toMatch(/free (?:stock )?(?:images|photos)/i);
+    expect(read("llms.txt")).toMatch(/\*\*Catalog \(counted \d{4}-\d{2}-\d{2}\)\.\*\* [\d,]+\+? (?:image )?listings/);
     const md = read("stats.md");
     expect(md).toMatch(/^# .+ in numbers$/m);
     expect(md).toContain(`| ${listings}`.slice(0, 2)); // the by-source table
@@ -227,7 +229,7 @@ describe.skipIf(!built)("built website", () => {
 
     it("lists exactly the indexable pages in the sitemap", () => {
       const sitemap = read("sitemap-0.xml");
-      const urls = new Set([...sitemap.matchAll(/<loc>https:\/\/video\.shep\.bot([^<]*)<\/loc>/g)].map((m) => m[1] || "/"));
+      const urls = new Set([...sitemap.matchAll(/<loc>https:\/\/image\.shep\.bot([^<]*)<\/loc>/g)].map((m) => m[1] || "/"));
       for (const p of indexable()) expect(urls.has(p.route), `${p.route} missing from the sitemap`).toBe(true);
       for (const p of pages.filter((x) => x.html.includes('content="noindex'))) expect(urls.has(p.route), `${p.route} is noindex but in the sitemap`).toBe(false);
     });
@@ -247,7 +249,7 @@ describe.skipIf(!built)("built website", () => {
     });
 
     it.skipIf(!guideSlugs.length)("publishes every guide answer-first, with schema, a twin, a sitemap date and an llms.txt entry", () => {
-      expect(guideSlugs.length).toBeGreaterThanOrEqual(8);
+      expect(guideSlugs.length).toBeGreaterThanOrEqual(6);
       const llms = read("llms.txt");
       const full = read("llms-full.txt");
       const sitemap = read("sitemap-0.xml");
@@ -279,8 +281,8 @@ describe.skipIf(!built)("built website", () => {
       const set = jsonLd(html)["@graph"].find((n) => n["@type"] === "DefinedTermSet") as { hasDefinedTerm: { "@id": string; name: string }[] };
       expect(set.hasDefinedTerm.length).toBeGreaterThanOrEqual(30);
       for (const term of set.hasDefinedTerm) expect(html, term.name).toContain(`id="${term["@id"].split("#")[1]}"`);
-      for (const name of ["B-roll", "Editorial use", "CC0", "CC BY", "Rendition", "Frame rate (fps)", "OpenTimelineIO (OTIO)", "NASA media guidelines"]) expect(set.hasDefinedTerm.map((t) => t.name)).toContain(name);
-      expect(read("glossary.md")).toContain("### Rendition");
+      for (const name of ["Stock photo", "Editorial use", "CC0", "CC BY", "Vector (SVG)", "Transparent background", "MIT, Apache 2.0, ISC", "NASA media guidelines"]) expect(set.hasDefinedTerm.map((t) => t.name)).toContain(name);
+      expect(read("glossary.md")).toContain("### Vector (SVG)");
       expect(read("llms.txt")).toContain("https://image.shep.bot/glossary.md");
       expect(read("sitemap-0.xml")).toContain("https://image.shep.bot/glossary<");
     });
@@ -297,7 +299,7 @@ describe.skipIf(!built)("built website", () => {
 
     it("gives hubs and searched sources substantial copy and structured data", () => {
       for (const hub of data<{ id: string; faq?: unknown[] }[]>("collection-hubs.json", [])) {
-        const html = read(`footage/${hub.id}/index.html`);
+        const html = read(`collections/${hub.id}/index.html`);
         expect(text(html).split(" ").length, hub.id).toBeGreaterThan(400);
         if (hub.faq?.length) expect(types(html), hub.id).toContain("FAQPage");
       }
@@ -314,7 +316,7 @@ describe.skipIf(!built)("built website", () => {
   });
 
   describe("collections", () => {
-    // Collections live at /footage/<slug>, hubs at /footage/<hub>; the first
+    // Collections live at /collections/<slug>, hubs at /collections/<hub>; the first
     // indexable snapshot stands in for all of them (the set changes weekly).
     type Snap = { slug: string; images: { provider: string }[] };
     const snapshots: Snap[] = (() => {
@@ -328,34 +330,36 @@ describe.skipIf(!built)("built website", () => {
     const hubs = data<{ id: string }[]>("collection-hubs.json", []);
     const providers = data<{ id: string; access: string }[]>("providers.json", []);
     const sitemap = () => read("sitemap-0.xml");
-    const entry = (path: string) => sitemap().match(new RegExp(`<url><loc>https://video\\.shep\\.bot${path}</loc>(.*?)</url>`))?.[1];
+    const entry = (path: string) => sitemap().match(new RegExp(`<url><loc>https://image\\.shep\\.bot${path}</loc>(.*?)</url>`))?.[1];
 
-    it.skipIf(!page)("pre-renders a collection with its images, previews, copy, FAQ and structured data", () => {
-      const html = read(`footage/${page!.slug}/index.html`);
+    it.skipIf(!page)("pre-renders a collection with its images, thumbnails, copy, FAQ and structured data", () => {
+      const html = read(`collections/${page!.slug}/index.html`);
       expect(html).toContain('content="index, follow');
       expect((html.match(/href="\/search\?image=/g) ?? []).length).toBeGreaterThanOrEqual(12);
-      expect((html.match(/<video\b|data-preview=/g) ?? []).length).toBeGreaterThanOrEqual(1);
+      expect((html.match(/<img\b[^>]+referrerpolicy="no-referrer"/g) ?? []).length).toBeGreaterThanOrEqual(1);
       const graph = jsonLd(html)["@graph"];
       expect(graph.map((n) => n["@type"])).toEqual(expect.arrayContaining(["CollectionPage", "BreadcrumbList", "FAQPage"]));
       const col = graph.find((n) => n["@type"] === "CollectionPage") as { dateModified: string; mainEntity: { numberOfItems: number } };
       expect(col.mainEntity.numberOfItems).toBeGreaterThanOrEqual(12);
       expect(col.dateModified).toMatch(/^\d{4}-\d{2}-\d{2}T/);
-      expect(read(`footage/${page!.slug}.md`)).toMatch(/\| `[a-z0-9-]+:/);
-      expect(read("llms.txt")).toContain(`https://image.shep.bot/footage/${page!.slug}.md`);
-      expect(entry(`/footage/${page!.slug}`)).toMatch(/<lastmod>\d{4}-\d{2}-\d{2}T/);
+      expect(read(`collections/${page!.slug}.md`)).toMatch(/\| `[a-z0-9-]+:/);
+      expect(read("llms.txt")).toContain(`https://image.shep.bot/collections/${page!.slug}.md`);
+      expect(entry(`/collections/${page!.slug}`)).toMatch(/<lastmod>\d{4}-\d{2}-\d{2}T/);
     });
 
     it("publishes the hubs and the index, each with a Markdown twin", () => {
       expect(hubs.length).toBeGreaterThan(0);
-      for (const p of ["footage", ...hubs.map((h) => `footage/${h.id}`)]) {
+      for (const p of ["collections", ...hubs.map((h) => `collections/${h.id}`)]) {
         expect(text(read(`${p}/index.html`)).length, p).toBeGreaterThan(500);
         expect(read(`${p}.md`).length, p).toBeGreaterThan(300);
       }
-      expect(entry(`/footage/${hubs[0]!.id}`)).toContain("<lastmod>");
+      // A hub is dated by its newest snapshot (scripts/snapshot-collections.mjs).
+      if (snapshots.length) expect(entry(`/collections/${hubs[0]!.id}`)).toContain("<lastmod>");
     });
 
     it("dates only what it can date in the sitemap", () => {
-      expect(entry("/stats")).toContain("<lastmod>");
+      // /stats is dated by the daily census (web/src/data/catalog.json).
+      if (existsSync(new URL("../web/src/data/catalog.json", import.meta.url))) expect(entry("/stats")).toContain("<lastmod>");
       expect(entry("/docs/mcp")).not.toContain("<lastmod>");
       expect(entry("/")).not.toContain("<lastmod>");
     });

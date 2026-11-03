@@ -114,6 +114,6 @@ export const FREE_LIBRARIES = CATALOG.sources.filter((s) => s.pricing === "free"
 
 /** One sentence anyone can quote. */
 export const CATALOG_SENTENCE =
-  `As of ${COUNTED_ON}, Image Asset Server searches ${fmtWords(CATALOG.totals.listings.count, CATALOG.totals.listings.atLeast)} video listings ` +
+  `As of ${COUNTED_ON}, Image Asset Server searches ${fmtWords(CATALOG.totals.listings.count, CATALOG.totals.listings.atLeast)} image listings ` +
   `from the ${CATALOG.totals.sourcesCounted} sources that publish counts, including ${fmtWords(CATALOG.totals.free.count, CATALOG.totals.free.atLeast)} free ones and ` +
   `${fmt(CATALOG.totals.cc0.count, CATALOG.totals.cc0.atLeast)} CC0 or public-domain images.`;

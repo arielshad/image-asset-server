@@ -1,0 +1,1020 @@
+{
+  "slug": "botanical-illustrations",
+  "search": {
+    "q": "botanical illustration",
+    "styles": [
+      "drawing"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:54:02.675Z",
+  "images": [
+    {
+      "id": "met:360446",
+      "provider": "met",
+      "title": "Botanical Study",
+      "category": "art",
+      "url": "https://www.metmuseum.org/art/collection/search/360446",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/dp/web-additional/DP801159.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801159.jpg",
+      "author": "Mary Delany",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1767
+    },
+    {
+      "id": "cleveland:132618",
+      "provider": "cleveland",
+      "title": "The Botanical Magazine or Flower Garden Displayed: White Cape - Coast Lily",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1955.142",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_web.jpg",
+      "author": "Sydenham Edwards",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4750,
+      "height": 3846,
+      "year": 1806
+    },
+    {
+      "id": "wikimediacommons:Botanical_Garden,_Moscow.jpg",
+      "provider": "wikimediacommons",
+      "title": "Botanical Garden, Moscow",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Botanical_Garden,_Moscow.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Botanical_Garden%2C_Moscow.jpg/330px-Botanical_Garden%2C_Moscow.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Botanical_Garden%2C_Moscow.jpg/1280px-Botanical_Garden%2C_Moscow.jpg",
+      "author": "AlixSaz",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3200,
+      "height": 2133,
+      "year": 2014
+    },
+    {
+      "id": "nasa:iss074e0711168",
+      "provider": "nasa",
+      "title": "NASA astronaut Jessica Meir activates tubes filled with microbial and botanical samples",
+      "category": "space.missions",
+      "url": "https://images.nasa.gov/details/iss074e0711168",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss074e0711168/iss074e0711168~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/iss074e0711168/iss074e0711168~medium.jpg",
+      "author": "NASA JSC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 8256,
+      "height": 5504,
+      "year": 2026
+    },
+    {
+      "id": "loc:2019675284",
+      "provider": "loc",
+      "title": "Botanic Garden. Greenhouse of Botanical Garden",
+      "category": "nature.plants",
+      "url": "https://www.loc.gov/item/2019675284/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/thc/5a49000/5a49000/5a49040r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/thc/5a49000/5a49000/5a49040r.jpg",
+      "author": "Theodor Horydczak",
+      "license": {
+        "id": "LicenseRef-Rights-advisory-Library-of-Congress",
+        "name": "Rights advisory (Library of Congress)",
+        "url": "https://www.loc.gov/rr/print/195_copr.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 345,
+      "height": 420,
+      "year": 1920
+    },
+    {
+      "id": "artic:38927",
+      "provider": "artic",
+      "title": "Botanical Specimen",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/38927",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/13e8b1a0-4184-6add-ec70-efd1a9667619/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/13e8b1a0-4184-6add-ec70-efd1a9667619/full/843,/0/default.jpg",
+      "author": "William Henry Fox Talbot",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1853,
+      "height": 2250,
+      "year": 1830
+    },
+    {
+      "id": "met:283063",
+      "provider": "met",
+      "title": "[Botanical Specimen]",
+      "category": "nature.plants",
+      "url": "https://www.metmuseum.org/art/collection/search/283063",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/ph/web-additional/DP339367.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP339367.jpg",
+      "author": "William Henry Fox Talbot",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1833
+    },
+    {
+      "id": "cleveland:132620",
+      "provider": "cleveland",
+      "title": "The Botanical Magazine or Flower Garden Displayed: Umbel-Flowering Bulb-Bearing Orange-Lily",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1955.144",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1955.144/1955.144_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1955.144/1955.144_web.jpg",
+      "author": "Thomas Curtis",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4008,
+      "height": 3354,
+      "year": 1807
+    },
+    {
+      "id": "wikimediacommons:Стаклењак,_Ботаничка_башта_Јевремовац_(greenhouse_Jevremovac_Botanical_Garden,_Belgrade,_Serbia).jpg",
+      "provider": "wikimediacommons",
+      "title": "Стаклењак, Ботаничка башта Јевремовац (greenhouse Jevremovac Botanical Garden, Belgrade, Serbia)",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D0%B0%D0%BA%D0%BB%D0%B5%D1%9A%D0%B0%D0%BA,_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%88%D1%82%D0%B0_%D0%88%D0%B5%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%86_(greenhouse_Jevremovac_Botanical_Garden,_Belgrade,_Serbia).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%D0%A1%D1%82%D0%B0%D0%BA%D0%BB%D0%B5%D1%9A%D0%B0%D0%BA%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%88%D1%82%D0%B0_%D0%88%D0%B5%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%86_%28greenhouse_Jevremovac_Botanical_Garden%2C_Belgrade%2C_Serbia%29.jpg/330px-%D0%A1%D1%82%D0%B0%D0%BA%D0%BB%D0%B5%D1%9A%D0%B0%D0%BA%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%88%D1%82%D0%B0_%D0%88%D0%B5%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%86_%28greenhouse_Jevremovac_Botanical_Garden%2C_Belgrade%2C_Serbia%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%D0%A1%D1%82%D0%B0%D0%BA%D0%BB%D0%B5%D1%9A%D0%B0%D0%BA%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%88%D1%82%D0%B0_%D0%88%D0%B5%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%86_%28greenhouse_Jevremovac_Botanical_Garden%2C_Belgrade%2C_Serbia%29.jpg/1280px-%D0%A1%D1%82%D0%B0%D0%BA%D0%BB%D0%B5%D1%9A%D0%B0%D0%BA%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%88%D1%82%D0%B0_%D0%88%D0%B5%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%86_%28greenhouse_Jevremovac_Botanical_Garden%2C_Belgrade%2C_Serbia%29.jpg",
+      "author": "Petar Milošević",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 5280,
+      "height": 3344,
+      "year": 2025
+    },
+    {
+      "id": "met:362545",
+      "provider": "met",
+      "title": "Botanical Studies (recto); Botanical Studies (verso)",
+      "category": "art.drawing",
+      "url": "https://www.metmuseum.org/art/collection/search/362545",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/dp/web-additional/DP823471.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP823471.jpg",
+      "author": "Anonymous, French, 19th century",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1815
+    },
+    {
+      "id": "loc:2014694824",
+      "provider": "loc",
+      "title": "Botanical Gardens, Executive Bldg.",
+      "category": "nature.plants",
+      "url": "https://www.loc.gov/item/2014694824/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ggbain/14800/14851_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ggbain/14800/14851v.jpg",
+      "author": "Bain News Service",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 749,
+      "year": 1910
+    },
+    {
+      "id": "artic:21535",
+      "provider": "artic",
+      "title": "\"- My God! Madame Bombec, what happened to you? - Don't mention it, my dear, it's horrible. The world is going from bad to worse, I would rather be janitor at the botanical garden! You know that Bézuchet from the fifth floor, the one that always insists that her good-for-nothing daughter who is fat around the hips has become..... I only replied: Ah, well! - And that's the person who… - Of course, even a blind man can see that!,” plate 30 from Types Parisiens",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/21535",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/2b955a2a-b7ca-e71e-f48a-41190795e78c/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/2b955a2a-b7ca-e71e-f48a-41190795e78c/full/843,/0/default.jpg",
+      "author": "Honoré-Victorin Daumier",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 2919,
+      "height": 2250,
+      "year": 1840
+    },
+    {
+      "id": "cleveland:127080",
+      "provider": "cleveland",
+      "title": "(Botanical: Maurándia semperflorens)",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1949.412",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1949.412/1949.412_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1949.412/1949.412_web.jpg",
+      "author": "Pancrace Bessa",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 3067,
+      "height": 4669,
+      "year": 1836
+    },
+    {
+      "id": "wikimediacommons:Wuhan_Botanical_Garden.jpg",
+      "provider": "wikimediacommons",
+      "title": "Wuhan Botanical Garden",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Wuhan_Botanical_Garden.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuhan_Botanical_Garden.jpg/330px-Wuhan_Botanical_Garden.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuhan_Botanical_Garden.jpg/1280px-Wuhan_Botanical_Garden.jpg",
+      "author": "Sun Jiao (Interaccoonale)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4246,
+      "height": 2530,
+      "year": 2018
+    },
+    {
+      "id": "met:362627",
+      "provider": "met",
+      "title": "Botanical Studies",
+      "category": "art.drawing",
+      "url": "https://www.metmuseum.org/art/collection/search/362627",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/dp/web-additional/DP823474.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP823474.jpg",
+      "author": "Anonymous, French, 19th century",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1815
+    },
+    {
+      "id": "loc:2017657735",
+      "provider": "loc",
+      "title": "Botanical Gardens. Sydney",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2017657735/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41200/41297_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41200/41297v.jpg",
+      "author": "Photoglob Co.",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 764,
+      "year": 1890
+    },
+    {
+      "id": "artic:141936",
+      "provider": "artic",
+      "title": "Madame Cabassol going for a romantic stroll in the botanical gardens together with the youngest friend of her husband's. Sudden encounter with the latter not far from a stag, plate 4 from Les Amis",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/141936",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/de626ce9-1728-47ea-f6b8-320ebcaebdd0/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/de626ce9-1728-47ea-f6b8-320ebcaebdd0/full/843,/0/default.jpg",
+      "author": "Honoré-Victorin Daumier",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1737,
+      "height": 2250,
+      "year": 1845
+    },
+    {
+      "id": "cleveland:127079",
+      "provider": "cleveland",
+      "title": "Polyanthus or Cluster Narcissus (Botanical: Narcissus tazetta)",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1949.411",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1949.411/1949.411_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1949.411/1949.411_web.jpg",
+      "author": "Pancrace Bessa",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 3067,
+      "height": 4669,
+      "year": 1836
+    },
+    {
+      "id": "wikimediacommons:Park_Garden_Botanical_Garden_Greenery_Lal_Bagh_(48186393327).jpg",
+      "provider": "wikimediacommons",
+      "title": "Park Garden Botanical Garden Greenery Lal Bagh (48186393327)",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Park_Garden_Botanical_Garden_Greenery_Lal_Bagh_(48186393327).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Park_Garden_Botanical_Garden_Greenery_Lal_Bagh_%2848186393327%29.jpg/330px-Park_Garden_Botanical_Garden_Greenery_Lal_Bagh_%2848186393327%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Park_Garden_Botanical_Garden_Greenery_Lal_Bagh_%2848186393327%29.jpg",
+      "author": "Abhiman Singh",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 960,
+      "height": 639,
+      "year": 2019
+    },
+    {
+      "id": "met:264591",
+      "provider": "met",
+      "title": "Botanical Garden",
+      "category": "nature.plants",
+      "url": "https://www.metmuseum.org/art/collection/search/264591",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/ph/web-additional/DP72089.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP72089.jpg",
+      "author": "Unknown",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1860
+    },
+    {
+      "id": "loc:2008675577",
+      "provider": "loc",
+      "title": "Reproduction of a botanical drawing",
+      "category": "nature.plants",
+      "url": "https://www.loc.gov/item/2008675577/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/16400/16427_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/16400/16427v.jpg",
+      "author": "Frances Benjamin Johnston",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 836,
+      "year": 1915
+    },
+    {
+      "id": "artic:21581",
+      "provider": "artic",
+      "title": "10 O'clock in the Morning. “Monsieur Coquelet having accidentally met Miss Palissandre in the Botanical Garden, to whom he had the good fortune to offer a fairy rose the first of May 1804, had obtained a first date. After having gone to great expense buying a new pair of gloves at 29 Sous, he throws a glance at the mirror before going out to try his good fortune,” plate 4 from La Journé Du Célibataire",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/21581",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/e920097a-dfa9-a243-f58c-4ae70b8cfeae/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/e920097a-dfa9-a243-f58c-4ae70b8cfeae/full/843,/0/default.jpg",
+      "author": "Honoré-Victorin Daumier",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1683,
+      "height": 2250,
+      "year": 1839
+    },
+    {
+      "id": "loc:2009630843",
+      "provider": "loc",
+      "title": "West facade from Botanical Gardens",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2009630843/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/87800/87874_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/87800/87874v.jpg",
+      "author": "John Wood",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 759,
+      "year": 1860
+    },
+    {
+      "id": "wikimediacommons:Cape_Verde_Santiago_National_Botanical_Garden.jpg",
+      "provider": "wikimediacommons",
+      "title": "Cape Verde Santiago National Botanical Garden",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Cape_Verde_Santiago_National_Botanical_Garden.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Cape_Verde_Santiago_National_Botanical_Garden.jpg/330px-Cape_Verde_Santiago_National_Botanical_Garden.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Cape_Verde_Santiago_National_Botanical_Garden.jpg/1280px-Cape_Verde_Santiago_National_Botanical_Garden.jpg",
+      "author": "Cayambe",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4256,
+      "height": 2832,
+      "year": 2011
+    },
+    {
+      "id": "cleveland:132623",
+      "provider": "cleveland",
+      "title": "The Botanical Magazine or Flower Garden Displayed: Stately Crinum",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1955.147",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1955.147/1955.147_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1955.147/1955.147_web.jpg",
+      "author": "S. Curtis",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4592,
+      "height": 3718,
+      "year": 1823
+    },
+    {
+      "id": "artic:150828",
+      "provider": "artic",
+      "title": "Roses in a Vase",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/150828",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/a153e6ac-16fa-88f3-4984-f96ee6e7353b/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/a153e6ac-16fa-88f3-4984-f96ee6e7353b/full/843,/0/default.jpg",
+      "author": "Georges Seurat",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1927,
+      "height": 2250,
+      "year": 1881
+    },
+    {
+      "id": "wikimediacommons:Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg",
+      "provider": "wikimediacommons",
+      "title": "Botanical illustration: Vanilla aromatica",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg",
+      "downloadable": true,
+      "styles": [
+        "illustration",
+        "drawing"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg/330px-Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg/1280px-Botanical_illustration-_Vanilla_aromatica_MET_DP875308.jpg",
+      "author": "Félix Leblanc",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3727,
+      "height": 2981,
+      "year": 1850
+    },
+    {
+      "id": "loc:2017648032",
+      "provider": "loc",
+      "title": "Botanical Gardens",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2017648032/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s00000/1s06000/1s06100/1s06147_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s00000/1s06000/1s06100/1s06147v.jpg",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 542,
+      "year": 1880
+    },
+    {
+      "id": "artic:276654",
+      "provider": "artic",
+      "title": "Botanical Plate",
+      "category": "art.sculpture",
+      "url": "https://www.artic.edu/artworks/276654",
+      "downloadable": true,
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/653b24b0-3d03-8018-6b73-46ed81ea6089/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/653b24b0-3d03-8018-6b73-46ed81ea6089/full/843,/0/default.jpg",
+      "author": "Chelsea Porcelain Factory",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 8372,
+      "height": 8372,
+      "year": 1750
+    },
+    {
+      "id": "wikimediacommons:Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg",
+      "provider": "wikimediacommons",
+      "title": "Albuquerque Botanical gardens maples and pines 2022",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg/330px-Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg/1280px-Albuquerque_Botanical_gardens_maples_and_pines_2022.jpg",
+      "author": "Megalibrarygirl",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4080,
+      "height": 3072,
+      "year": 2022
+    },
+    {
+      "id": "loc:2021669500",
+      "provider": "loc",
+      "title": "Botanical Garden: Avenue of Imperial Palms.",
+      "category": "nature.plants",
+      "url": "https://www.loc.gov/item/2021669500/",
+      "downloadable": true,
+      "thumbnailUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:01:61:9:wdl_01619:icon1018525/full/pct:3.125/0/default.jpg",
+      "previewUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:01:61:9:wdl_01619:icon1018525/full/pct:100/0/default.jpg",
+      "author": "rafael castro y ordóñez",
+      "license": {
+        "id": "LicenseRef-Rights-not-stated",
+        "name": "Rights not stated",
+        "url": "https://www.loc.gov/rr/print/195_copr.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 6027,
+      "height": 8704,
+      "year": 1862
+    },
+    {
+      "id": "wikimediacommons:Madhavaram_Botanical_garden.jpg",
+      "provider": "wikimediacommons",
+      "title": "Madhavaram Botanical garden",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:Madhavaram_Botanical_garden.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Madhavaram_Botanical_garden.jpg/330px-Madhavaram_Botanical_garden.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Madhavaram_Botanical_garden.jpg/1280px-Madhavaram_Botanical_garden.jpg",
+      "author": "Sharanya1676",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1920,
+      "height": 4160,
+      "year": 2022
+    },
+    {
+      "id": "loc:2017648033",
+      "provider": "loc",
+      "title": "Conservatory, Botanical Gardens",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2017648033/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s00000/1s06000/1s06100/1s06149_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s00000/1s06000/1s06100/1s06149v.jpg",
+      "author": "J. F. (John Fillis) Jarvis",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 535,
+      "year": 1860
+    },
+    {
+      "id": "wikimediacommons:VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg",
+      "provider": "wikimediacommons",
+      "title": "VU Botanical Garden Kairenai Japanese park 20190621",
+      "category": "nature.plants",
+      "url": "https://commons.wikimedia.org/wiki/File:VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg/330px-VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg/1280px-VU_Botanical_Garden_Kairenai_Japanese_park_20190621.jpg",
+      "author": "Mindaur",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3968,
+      "height": 2976,
+      "year": 2021
+    },
+    {
+      "id": "met:287842",
+      "provider": "met",
+      "title": "[Botanical Gardens, Calcutta]",
+      "category": "nature.plants",
+      "url": "https://www.metmuseum.org/art/collection/search/287842",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images.metmuseum.org/CRDImages/ph/web-additional/DP147449.jpg",
+      "previewUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP147449.jpg",
+      "author": "Captain R. B. Hill",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 1850
+    },
+    {
+      "id": "loc:2006680379",
+      "provider": "loc",
+      "title": "Botanical Gardens, Washington, D.C.",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2006680379/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/11600/11674r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/11600/11674v.jpg",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 514,
+      "year": 1865
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-// Markdown twins: /footage/<hub>.md and /footage/<slug>.md
+// Markdown twins: /collections/<hub>.md and /collections/<slug>.md
 import type { APIRoute } from "astro";
 import { allCollections, allHubs, collectionsInHub, relatedTo, type Collection, type Hub } from "@/lib/collections";
 import { collectionMarkdown, hubMarkdown } from "@/lib/collections-md";

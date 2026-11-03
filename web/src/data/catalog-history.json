@@ -1,0 +1,21 @@
+[
+  {
+    "date": "2026-11-03",
+    "listings": 140342499,
+    "free": 140342499,
+    "byCategory": {
+      "archive": 1133102,
+      "icons": 464444,
+      "art": 100866
+    },
+    "sources": {
+      "wikimediacommons": 138104162,
+      "loc": 1133102,
+      "iconify": 464444,
+      "met": 371316,
+      "nasa": 168609,
+      "artic": 59060,
+      "cleveland": 41806
+    }
+  }
+]

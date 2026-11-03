@@ -7,9 +7,9 @@ interface Props {
   collection: Collection;
 }
 const { collection: c } = Astro.props;
-const withPoster = c.images.filter((a) => a.thumbnailUrl && !a.styles?.includes("icon"));
-const lead = withPoster[0];
-const side = withPoster.slice(1, 3);
+const withThumb = c.images.filter((a) => a.thumbnailUrl && !a.styles?.includes("icon"));
+const lead = withThumb[0];
+const side = withThumb.slice(1, 3);
 ---
 <li class="group relative flex flex-col overflow-hidden rounded-xl border bg-card/50 transition hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
   <div class="grid aspect-[16/7] grid-cols-[2fr_1fr] gap-px overflow-hidden bg-border" aria-hidden="true">

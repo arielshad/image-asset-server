@@ -9,12 +9,12 @@ const collections = (await allCollections()).filter((c) => c.indexable);
 ---
 
 <BaseLayout
-  title="Search free stock video and archive footage"
-  description={`Search ${SOURCE_COUNT} stock video sites at once for b-roll, backgrounds, nature, space and archive films. Watch every image and see if it's cleared for commercial use.`}
+  title="Search free photos, art, vectors and icons"
+  description={`One search over ${SOURCE_COUNT} sites for free photos, museum art, old maps, SVG icons and textures, with a commercial-use verdict and credit line on every image.`}
   schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: "Search", path: "/search" }])]}
   markdown="/search.md"
 >
-  <h1 class="sr-only">Search free stock video across {SOURCE_COUNT} sources</h1>
+  <h1 class="sr-only">Search free images across {SOURCE_COUNT} sources</h1>
   <SearchApp client:load />
   <noscript>
     <div class="mx-auto max-w-3xl px-4 py-10 text-sm text-muted-foreground">

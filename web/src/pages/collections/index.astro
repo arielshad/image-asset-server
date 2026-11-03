@@ -9,9 +9,9 @@ import { SOURCE_COUNT } from "@/lib/site";
 const all = await allCollections();
 const hubs = await allHubs();
 const updated = latest(all);
-const title = "Free stock footage collections";
-const description = `Curated collections of free stock video from ${SOURCE_COUNT} sites: ocean, drone, space, timelapse, archive films and vertical images, each with a licence verdict.`;
-const trail = [{ name: "Home", path: "/" }, { name: "Footage collections", path: COLLECTIONS_PATH }];
+const title = "Free image collections";
+const description = `Curated collections of free images from ${SOURCE_COUNT} sites: nature photos, public-domain art, space, old maps and SVG icons, each with a licence verdict.`;
+const trail = [{ name: "Home", path: "/" }, { name: "Collections", path: COLLECTIONS_PATH }];
 ---
 
 <BaseLayout
@@ -29,7 +29,7 @@ const trail = [{ name: "Home", path: "/" }, { name: "Footage collections", path:
       <p class="text-sm font-medium text-primary">Image Asset Server</p>
       <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h1>
       <p class="mt-4 text-pretty text-muted-foreground">
-        Each collection answers one need, such as waves for an intro, a drone shot over a city, a rocket launch or a 1950s newsreel, with the best free matches from {SOURCE_COUNT} video sites side by side. Hover any card to watch its preview. Every image shows its source, resolution and whether you may use it in a commercial video, and the lists are refreshed from a live search every day.
+        Each collection answers one need, such as a 4K landscape for a hero, an Impressionist painting for a cover, a Hubble nebula or a set of SVG icons, with the best free matches from {SOURCE_COUNT} image sites side by side. Every image shows its source, size and whether you may use it commercially, and the lists are refreshed from a live search every day.
       </p>
       {updated && <p class="mt-3 text-sm text-muted-foreground">{all.length} collections, updated <time datetime={updated.toISOString()}>{dateFmt.format(updated)}</time>.</p>}
     </header>
@@ -50,7 +50,7 @@ const trail = [{ name: "Home", path: "/" }, { name: "Footage collections", path:
     })}
 
     <p class="mt-16 text-sm text-muted-foreground">
-      Looking for something else? <a href="/search" class="text-primary underline underline-offset-2 hover:decoration-2">Search all {SOURCE_COUNT} sites</a>, <a href="/sequence" class="text-primary underline underline-offset-2 hover:decoration-2">build a b-roll sequence</a>, or see <a href="/docs/sources" class="text-primary underline underline-offset-2 hover:decoration-2">every source and its licence</a>.
+      Looking for something else? <a href="/search" class="text-primary underline underline-offset-2 hover:decoration-2">Search all {SOURCE_COUNT} sites</a>, <a href="/build" class="text-primary underline underline-offset-2 hover:decoration-2">pick a whole image set</a>, or see <a href="/docs/sources" class="text-primary underline underline-offset-2 hover:decoration-2">every source and its licence</a>.
     </p>
   </div>
 </BaseLayout>

@@ -11,7 +11,7 @@ Image Asset Server has no accounts, no sign-up, no advertising and no cookies. T
 
 ## What the service records
 
-- **Search events.** For each search the server writes a log line with the search text, the filters, the number of results, which interface was used (website, API or MCP) and a coarse client family derived from the User-Agent (for example "browser", "curl" or "claude-code"). It does not put your IP address, API key or any cookie in these lines. They are used to improve ranking, to find searches that return nothing and to choose topics for the [footage collections](/footage). Logs are deleted after a short retention period. A collection page never shows who searched or how often.
+- **Search events.** For each search the server writes a log line with the search text, the filters, the number of results, which interface was used (website, API or MCP) and a coarse client family derived from the User-Agent (for example "browser", "curl" or "claude-code"). It does not put your IP address, API key or any cookie in these lines. They are used to improve ranking, to find searches that return nothing and to choose topics for the [collections](/collections). Logs are deleted after a short retention period. A collection page never shows who searched or how often.
 - **Aggregate metrics.** Counters such as searches per minute, downloads per source, page views per page and per-source error rates. They contain no search text and no personal data. Their totals are public on the [statistics](/stats) page.
 - **Which AI tools use the MCP server.** For MCP requests the server records the name and version the AI tool declares when it connects (for example "claude-code 2") and, where configured, a network category (an AI company's cloud, a cloud provider or an internet provider) looked up locally from your IP address. The address itself is not stored or logged. To count distinct callers per day, the server keeps a one-way hash of your IP address and User-Agent in memory, mixed with a random value that is replaced every day and never saved.
 - **Request logs.** Like any website, the hosting infrastructure keeps standard request logs (which include IP addresses and User-Agents) for security and operations, for a limited time.
@@ -31,8 +31,8 @@ The website stores two optional preferences in your browser's local storage: you
 
 ## Third parties you contact
 
-- **Posters, previews and the player** load directly from the video sites (NASA, Wikimedia Commons, the Internet Archive), so those sites see your IP address while you browse and watch. No video passes through this server.
-- **Downloads** are redirects to the file on the source's servers. Credit files (ATTRIBUTION.md, credits.json, and the zip that holds them) are written by this server and contain no video.
+- **Thumbnails, previews and the detail view** load directly from the image sites (NASA, the museums, Wikimedia Commons, Iconify, Openverse and others), so those sites see your IP address while you browse. No image passes through this server.
+- **Downloads** are redirects to the file on the source's servers. Credit files (ATTRIBUTION.md, credits.json, and the zip that holds them) are written by this server and contain no image.
 - **Links** to source pages and to linked searches (such as Pexels, Pixabay or Shutterstock) take you to those sites, which have their own privacy policies.
 
 ## Your choices and contact

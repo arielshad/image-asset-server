@@ -1,5 +1,5 @@
 ---
-// /footage/<hub> (a group of collections) and /footage/<slug> (one collection).
+// /collections/<hub> (a group of collections) and /collections/<slug> (one collection).
 // A collection whose snapshot hasn't been generated yet still builds: it has no
 // images, is noindex, and points at the live search.
 import { render } from "astro:content";
@@ -43,7 +43,7 @@ interface Props {
 const { hub, collection: c } = Astro.props;
 
 const home = { name: "Home", path: "/" };
-const index = { name: "Footage collections", path: COLLECTIONS_PATH };
+const index = { name: "Collections", path: COLLECTIONS_PATH };
 
 let hubCollections: Collection[] = [];
 let related: Collection[] = [];
@@ -57,7 +57,7 @@ if (c) {
 }
 const otherHubs = (await allHubs()).filter((h) => h.id !== (hub ?? c?.hub)?.id);
 /** The word a search for a style starts from (the server reads it as the style, too). */
-const STYLE_WORDS: Record<string, string> = { timelapse: "timelapse", "slow-motion": "slow motion", loop: "seamless loop", animation: "animation", visualization: "visualization", "black-white": "black and white" };
+const STYLE_WORDS: Record<string, string> = { photo: "photo", illustration: "illustration", painting: "painting", drawing: "drawing", vector: "vector", icon: "icon", transparent: "transparent", "black-white": "black and white" };
 /** Live searches for what a hub covers: its categories (and their children), styles and shapes. */
 const hubSearches = hub
   ? (() => {
@@ -90,7 +90,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
     <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <Breadcrumbs trail={[home, index, { name: hub.name, path: hubPath(hub) }]} />
       <header class="mt-6 max-w-3xl">
-        <p class="text-sm font-medium text-primary">Footage collections</p>
+        <p class="text-sm font-medium text-primary">Collections</p>
         <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">{hub.title}</h1>
         <p class="mt-4 text-pretty text-muted-foreground">{hub.intro}</p>
         {hubUpdated && <p class="mt-3 text-sm text-muted-foreground">Updated <time datetime={hubUpdated.toISOString()}>{dateFmt.format(hubUpdated)}</time>, from a live search of {SOURCE_COUNT} sites.</p>}
@@ -143,7 +143,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
         <section class="mt-16" aria-labelledby="live">
           <h2 id="live" class="text-xl font-semibold tracking-tight">Search {hub.name.toLowerCase()} live</h2>
           <p class="mt-2 max-w-3xl text-sm text-muted-foreground">
-            Each link runs a fresh search of every source for one kind of footage. Results preview on hover, show their resolution, shape and length where known, and carry a licence verdict; turn on Commercial-safe to keep only images you can use in a commercial video.
+            Each link runs a fresh search of every source for one kind of image. Results show their size and shape where known and carry a licence verdict; turn on Commercial-safe to keep only images you can use commercially.
           </p>
           <ul class="mt-4 flex flex-wrap gap-2 text-sm">
             {hubSearches.map((x) => <li><a href={x.href} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{x.label}</a></li>)}
@@ -184,7 +184,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
         <dl class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <div><dt class="sr-only">Images</dt><dd class="font-medium">{c.images.length ? countLabel(c.images) : "Being collected"}</dd></div>
           {c.images.length > 0 && <div><dt class="sr-only">Sources</dt><dd>from {c.sources.length} {c.sources.length === 1 ? "source" : "sources"}</dd></div>}
-          {c.facts.hd > 0 && <div><dt class="sr-only">1080p or better</dt><dd>{c.facts.hd} in 1080p or better</dd></div>}
+          {c.facts.hd > 0 && <div><dt class="sr-only">1080 px or larger</dt><dd>{c.facts.hd} at 1080 px or larger</dd></div>}
           {c.facts.cleared > 0 && <div><dt class="sr-only">Cleared for commercial use</dt><dd>{c.facts.cleared} cleared for commercial use</dd></div>}
           {c.facts.editorial > 0 && <div><dt class="sr-only">Editorial use only</dt><dd>{c.facts.editorial} editorial-only</dd></div>}
           {c.facts.direct > 0 && <div><dt class="sr-only">Direct downloads</dt><dd>{c.facts.direct} with direct download</dd></div>}
@@ -206,7 +206,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
           <p class="rounded-xl border p-6 text-sm text-muted-foreground">This collection is being collected and refreshed. <a href={searchHref(c.topic.data.search)} class="text-primary underline underline-offset-2 hover:decoration-2">Run the search live</a> in the meantime.</p>
         )}
         <p class:list={["mt-4 text-sm text-muted-foreground", !c.images.length && "hidden"]}>
-          Picked automatically from a live search of {SOURCE_COUNT} sites and refreshed daily. Hover a image to preview it; posters and previews load straight from the source, never through this site. Each image belongs to its creator: check its licence on the source page before you publish.
+          Picked automatically from a live search of {SOURCE_COUNT} sites and refreshed daily. Thumbnails load straight from the source, never through this site. Each image belongs to its creator: check its licence on the source page before you publish.
         </p>
       </section>
 
@@ -232,7 +232,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
               <ul class="mt-3 space-y-1 text-muted-foreground">
                 {c.facts.licences.map((l) => <li>{l.name}: {l.count}</li>)}
               </ul>
-              <p class="mt-2 text-xs text-muted-foreground">CC0 and public domain: commercial use, no credit needed. CC BY and NASA media need a credit line; editorial images are not for ads. <a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Video licences explained</a></p>
+              <p class="mt-2 text-xs text-muted-foreground">CC0 and public domain: commercial use, no credit needed. CC BY and NASA media need a credit line; editorial images are not for ads. <a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Image licences explained</a></p>
             </section>
           )}
           {collectionGuides.length > 0 && (

@@ -2,7 +2,7 @@
   {
     "id": "nature",
     "name": "Nature images",
-    "title": "Free nature photos: landscapes, plants and animals",
+    "title": "Free nature photos: landscapes and wildlife",
     "description": "Free nature photos and illustrations: mountains, lakes, oceans, forests, flowers and wildlife, from public-domain and Creative Commons collections.",
     "intro": "Nature pictures carry websites, slides and book covers: a misty lake behind a headline, a close-up of leaves on a wellness page, a fox on a children's worksheet. These collections group free nature images by what they show, from Wikimedia Commons, Openverse's Creative Commons index, NASA's Earth photos and the museums' natural-history prints, with links to Unsplash, Pexels and Pixabay for anything they don't have. Every card shows the image's size and shape and says whether you can use it commercially.",
     "categories": [
@@ -47,7 +47,7 @@
   {
     "id": "art",
     "name": "Art",
-    "title": "Free public-domain art: paintings, prints and drawings",
+    "title": "Free public-domain art: paintings and prints",
     "description": "Free public-domain art from museum open-access collections: paintings, Japanese prints, botanical drawings and engravings, released as CC0 by the museums.",
     "intro": "Museums have released millions of photographs of public-domain works under CC0: you can print a Van Gogh on a tote bag, put a Hokusai wave on a book cover or use a 19th-century botanical plate on a packaging design without asking anyone. These collections gather that art from the Metropolitan Museum of Art, the Art Institute of Chicago and the Cleveland Museum of Art, searched directly, with Wikimedia Commons and Openverse filling the gaps. Every card shows the museum, the year and the licence.",
     "categories": [
@@ -132,7 +132,7 @@
   {
     "id": "history",
     "name": "History & archives",
-    "title": "Free historical images: old photos, maps and posters",
+    "title": "Free historical images: old photos and maps",
     "description": "Free historical images from the Library of Congress, Wikimedia Commons and museums: vintage photographs, antique maps, posters and prints, with rights shown.",
     "intro": "Archives hold the pictures that make a history article, a documentary slide or a vintage-styled design: street scenes from a century ago, hand-coloured maps, travel posters and magazine covers. These collections gather them from the Library of Congress, Wikimedia Commons and the museums. Old does not always mean free, so every card shows the rights statement the archive gives.",
     "categories": [

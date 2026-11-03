@@ -1,0 +1,1004 @@
+{
+  "slug": "japanese-woodblock-prints",
+  "search": {
+    "q": "woodblock print",
+    "categories": [
+      "art.drawing"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:55:38.753Z",
+  "images": [
+    {
+      "id": "loc:2022631227",
+      "provider": "loc",
+      "title": "Japanese woodblock print - triptych",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2022631227/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/jpd/03000/03099r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/jpd/03000/03099v.jpg",
+      "author": "Toyokuni Utagawa",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 716,
+      "height": 1024,
+      "year": 1783
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_481_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 481 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_481_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Chinese_woodblock_print_-_MET_CP_481_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_481_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chinese_woodblock_print_-_MET_CP_481_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1156,
+      "height": 1535
+    },
+    {
+      "id": "cleveland:679096",
+      "provider": "cleveland",
+      "title": "Print in Western Style with Western Text",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.68",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.68/2025.68_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.68/2025.68_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 9394,
+      "height": 8810,
+      "year": 1662
+    },
+    {
+      "id": "loc:2022631077",
+      "provider": "loc",
+      "title": "Japanese woodblock print",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2022631077/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/jpd/02900/02991_150px.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/jpd/02900/02991v.jpg",
+      "author": "Kuniyoshi Utagawa",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 977,
+      "height": 1024,
+      "year": 1814
+    },
+    {
+      "id": "wikimediacommons:Saigo_Takamori_Woodblock_Print_Portrait_by_Hasegawa_Sadanobu_II_1877.png",
+      "provider": "wikimediacommons",
+      "title": "Saigo Takamori Woodblock Print Portrait by Hasegawa Sadanobu II 1877",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Saigo_Takamori_Woodblock_Print_Portrait_by_Hasegawa_Sadanobu_II_1877.png",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saigo_Takamori_Woodblock_Print_Portrait_by_Hasegawa_Sadanobu_II_1877.png/330px-Saigo_Takamori_Woodblock_Print_Portrait_by_Hasegawa_Sadanobu_II_1877.png",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Saigo_Takamori_Woodblock_Print_Portrait_by_Hasegawa_Sadanobu_II_1877.png",
+      "author": "Hasegawa Sadanobu II",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "portrait",
+      "width": 1195,
+      "height": 1800,
+      "year": 1877
+    },
+    {
+      "id": "artic:7624",
+      "provider": "artic",
+      "title": "Komurasaki of the Miuraya and Shirai Gompachi (Miuraya Komurasaki, Shirai Gompachi)",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/7624",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/66c4dafb-2f53-f5ac-b676-32cafbe5b6bd/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/66c4dafb-2f53-f5ac-b676-32cafbe5b6bd/full/843,/0/default.jpg",
+      "author": "Kitagawa Utamaro",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 876,
+      "height": 3888,
+      "year": 1795
+    },
+    {
+      "id": "cleveland:679373",
+      "provider": "cleveland",
+      "title": "Mustard Garden Print",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.123",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.123/2025.123_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.123/2025.123_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 10010,
+      "height": 8040,
+      "year": 1700
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_368_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 368 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_368_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Chinese_woodblock_print_-_MET_CP_368_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_368_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chinese_woodblock_print_-_MET_CP_368_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 889,
+      "height": 1185
+    },
+    {
+      "id": "loc:2019647536",
+      "provider": "loc",
+      "title": "Twelve Months of the Year woodblock print portfolio.] [Print for July, nude woman recumbent in field of flowers basking in rays of sun",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2019647536/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64376r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64376v.jpg",
+      "author": "Winold Reiss",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 770,
+      "height": 1024,
+      "year": 1923
+    },
+    {
+      "id": "artic:4371",
+      "provider": "artic",
+      "title": "Hamamatsu, from the series \"Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi),\" also known as the Tokaido with Poem (Kyoka iri Tokaido)",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/4371",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/cef4e5df-a749-090b-b897-7d5f40654685/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/cef4e5df-a749-090b-b897-7d5f40654685/full/843,/0/default.jpg",
+      "author": "Utagawa Hiroshige",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3000,
+      "height": 2235,
+      "year": 1832
+    },
+    {
+      "id": "cleveland:679114",
+      "provider": "cleveland",
+      "title": "Print of Xu Gate and the City Moat",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.86",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.86/2025.86_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.86/2025.86_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 9330,
+      "height": 8811,
+      "year": 1736
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_415_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 415 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_415_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Chinese_woodblock_print_-_MET_CP_415_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_415_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Chinese_woodblock_print_-_MET_CP_415_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 916,
+      "height": 1440
+    },
+    {
+      "id": "artic:4368",
+      "provider": "artic",
+      "title": "Mitsuke: Ferries Crossing the Tenryu River (Mitsuke, Tenryugawa funawatashi), from the series \"Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi),\" also known as the Tokaido with Poem (Kyoka iri Tokaido)",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/4368",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/2920ee93-7e74-393e-c270-d58847eb9af7/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/2920ee93-7e74-393e-c270-d58847eb9af7/full/843,/0/default.jpg",
+      "author": "Utagawa Hiroshige",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3000,
+      "height": 2240,
+      "year": 1832
+    },
+    {
+      "id": "loc:2019647541",
+      "provider": "loc",
+      "title": "Twelve Months of the Year woodblock print portfolio.] [Print for November, huge male head with frosty locks arching above plowed fields and bare trees",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2019647541/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64381r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64381v.jpg",
+      "author": "Winold Reiss",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 771,
+      "height": 1024,
+      "year": 1923
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_402_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 402 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_402_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Chinese_woodblock_print_-_MET_CP_402_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_402_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chinese_woodblock_print_-_MET_CP_402_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 994,
+      "height": 1324
+    },
+    {
+      "id": "cleveland:679101",
+      "provider": "cleveland",
+      "title": "A Newly Cut Print: Scenes from the First Part of Outlaws of the Marsh",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.73",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.73/2025.73_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.73/2025.73_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7666,
+      "height": 5525,
+      "year": 1796
+    },
+    {
+      "id": "artic:22935",
+      "provider": "artic",
+      "title": "Beauty Under an Umbrella in the Snow",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/22935",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/dadabea0-c07e-b5b7-f39e-f877d31bb1b4/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/dadabea0-c07e-b5b7-f39e-f877d31bb1b4/full/843,/0/default.jpg",
+      "author": "Suzuki Harunobu",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 628,
+      "height": 3000,
+      "year": 1765
+    },
+    {
+      "id": "wikimediacommons:Tomonoura_by_Yoshida_Hiroshi,_1927,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "provider": "wikimediacommons",
+      "title": "Tomonoura by Yoshida Hiroshi, 1927, woodblock print, Honolulu Museum of Art",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Tomonoura_by_Yoshida_Hiroshi,_1927,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tomonoura_by_Yoshida_Hiroshi%2C_1927%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/330px-Tomonoura_by_Yoshida_Hiroshi%2C_1927%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tomonoura_by_Yoshida_Hiroshi%2C_1927%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "author": "Yoshida Hiroshi",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 800,
+      "height": 521,
+      "year": 1927
+    },
+    {
+      "id": "loc:2019647539",
+      "provider": "loc",
+      "title": "Twelve Months of the Year woodblock print portfolio.] [Print for October, woman with bowed head and long tresses standing over a gravesite with leaves falling around her",
+      "category": "art.drawing",
+      "url": "https://www.loc.gov/item/2019647539/",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64379r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/64300/64379v.jpg",
+      "author": "Winold Reiss",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 781,
+      "height": 1024,
+      "year": 1923
+    },
+    {
+      "id": "cleveland:679100",
+      "provider": "cleveland",
+      "title": "A Newly-Cut Print of Illustrations from The Classic of Mountains and Seas",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.72",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.72/2025.72_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.72/2025.72_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7932,
+      "height": 5764,
+      "year": 1796
+    },
+    {
+      "id": "artic:21720",
+      "provider": "artic",
+      "title": "Cranes on snow-covered pine",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/21720",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/cc5fce96-3635-35da-e7fd-a68f4b2a26c3/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/cc5fce96-3635-35da-e7fd-a68f4b2a26c3/full/843,/0/default.jpg",
+      "author": "Katsushika Hokusai",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1379,
+      "height": 3000,
+      "year": 1829
+    },
+    {
+      "id": "wikimediacommons:Calm_Wind_by_Yoshida_Hiroshi,_1937,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "provider": "wikimediacommons",
+      "title": "Calm Wind by Yoshida Hiroshi, 1937, woodblock print, Honolulu Museum of Art",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Calm_Wind_by_Yoshida_Hiroshi,_1937,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Calm_Wind_by_Yoshida_Hiroshi%2C_1937%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/330px-Calm_Wind_by_Yoshida_Hiroshi%2C_1937%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Calm_Wind_by_Yoshida_Hiroshi%2C_1937%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "author": "Yoshida Hiroshi",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 554,
+      "height": 800,
+      "year": 1937
+    },
+    {
+      "id": "cleveland:679099",
+      "provider": "cleveland",
+      "title": "A Newly-Cut Print: Scenes from the Second Part of Record of the Three Kingdoms",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.71",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.71/2025.71_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.71/2025.71_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 12556,
+      "height": 9484,
+      "year": 1796
+    },
+    {
+      "id": "artic:10926",
+      "provider": "artic",
+      "title": "Mishima: Morning Mist (Mishima, asagiri), from the series \"Fifty-three Stations of the Tokaido Road (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/10926",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/c047003a-949c-a581-7c5a-2c415e8cac75/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/c047003a-949c-a581-7c5a-2c415e8cac75/full/843,/0/default.jpg",
+      "author": "Utagawa Hiroshige",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3804,
+      "height": 2436,
+      "year": 1828
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_404_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 404 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_404_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chinese_woodblock_print_-_MET_CP_404_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_404_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Chinese_woodblock_print_-_MET_CP_404_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1002,
+      "height": 1357
+    },
+    {
+      "id": "cleveland:679092",
+      "provider": "cleveland",
+      "title": "Satirical Prints of Suzhou Customs",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/2025.62",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2025.62/2025.62_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2025.62/2025.62_web.jpg",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 10892,
+      "height": 7911,
+      "year": 1760
+    },
+    {
+      "id": "wikimediacommons:Musashino_by_Yoshida_Hiroshi,_1928,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "provider": "wikimediacommons",
+      "title": "Musashino by Yoshida Hiroshi, 1928, woodblock print, Honolulu Museum of Art",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Musashino_by_Yoshida_Hiroshi,_1928,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Musashino_by_Yoshida_Hiroshi%2C_1928%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/330px-Musashino_by_Yoshida_Hiroshi%2C_1928%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Musashino_by_Yoshida_Hiroshi%2C_1928%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "author": "Yoshida Hiroshi",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 800,
+      "height": 535,
+      "year": 1928
+    },
+    {
+      "id": "artic:22939",
+      "provider": "artic",
+      "title": "The Heron Maiden",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/22939",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/7dae05a8-dc27-0cb9-6c67-f423a912f6e4/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/7dae05a8-dc27-0cb9-6c67-f423a912f6e4/full/843,/0/default.jpg",
+      "author": "Suzuki Harunobu",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 463,
+      "height": 3000,
+      "year": 1761
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_366_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 366 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_366_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Chinese_woodblock_print_-_MET_CP_366_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_366_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chinese_woodblock_print_-_MET_CP_366_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1127,
+      "height": 1501
+    },
+    {
+      "id": "artic:12764",
+      "provider": "artic",
+      "title": "The Actor Otani Hiroji III as Kawazu no Saburo in the Play Myoto-giku Izu no Kisewata, Performed at the Ichimura Theater in the Eleventh Month, 1770",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/12764",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/154292ca-b195-89b4-21f2-3d817307dc24/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/154292ca-b195-89b4-21f2-3d817307dc24/full/843,/0/default.jpg",
+      "author": "Katsukawa Shunsho",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1481,
+      "height": 3000,
+      "year": 1765
+    },
+    {
+      "id": "wikimediacommons:Arum_by_Onchi_Kōshirō,_1946,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "provider": "wikimediacommons",
+      "title": "Arum by Onchi Kōshirō, 1946, woodblock print, Honolulu Museum of Art",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Arum_by_Onchi_K%C5%8Dshir%C5%8D,_1946,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Arum_by_Onchi_K%C5%8Dshir%C5%8D%2C_1946%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/330px-Arum_by_Onchi_K%C5%8Dshir%C5%8D%2C_1946%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Arum_by_Onchi_K%C5%8Dshir%C5%8D%2C_1946%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "author": "Onchi Kōshirō",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 672,
+      "height": 800,
+      "year": 1946
+    },
+    {
+      "id": "artic:19366",
+      "provider": "artic",
+      "title": "The Actors Tamazawa Saijiro I as the pageboy Umezaburo and Segawa Kikunojo I as Oroku in the play \"Sazareishi Suehiro Genji,\" performed at the Nakamura Theater in the first month, 1744",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/19366",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/b4eabb38-0040-2db0-31f0-fe0fa0c5e31c/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/b4eabb38-0040-2db0-31f0-fe0fa0c5e31c/full/843,/0/default.jpg",
+      "author": "Torii Kiyomasu II",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 1639,
+      "height": 3000,
+      "year": 1744
+    },
+    {
+      "id": "wikimediacommons:Yoshikawa_by_Yoshida_Hiroshi,_1935,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "provider": "wikimediacommons",
+      "title": "Yoshikawa by Yoshida Hiroshi, 1935, woodblock print, Honolulu Museum of Art",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Yoshikawa_by_Yoshida_Hiroshi,_1935,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Yoshikawa_by_Yoshida_Hiroshi%2C_1935%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/330px-Yoshikawa_by_Yoshida_Hiroshi%2C_1935%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Yoshikawa_by_Yoshida_Hiroshi%2C_1935%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg",
+      "author": "Yoshida Hiroshi",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 800,
+      "height": 536,
+      "year": 1935
+    },
+    {
+      "id": "cleveland:95400",
+      "provider": "cleveland",
+      "title": "Leftmost Print from Pleasure Boats on the Sumida River beneath Shin-Ōhashi Bridge",
+      "category": "art.drawing",
+      "url": "https://clevelandart.org/art/1916.1153",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1916.1153/1916.1153_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/1916.1153/1916.1153_web.jpg",
+      "author": "Chōbunsai Eishi",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 5223,
+      "height": 7825,
+      "year": 1792
+    },
+    {
+      "id": "artic:13405",
+      "provider": "artic",
+      "title": "Goldfish, from the series \"Elegant Comparison of Little Treasures (Furyu kodakara awase)\"",
+      "category": "art.drawing",
+      "url": "https://www.artic.edu/artworks/13405",
+      "downloadable": true,
+      "styles": [
+        "drawing"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/eb9067b2-4ac5-b158-408e-c5a9a96505be/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/eb9067b2-4ac5-b158-408e-c5a9a96505be/full/843,/0/default.jpg",
+      "author": "Kitagawa Utamaro",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 2400,
+      "height": 3456,
+      "year": 1797
+    },
+    {
+      "id": "wikimediacommons:Chinese_woodblock_print_-_MET_CP_430_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Chinese woodblock print - MET CP 430 (cropped)",
+      "category": "art.drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_woodblock_print_-_MET_CP_430_(cropped).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Chinese_woodblock_print_-_MET_CP_430_%28cropped%29.jpg/330px-Chinese_woodblock_print_-_MET_CP_430_%28cropped%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Chinese_woodblock_print_-_MET_CP_430_%28cropped%29.jpg",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1110,
+      "height": 889
+    }
+  ]
+}

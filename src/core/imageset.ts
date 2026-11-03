@@ -72,8 +72,10 @@ const MAX_SLOTS = 24;
 
 /**
  * "Hero: city skyline at dusk\n- 3 icons: rocket, shield, chart\n2. baker portrait"
- * → slots. "N icons: a, b, c" (or "N images of a, b, c") becomes one slot per
- * item with the kind kept; "(800px)" / "800w" at the end sets the width.
+ * → slots. A role label is dropped from the search and sets the shape (hero,
+ * header, banner, cover, slide → landscape; avatar, profile → square). "N
+ * icons: a, b, c" (or "N images of a, b, c") becomes one slot per item with
+ * the kind kept; "(800px)" / "800w" at the end sets the width.
  */
 export function parseSlotList(text: string): SlotRequest[] {
   const out: SlotRequest[] = [];
@@ -86,14 +88,23 @@ export function parseSlotList(text: string): SlotRequest[] {
       width = Number(w[1]);
       line = line.slice(0, w.index).trim();
     }
-    line = line.replace(/^(?:hero|header|banner|cover|thumbnail|background|slide\s*\d+|section\s*\d+|image\s*\d+)\s*[:.-]\s*/i, (m) => m.replace(/\s*[:.-]\s*$/, " ")).trim();
+    // A role label sets the slot's shape and is not part of the search: "Hero: city skyline".
+    let orientation: Orientation | undefined;
+    const role = /^(hero|header|banner|cover|background|wallpaper|og|social|avatar|profile|thumbnail|slide\s*\d*|section\s*\d*|image\s*\d*)\s*(?:image|photo)?\s*[:.-]\s*/i.exec(line);
+    if (role) {
+      const r = role[1]!.toLowerCase();
+      if (/^(hero|header|banner|cover|og|social|slide)/.test(r)) orientation = "landscape";
+      else if (/^(avatar|profile)/.test(r)) orientation = "square";
+      line = line.slice(role[0].length).trim();
+    }
+    const extra = { ...(width ? { width } : {}), ...(orientation ? { orientation } : {}) };
     const multi = /^(\d{1,2})\s+([a-z -]+?)s?\s*(?:of|:)\s*(.+)$/i.exec(line);
     if (multi && multi[3]!.includes(",")) {
       const kind = multi[2]!.trim();
-      for (const item of multi[3]!.split(/,|\band\b/).map((x) => x.trim()).filter(Boolean)) out.push({ description: `${item} ${kind}`, ...(width ? { width } : {}) });
+      for (const item of multi[3]!.split(/,|\band\b/).map((x) => x.trim()).filter(Boolean)) out.push({ description: `${item} ${kind}`, ...extra });
       continue;
     }
-    out.push({ description: line, ...(width ? { width } : {}) });
+    if (line) out.push({ description: line, ...extra });
   }
   return out;
 }

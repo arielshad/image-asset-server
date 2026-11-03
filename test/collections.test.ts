@@ -218,49 +218,49 @@ describe("media check (scripts/snapshot-collections.mjs)", () => {
   };
   const check = (url: string, f: ReturnType<typeof fakeFetch>) => checkPreview(url, { assertHost: assertPublicHost, fetch: f.fetchImpl, timeoutMs: 1000 }) as Promise<boolean>;
 
-  it("accepts images, video and the generic binary types, refuses pages", () => {
-    for (const t of ["image/jpeg", "video/mp4", "video/webm; codecs=vp9", "application/ogg", "application/octet-stream"]) expect(isMediaType(t), t).toBe(true);
-    for (const t of ["text/html; charset=utf-8", "audio/mpeg", "application/json"]) expect(isMediaType(t), t).toBe(false);
+  it("accepts images and the generic binary types, refuses pages and other media", () => {
+    for (const t of ["image/jpeg", "image/svg+xml", "image/webp", "application/octet-stream"]) expect(isMediaType(t), t).toBe(true);
+    for (const t of ["text/html; charset=utf-8", "audio/mpeg", "video/mp4", "application/json"]) expect(isMediaType(t), t).toBe(false);
   });
 
   it("treats only definite answers as broken", async () => {
     const f = fakeFetch({
-      "https://cdn.example/ok.mp3": { type: "video/mp4" },
-      "https://cdn.example/gone.mp3": { status: 404 },
-      "https://cdn.example/soft404.mp3": { type: "text/html" },
-      "https://cdn.example/busy.mp3": { status: 503, type: "text/html" },
+      "https://cdn.example/ok.jpg": { type: "image/jpeg" },
+      "https://cdn.example/gone.jpg": { status: 404 },
+      "https://cdn.example/soft404.jpg": { type: "text/html" },
+      "https://cdn.example/busy.jpg": { status: 503, type: "text/html" },
     });
-    expect(await check("https://cdn.example/ok.mp3", f)).toBe(true);
-    expect(await check("https://cdn.example/gone.mp3", f)).toBe(false);
-    expect(await check("https://cdn.example/soft404.mp3", f)).toBe(false);
-    expect(await check("https://cdn.example/busy.mp3", f)).toBe(true); // flaky CDN: keep
-    expect(await check("https://cdn.example/offline.mp3", f)).toBe(true); // network error: keep
+    expect(await check("https://cdn.example/ok.jpg", f)).toBe(true);
+    expect(await check("https://cdn.example/gone.jpg", f)).toBe(false);
+    expect(await check("https://cdn.example/soft404.jpg", f)).toBe(false);
+    expect(await check("https://cdn.example/busy.jpg", f)).toBe(true); // flaky CDN: keep
+    expect(await check("https://cdn.example/offline.jpg", f)).toBe(true); // network error: keep
   });
 
   it("falls back to a ranged GET when HEAD is refused", async () => {
-    const f = fakeFetch({ "https://cdn.example/a.ogg": (m) => (m === "HEAD" ? { status: 405 } : { status: 206, type: "video/webm" }) });
-    expect(await check("https://cdn.example/a.ogg", f)).toBe(true);
-    expect(f.calls).toEqual(["HEAD https://cdn.example/a.ogg", "GET https://cdn.example/a.ogg"]);
+    const f = fakeFetch({ "https://cdn.example/a.png": (m) => (m === "HEAD" ? { status: 405 } : { status: 206, type: "image/png" }) });
+    expect(await check("https://cdn.example/a.png", f)).toBe(true);
+    expect(f.calls).toEqual(["HEAD https://cdn.example/a.png", "GET https://cdn.example/a.png"]);
   });
 
   it("follows redirects by hand and refuses internal hosts on any hop", async () => {
     const f = fakeFetch({
-      "https://cdn.example/r.mp3": { status: 302, location: "https://media.example/r.mp3" },
-      "https://media.example/r.mp3": { type: "image/jpeg" },
-      "https://cdn.example/bad.mp3": { status: 302, location: "http://169.254.169.254/latest" },
-      "https://evil.example/x.mp3": { type: "video/mp4" },
+      "https://cdn.example/r.jpg": { status: 302, location: "https://media.example/r.jpg" },
+      "https://media.example/r.jpg": { type: "image/jpeg" },
+      "https://cdn.example/bad.jpg": { status: 302, location: "http://169.254.169.254/latest" },
+      "https://evil.example/x.jpg": { type: "image/jpeg" },
     });
-    expect(await check("https://cdn.example/r.mp3", f)).toBe(true);
-    expect(await check("https://cdn.example/bad.mp3", f)).toBe(false);
-    expect(await check("https://evil.example/x.mp3", f)).toBe(false); // resolves to a private address
+    expect(await check("https://cdn.example/r.jpg", f)).toBe(true);
+    expect(await check("https://cdn.example/bad.jpg", f)).toBe(false);
+    expect(await check("https://evil.example/x.jpg", f)).toBe(false); // resolves to a private address
     expect(f.calls).not.toContain("HEAD http://169.254.169.254/latest");
     expect(f.calls.some((c) => c.includes("evil.example"))).toBe(false);
   });
 
   it("checks each URL once", async () => {
-    const f = fakeFetch({ "https://cdn.example/ok.mp3": { type: "video/mp4" } });
+    const f = fakeFetch({ "https://cdn.example/ok.jpg": { type: "image/jpeg" } });
     const checker = previewChecker({ assertHost: assertPublicHost, fetch: f.fetchImpl, timeoutMs: 1000 }, 2) as (u: string) => Promise<boolean>;
-    await Promise.all([checker("https://cdn.example/ok.mp3"), checker("https://cdn.example/ok.mp3")]);
+    await Promise.all([checker("https://cdn.example/ok.jpg"), checker("https://cdn.example/ok.jpg")]);
     expect(f.calls).toHaveLength(1);
   });
 });

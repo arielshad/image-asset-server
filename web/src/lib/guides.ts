@@ -91,15 +91,15 @@ export function guideMarkdown(g: Guide, collections: Collection[], related: Guid
 /** Markdown twin of /guides. */
 export function guidesIndexMarkdown(guides: Guide[]): string {
   return [
-    "# Guides: free stock video, licences and editing",
+    "# Guides: free images, licences and formats",
     "",
-    "> Short, answer-first guides for video makers and AI assistants: whether a image may go into a commercial video, how to credit it, what NASA, public-domain and Creative Commons footage allow, editorial versus commercial use, and how to turn a shot list into a b-roll sequence.",
+    "> Short, answer-first guides for designers, writers and AI assistants: whether an image may be used commercially, how to credit it, what museum open access, NASA and Creative Commons allow, icons and transparent files, and how to let an agent pick images for you.",
     "",
     ...GUIDE_SECTIONS.flatMap((section) => {
       const gs = guides.filter((g) => g.data.section === section);
       return gs.length ? [`## ${section}`, "", ...gs.map((g) => `- [${g.data.title}](${abs(guidePath(g.id))}.md): ${g.data.answer.split(/(?<=\.)\s/)[0]}`), ""] : [];
     }),
-    `Glossary of video and licence terms: ${abs("/glossary.md")}`,
+    `Glossary of image and licence terms: ${abs("/glossary.md")}`,
     "",
     "---",
     `Source: ${abs(GUIDES_PATH)}`,

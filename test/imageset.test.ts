@@ -8,7 +8,7 @@ const service = () => new ImageService({ providers: [fakeProvider], http: bytesH
 describe("slot lists", () => {
   it("reads one slot per line, with list markers, labels and widths", () => {
     expect(parseSlotList("1. Hero: city skyline at dusk (2400px)\n- baker at work\n\n• paper texture background 800w")).toEqual([
-      { description: "Hero city skyline at dusk", width: 2400 },
+      { description: "city skyline at dusk", width: 2400, orientation: "landscape" },
       { description: "baker at work" },
       { description: "paper texture background", width: 800 },
     ]);
@@ -17,6 +17,7 @@ describe("slot lists", () => {
 
   it("expands 'N icons: a, b and c' into one slot per item", () => {
     expect(parseSlotList("3 icons: rocket, shield and chart")).toEqual([{ description: "rocket icon" }, { description: "shield icon" }, { description: "chart icon" }]);
+    expect(parseSlotList("avatar: smiling woman")).toEqual([{ description: "smiling woman", orientation: "square" }]);
   });
 
   it("turns titles into alt text", () => {

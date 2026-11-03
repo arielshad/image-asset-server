@@ -12,50 +12,55 @@ import { EXAMPLE_QUERIES as suggestions, LINKED, MCP_NAME, MCP_URL, PROVIDERS, S
 import { COLLECTIONS_PATH, allCollections, allHubs, hubPath } from "@/lib/collections";
 import { allGuides, guidePath } from "@/lib/guides";
 import { VERDICTS_BY_TONE, VERDICT_LABELS, VERDICT_MEANING, categoryLabel } from "@/lib/vocab";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
+
+// The product screenshot is taken from the running site (see README); until it exists the section shows text only.
+const hasScreenshot = existsSync(join(process.cwd(), "public/img/search-preview.png"));
 
 const totals = CATALOG.totals;
 const stats = [
-  { value: String(SOURCE_COUNT), label: "video sites in one search" },
+  { value: String(SOURCE_COUNT), label: "image sites in one search" },
   ...(HAS_CATALOG && totals.free.count
-    ? [{ value: fmtShort(totals.free.count, totals.free.atLeast), exact: fmt(totals.free.count, totals.free.atLeast), label: "free videos to search" }]
-    : [{ value: "4K", label: "resolution, shape and length filters" }]),
-  { value: "0", label: "bytes of video through this server" },
+    ? [{ value: fmtShort(totals.free.count, totals.free.atLeast), exact: fmt(totals.free.count, totals.free.atLeast), label: "free images to search" }]
+    : [{ value: "SVG", label: "photos, art, vectors and icons" }]),
+  { value: "0", label: "image bytes through this server" },
   { value: "0", label: "accounts or API keys needed" },
 ];
-const exampleShots = ["City skyline at night (4s)", "Coffee pour close-up (3s)", "People walking in the rain", "Ocean waves at sunset", "Clouds timelapse (5s)"];
-const sequenceHref = `/sequence?${new URLSearchParams({ shots: exampleShots.join("\n"), orientation: "portrait", total: "20" })}`;
+const exampleSlots = ["Hero: misty forest at sunrise (1920px)", "3 icons: upload, share, settings", "Background: paper texture", "Botanical illustration of a fern", "Saturn rings"];
+const buildHref = `/build?${new URLSearchParams({ slots: exampleSlots.join("\n"), width: "1600" })}`;
 const direct = [
-  { title: "Watch from the source", body: "Posters, hover previews and the player load straight from NASA, Wikimedia and the Internet Archive. Hover any card to see it move." },
-  { title: "Download from the source", body: "Pick a rendition, from a small preview to the 4K master: the download is a redirect to the file on the source's CDN." },
-  { title: "Credits written for you", body: "Every image that needs credit has a ready credit line, and ATTRIBUTION.md for one image or a whole sequence." },
+  { title: "Straight from the source", body: "Thumbnails and full views load from NASA, the museums, Wikimedia, Iconify and Openverse directly. Nothing is re-hosted." },
+  { title: "The size you need", body: "Pick a file from a 640 px copy to the full-resolution original or TIFF: the download is a redirect to the file on the source." },
+  { title: "Credits written for you", body: "Every image that needs credit has a ready credit line, HTML with a caption, and ATTRIBUTION.md for one image or a whole set." },
 ];
 const surfaces = [
   {
     title: "Web search",
-    body: "Describe the shot, filter by category, shape, resolution and length, hover to preview and open the player. Every card shows its licence verdict.",
+    body: "Describe the picture, filter by category, kind, shape, size, format and transparency, and open any result full size. Every card shows its licence verdict.",
     href: "/search",
     cta: "Open search",
-    code: `${SITE.url.replace("https://", "")}/search?q=ocean+waves&orientation=portrait`,
+    code: `${SITE.url.replace("https://", "")}/search?q=mountain+lake&orientation=landscape`,
   },
   {
     title: "REST API & CLI",
-    body: "JSON with an OpenAPI 3.1 spec: search, read licences and credit lines, get renditions as redirects to the source, plan sequences. The same from npx.",
+    body: "JSON with an OpenAPI 3.1 spec: search, read licences and credit lines, get any size as a redirect to the source, plan image sets. The same from npx.",
     href: "/docs/api",
     cta: "API guide",
-    code: `npx image-asset-server search "4k vertical drone ocean"`,
+    code: `npx image-asset-server search "rocket icon svg"`,
   },
   {
     title: "MCP for AI agents",
-    body: "Give Claude, Cursor or Copilot tools to find, vet and fetch footage, and to cut whole b-roll sequences, while they build your video or app.",
+    body: "Give Claude, Cursor or Copilot tools to find, vet and fetch images, and to fill every image slot of a page, while they build your site, app or slides.",
     href: "/docs/mcp",
     cta: "Connect an agent",
     code: `claude mcp add --transport http ${MCP_NAME} ${MCP_URL}`,
   },
 ];
 const tones = [
-  { tone: "green", title: "Green: use it", ring: "border-success/40", dot: "bg-success", text: "text-success", body: "CC0 and public-domain footage, plus CC BY and NASA media when you credit the source. Turn on Commercial-safe to see only these." },
-  { tone: "amber", title: "Amber: read first", ring: "border-warning/40", dot: "bg-warning", text: "text-warning", body: "Share-alike, unverified uploader claims, third-party footage and paid stock that needs a licence or releases." },
-  { tone: "red", title: "Red: not for commercial use", ring: "border-destructive/40", dot: "bg-destructive", text: "text-destructive", body: "Non-commercial and no-derivatives licences. Fine for study and personal projects, not for ads or client work." },
+  { tone: "green", title: "Green: use it", ring: "border-success/40", dot: "bg-success", text: "text-success", body: "CC0, public-domain and museum open-access images, plus CC BY, NASA media and open-source icon sets when you keep the credit. Turn on Commercial-safe to see only these." },
+  { tone: "amber", title: "Amber: read first", ring: "border-warning/40", dot: "bg-warning", text: "text-warning", body: "Share-alike, unevaluated archive rights, partner-credited images and paid stock that needs a licence or releases." },
+  { tone: "red", title: "Red: not for commercial use", ring: "border-destructive/40", dot: "bg-destructive", text: "text-destructive", body: "Non-commercial and no-derivatives licences. Fine for study, teaching and personal projects, not for ads, products or client work." },
 ] as const;
 const collections = (await allCollections()).filter((c) => c.indexable);
 const hubs = await allHubs();
@@ -70,25 +75,25 @@ const guides = (await allGuides()).slice(0, 8);
     <GridPattern class="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(640px_circle_at_50%_30%,white,transparent)] skew-y-6 fill-primary/20 stroke-primary/15" />
     <div class="pointer-events-none absolute left-1/2 top-[-12rem] -z-10 h-[32rem] w-[64rem] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklch,var(--color-primary)_28%,transparent),transparent)] blur-2xl"></div>
     <div class="mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pt-28">
-      <a href="/sequence" class="group mx-auto inline-flex max-w-full items-center rounded-full border border-border bg-card/60 px-1 py-1 pr-3 text-sm backdrop-blur transition hover:border-primary/40">
+      <a href="/build" class="group mx-auto inline-flex max-w-full items-center rounded-full border border-border bg-card/60 px-1 py-1 pr-3 text-sm backdrop-blur transition hover:border-primary/40">
         <span class="mr-2 shrink-0 rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">New</span>
-        <AnimatedShinyText className="mx-0 max-w-none truncate">Sequence builder: a shot list in, a b-roll edit out</AnimatedShinyText>
+        <AnimatedShinyText className="mx-0 max-w-none truncate">Image set builder: every image a page needs, in one go</AnimatedShinyText>
         <span class="ml-1 text-muted-foreground transition group-hover:translate-x-0.5">→</span>
       </a>
       <h1 class="mx-auto mt-7 max-w-4xl text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
         <span class="mb-3 block text-base font-medium tracking-normal text-muted-foreground sm:text-lg">Image Asset Server</span>
-        Every free stock image,{" "}
-        <span class="bg-gradient-to-r from-primary via-[color-mix(in_oklch,var(--color-primary)_50%,var(--color-brand-2))] to-brand-2 bg-image-text text-transparent">one search</span>
+        Every free image,{" "}
+        <span class="bg-gradient-to-r from-primary via-[color-mix(in_oklch,var(--color-primary)_50%,var(--color-brand-2))] to-brand-2 bg-clip-text text-transparent">one search</span>
       </h1>
       <p class="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground">
-        B-roll, backgrounds, nature, cities, space and archive films from {SOURCE_COUNT} video sites at once. Watch each image, pick the size you need, and get a clear answer to the question that matters: can I put this in a commercial video? In your browser, over an API, or from your AI agent.
+        Photos, public-domain art, maps, illustrations, SVG vectors and icons from {SOURCE_COUNT} image sites at once. Pick the size you need and get a clear answer to the question that matters: can I use this commercially? In your browser, over an API, or from your AI agent.
       </p>
 
       <form action="/search" method="get" role="search" class="relative mx-auto mt-10 max-w-2xl">
-        <label for="hero-q" class="sr-only">Search stock video</label>
+        <label for="hero-q" class="sr-only">Search free images</label>
         <div class="flex items-center gap-2 rounded-2xl border bg-card/80 p-2 shadow-2xl shadow-primary/10 ring-1 ring-primary/10 backdrop-blur focus-within:ring-2 focus-within:ring-primary/40">
           <svg class="ml-2 size-5 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
-          <input id="hero-q" name="q" type="search" required autocomplete="off" placeholder="ocean waves at sunset, 4k vertical drone…" class="h-11 min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-muted-foreground/70" />
+          <input id="hero-q" name="q" type="search" required autocomplete="off" placeholder="mountain lake at sunrise, van gogh, rocket icon…" class="h-11 min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-muted-foreground/70" />
           <button type="submit" class="h-11 shrink-0 rounded-xl bg-primary px-5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Search</button>
         </div>
       </form>
@@ -127,29 +132,31 @@ const guides = (await allGuides()).slice(0, 8);
   <section class="mx-auto max-w-6xl px-4 pt-20 sm:px-6" aria-labelledby="preview">
     <div class="mx-auto max-w-2xl text-center">
       <p class="text-sm font-medium text-primary">See it in action</p>
-      <h2 id="preview" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Hover to watch, with the licence on every card</h2>
-      <p class="mt-4 text-muted-foreground">Results come back as a grid of posters with resolution, shape and length. Hover one and its muted preview plays straight from the source; open it for the full player, every rendition and the credit line.</p>
+      <h2 id="preview" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">One grid, with the licence on every card</h2>
+      <p class="mt-4 text-muted-foreground">Results come back as one grid of thumbnails at their own shapes, with pixel size and source. Open one for the full image, every file size and the credit line.</p>
     </div>
-    <figure class="mt-10">
-      <div class="overflow-hidden rounded-2xl border bg-card/50 shadow-2xl shadow-primary/10 ring-1 ring-primary/10">
-        <picture>
-          <source type="image/avif" srcset="/img/search-preview.avif" />
-          <source type="image/webp" srcset="/img/search-preview.webp" />
-          <img
-            src="/img/search-preview.png"
-            width="1280"
-            height="800"
-            loading="lazy"
-            decoding="async"
-            alt="Image Asset Server search results for “ocean waves”: a grid of video posters, each with a resolution badge, its length, the source and a green, amber or red licence badge, under category chips and orientation, resolution, length and Commercial-safe filters."
-            class="block h-auto w-full"
-          />
-        </picture>
-      </div>
-      <figcaption class="mt-3 text-center text-sm text-muted-foreground">
-        A search for “ocean waves”. <a href="/search?q=ocean+waves" class="text-primary underline decoration-primary/40 underline-offset-2">Try it yourself</a>.
-      </figcaption>
-    </figure>
+    {hasScreenshot && (
+      <figure class="mt-10">
+        <div class="overflow-hidden rounded-2xl border bg-card/50 shadow-2xl shadow-primary/10 ring-1 ring-primary/10">
+          <picture>
+            <source type="image/avif" srcset="/img/search-preview.avif" />
+            <source type="image/webp" srcset="/img/search-preview.webp" />
+            <img
+              src="/img/search-preview.png"
+              width="1280"
+              height="800"
+              loading="lazy"
+              decoding="async"
+              alt="Image Asset Server search results for “saturn”: a grid of thumbnails at their own shapes, each with a size badge, the source and a green, amber or red licence badge, under category chips and kind, orientation, size, format and Commercial-safe filters."
+              class="block h-auto w-full"
+            />
+          </picture>
+        </div>
+        <figcaption class="mt-3 text-center text-sm text-muted-foreground">
+          A search for “saturn”. <a href="/search?q=saturn" class="text-primary underline decoration-primary/40 underline-offset-2">Try it yourself</a>.
+        </figcaption>
+      </figure>
+    )}
     <ul class="mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-3">
       {direct.map((d) => (
         <li class="rounded-2xl border bg-card/40 p-5">
@@ -158,16 +165,16 @@ const guides = (await allGuides()).slice(0, 8);
         </li>
       ))}
     </ul>
-    <p class="mt-4 text-center text-xs text-muted-foreground">No video ever passes through this server: it searches, reads metadata and writes credits. <a href="/docs#no-video-through-the-server" class="text-primary underline underline-offset-2">How it works</a></p>
+    <p class="mt-4 text-center text-xs text-muted-foreground">No image ever passes through this server: it searches, reads metadata and writes credits. <a href="/docs#no-image-passes-through-the-server" class="text-primary underline underline-offset-2">How it works</a></p>
   </section>
 
   <!-- Licence verdicts -->
   <section class="mx-auto max-w-7xl px-4 pt-24 sm:px-6" aria-labelledby="verdicts">
     <div class="mx-auto max-w-2xl text-center">
       <p class="text-sm font-medium text-primary">Licence first</p>
-      <h2 id="verdicts" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Green, amber or red, before the image is in your timeline</h2>
+      <h2 id="verdicts" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Green, amber or red, before the image is in your design</h2>
       <p class="mt-4 text-muted-foreground">
-        Stock footage licences hide traps: share-alike that relicenses your whole video, non-commercial clauses, uploads nobody checked, and people or logos that rule out an ad. Every result carries one verdict, decided the same way for every source, plus an editorial flag when releases are missing.
+        Image licences hide traps: share-alike that follows your edits, no-derivatives that forbids cropping, non-commercial clauses, rights nobody checked, and people or logos that rule out an ad. Every result carries one verdict, decided the same way for every source, plus an editorial flag when releases are missing.
       </p>
     </div>
     <div class="mt-12 grid gap-4 md:grid-cols-3">
@@ -186,16 +193,16 @@ const guides = (await allGuides()).slice(0, 8);
         </div>
       ))}
     </div>
-    <p class="mt-6 text-center text-sm"><a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Video licences explained: CC0, CC BY, share-alike, NASA media, editorial use, credit lines →</a></p>
+    <p class="mt-6 text-center text-sm"><a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Image licences explained: CC0, CC BY, share-alike, museum open access, NASA media, icon sets, credit lines →</a></p>
   </section>
 
   <!-- What it searches -->
   <section class="mx-auto max-w-7xl px-4 py-24 sm:px-6" aria-labelledby="sources">
     <div class="mx-auto max-w-2xl text-center">
       <p class="text-sm font-medium text-primary">What it searches</p>
-      <h2 id="sources" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{SOURCE_COUNT} video sites, one result list</h2>
+      <h2 id="sources" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{SOURCE_COUNT} image sites, one result list</h2>
       <p class="mt-4 text-muted-foreground">
-        NASA's libraries, Wikimedia Commons and the Internet Archive are searched directly, with their licences per image and direct files. Free stock sites and paid libraries that don't allow automated search get a link that runs the same search there.
+        NASA, three major museums, the Library of Congress, Wikimedia Commons, Iconify and Openverse are searched directly, with their licences per image and direct files. Free stock sites and paid libraries that don't allow automated search get a link that runs the same search there.
       </p>
     </div>
     <ul class="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -220,37 +227,37 @@ const guides = (await allGuides()).slice(0, 8);
     <p class="mt-6 text-center text-sm"><a href="/docs/sources" class="text-primary underline underline-offset-2 hover:decoration-2">All sources and their licences →</a></p>
   </section>
 
-  <!-- Sequence builder -->
-  <section class="border-t border-border/60" aria-labelledby="sequence">
+  <!-- Image set builder -->
+  <section class="border-t border-border/60" aria-labelledby="imageset">
     <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2">
       <div>
-        <p class="text-sm font-medium text-primary">Sequence builder</p>
-        <h2 id="sequence" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Write a shot list, get a b-roll edit</h2>
+        <p class="text-sm font-medium text-primary">Image set builder</p>
+        <h2 id="imageset" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">List the images a page needs, get them all</h2>
         <p class="mt-4 text-muted-foreground">
-          One line per shot, with lengths where they matter. Each shot gets the best matching image in your frame shape, at least 1080p where possible, long enough and commercial-safe, with alternatives. Take it into your editor as OpenTimelineIO, render it with the ffmpeg script, or drive a Remotion composition, with ATTRIBUTION.md for the credits.
+          One line per image: a hero, a row of icons, a background, an illustration. Each slot gets the best matching image in its shape and kind, at least half the slot's width where possible and commercial-safe, with alternatives. Take the picks as JSON, as HTML with credit captions, or as a download script, with ATTRIBUTION.md for the credits.
         </p>
         <ul class="mt-6 flex flex-wrap gap-2 text-xs">
-          {["timeline.otio", "concat.sh", "remotion.json", "ATTRIBUTION.md"].map((f) => <li class="rounded-md border bg-card/60 px-2 py-1 font-mono text-muted-foreground">{f}</li>)}
+          {["images.json", "credits.html", "download.sh", "ATTRIBUTION.md"].map((f) => <li class="rounded-md border bg-card/60 px-2 py-1 font-mono text-muted-foreground">{f}</li>)}
         </ul>
         <div class="mt-8 flex flex-wrap gap-3">
-          <a href={sequenceHref} class="rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Try this shot list</a>
-          <a href="/guides/b-roll-sequence-from-shot-list" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Read the guide</a>
+          <a href={buildHref} class="rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Try this list</a>
+          <a href="/guides/ai-agent-find-and-license-images" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Read the guide</a>
         </div>
       </div>
       <div class="overflow-hidden rounded-2xl border bg-[#0d0d12] shadow-2xl shadow-primary/10">
         <div class="flex items-center justify-between border-b border-white/10 px-4 py-2 text-xs text-zinc-400">
-          <span>shots.txt · 9:16 · 20 s</span>
-          <span class="font-mono">POST /v1/sequences</span>
+          <span>slots.txt · 1600 px</span>
+          <span class="font-mono">POST /v1/sets</span>
         </div>
         <ol class="divide-y divide-white/5 font-mono text-[13px] text-zinc-200">
-          {exampleShots.map((shot, i) => (
+          {exampleSlots.map((slot, i) => (
             <li class="flex items-center gap-3 px-4 py-2.5">
               <span class="w-4 text-right text-zinc-500">{i + 1}</span>
-              <span class="min-w-0 flex-1 truncate">{shot}</span>
+              <span class="min-w-0 flex-1 truncate">{slot}</span>
             </li>
           ))}
         </ol>
-        <p class="border-t border-white/10 px-4 py-3 text-xs text-zinc-400">→ one image per shot, alternatives, notes when a image is cropped or upscaled, and the exports</p>
+        <p class="border-t border-white/10 px-4 py-3 text-xs text-zinc-400">→ one image per slot, alternatives, notes when an image is cropped, upscaled or editorial, and the exports</p>
       </div>
     </div>
   </section>
@@ -260,7 +267,7 @@ const guides = (await allGuides()).slice(0, 8);
     <div class="mx-auto max-w-7xl px-4 py-24 sm:px-6">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-medium text-primary">Three ways in</p>
-        <h2 id="ways" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Use it however you make video</h2>
+        <h2 id="ways" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Use it however you work</h2>
         <p class="mt-4 text-muted-foreground">The same search, licence rules and source links behind a website, a REST API and CLI, and an MCP server.</p>
       </div>
       <div class="mt-14 grid gap-4 md:grid-cols-3">
@@ -281,9 +288,9 @@ const guides = (await allGuides()).slice(0, 8);
     <div class="mx-auto grid max-w-7xl items-start gap-12 px-4 py-24 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
       <div class="min-w-0">
         <p class="text-sm font-medium text-primary">For AI agents</p>
-        <h2 id="agents" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Let your agent find the footage</h2>
+        <h2 id="agents" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Let your agent find the images</h2>
         <p class="mt-4 text-muted-foreground">
-          Connect the MCP server once, under the name <code class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm">{MCP_NAME}</code>. Your agent can then search every source, check each licence, fetch the right rendition and cut b-roll sequences while it builds your video, site or app. It searches commercial-safe by default and is told never to pass off a non-commercial, unclear or editorial-only image as cleared for ads.
+          Connect the MCP server once, under the name <code class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm">{MCP_NAME}</code>. Your agent can then search every source, check each licence, fetch the right size and fill every image slot while it builds your site, app, slides or document. It searches commercial-safe by default and is told never to pass off a non-commercial, unclear or editorial-only image as cleared for ads.
         </p>
         <ul class="mt-8 space-y-3">
           {EXAMPLE_PROMPTS.map((p) => (
@@ -307,8 +314,8 @@ const guides = (await allGuides()).slice(0, 8);
     <section class="mx-auto max-w-7xl px-4 py-24 sm:px-6" aria-labelledby="browse">
       <div class="mx-auto max-w-2xl text-center">
         <p class="text-sm font-medium text-primary">Browse</p>
-        <h2 id="browse" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Free footage collections</h2>
-        <p class="mt-4 text-muted-foreground">Saved searches for the footage editors ask for most, refreshed daily, with a licence verdict on every image.</p>
+        <h2 id="browse" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Free image collections</h2>
+        <p class="mt-4 text-muted-foreground">Saved searches for the images people ask for most, refreshed daily, with a licence verdict on every image.</p>
       </div>
       <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {hubs.map((h) => (
@@ -329,7 +336,7 @@ const guides = (await allGuides()).slice(0, 8);
           </ul>
         </div>
       )}
-      <p class="mt-6 text-center text-sm"><a href={COLLECTIONS_PATH} class="text-primary underline underline-offset-2 hover:decoration-2">All footage collections →</a></p>
+      <p class="mt-6 text-center text-sm"><a href={COLLECTIONS_PATH} class="text-primary underline underline-offset-2 hover:decoration-2">All collections →</a></p>
     </section>
   )}
 
@@ -339,8 +346,8 @@ const guides = (await allGuides()).slice(0, 8);
       <div class="mx-auto max-w-7xl px-4 py-24 sm:px-6">
         <div class="mx-auto max-w-2xl text-center">
           <p class="text-sm font-medium text-primary">Learn</p>
-          <h2 id="guides" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Guides to footage and licences</h2>
-          <p class="mt-4 text-muted-foreground">Short answers first, details after: what you may publish, how to credit, NASA and archive rules, vertical video and b-roll workflows.</p>
+          <h2 id="guides" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Guides to images and licences</h2>
+          <p class="mt-4 text-muted-foreground">Short answers first, details after: what you may publish, how to credit, museum and NASA rules, icons and transparent files.</p>
         </div>
         <ul class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {guides.map((g) => (
@@ -377,11 +384,11 @@ const guides = (await allGuides()).slice(0, 8);
   <section class="relative overflow-hidden border-t border-border/60">
     <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_80%_at_50%_100%,color-mix(in_oklch,var(--color-primary)_18%,transparent),transparent)]"></div>
     <div class="mx-auto max-w-3xl px-4 py-24 text-center sm:px-6">
-      <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Stop digging through twenty stock sites</h2>
-      <p class="mt-4 text-muted-foreground">Search once, watch as you go, and know which images you can publish before they end up in your timeline.</p>
+      <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Stop digging through twenty image sites</h2>
+      <p class="mt-4 text-muted-foreground">Search once, and know which images you can publish before they end up in your design.</p>
       <div class="mt-8 flex flex-wrap justify-center gap-3">
         <a href="/search" class="rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Start searching</a>
-        <a href="/sequence" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Build a sequence</a>
+        <a href="/build" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Build an image set</a>
         <a href="/docs" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Read the docs</a>
       </div>
     </div>

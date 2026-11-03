@@ -1,7 +1,7 @@
 {
   "name": "Image Asset Server",
-  "short_name": "Video Assets",
-  "description": "One search for free stock video: b-roll, backgrounds, nature, cities, space and archive films, with the licence on every image.",
+  "short_name": "Image Assets",
+  "description": "One search for free images: photos, public-domain art, maps, SVG vectors and icons, with the licence on every image.",
   "start_url": "/search",
   "display": "standalone",
   "background_color": "#16141f",

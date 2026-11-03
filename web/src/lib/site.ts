@@ -11,7 +11,7 @@ export const SITE = {
   url: (import.meta.env.SITE as string | undefined)?.replace(/\/$/, "") ?? "https://image.shep.bot",
   tagline: "One search for free images, with the licence on every one",
   homeTitle: "Image Asset Server: Free Photos, Museum Art, Vectors & Icons",
-  description: `Search ${providers.length} image sites at once for free photos, public-domain art, maps, SVG vectors and icons. See if each image is cleared for commercial use, and download the size you need.`,
+  description: `Search ${providers.length} image sites at once for free photos, public-domain art, maps, SVG vectors and icons, and see if each one is cleared for commercial use.`,
   repo: "https://github.com/arielshad/image-asset-server",
   image: "/og.png",
   locale: "en_US",

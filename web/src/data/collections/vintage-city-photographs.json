@@ -1,0 +1,42 @@
+{
+  "slug": "vintage-city-photographs",
+  "search": {
+    "q": "city street",
+    "categories": [
+      "archive"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:56:56.553Z",
+  "images": [
+    {
+      "id": "cleveland:711645",
+      "provider": "cleveland",
+      "title": "Streets and Shops in the Tartar city of Pekin",
+      "category": "archive",
+      "url": "https://clevelandart.org/art/2026.60",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/2026.60/2026.60_web.jpg",
+      "previewUrl": "https://openaccess-cdn.clevelandart.org/2026.60/2026.60_web.jpg",
+      "author": "Felice A. Beato",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7043,
+      "height": 6602,
+      "year": 1860
+    }
+  ]
+}

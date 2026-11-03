@@ -211,7 +211,7 @@ export const howTo = (h: { title: string; description: string; path: string; ste
   step: h.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.name, text: s.text, url: `${abs(h.path)}#step-${i + 1}` })),
 });
 
-/** The glossary: a DefinedTermSet whose terms have stable fragment ids (/glossary#b-roll). */
+/** The glossary: a DefinedTermSet whose terms have stable fragment ids (/glossary#cc-by). */
 export const definedTermSet = (g: { title: string; description: string; path: string; terms: { id: string; term: string; definition: string; aliases?: string[]; url?: string }[] }): JsonLd => ({
   "@type": "DefinedTermSet",
   "@id": `${abs(g.path)}#terms`,

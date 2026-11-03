@@ -1,5 +1,5 @@
 ---
-// /sources/<id>: one video site as Image Asset Server sees it: what it holds
+// /sources/<id>: one image site as Image Asset Server sees it: what it holds
 // (from the daily census), how it is searched, its licence, and its images in
 // the curated collections.
 import BaseLayout from "@/layouts/BaseLayout.astro";
@@ -29,8 +29,8 @@ const pricing = { free: "Free", freemium: "Free and paid", paid: "Paid" } as con
 const image = (x: string, n: number) => (x.length > n ? `${x.slice(0, n - 1).trimEnd()}…` : x);
 // Titles stay within 70 characters with the site name; long source names get a shorter tail.
 const fits = (t: string) => t.length + 3 + SITE.name.length <= 70;
-const title = [`${p.name}: free video, licence and downloads`, `${p.name}: free video and licences`, `${p.name}: free video`].find(fits) ?? p.name;
-const description = image(`${p.name}: ${p.license ?? "licence set per image"}, ${p.supportsDownload ? "watch and download images straight from the source" : "linked searches"}. Searched alongside ${SOURCE_COUNT - 1} other video sites. ${p.description}`, 160);
+const title = [`${p.name}: free images, licence and downloads`, `${p.name}: free images and licences`, `${p.name}: free images`].find(fits) ?? p.name;
+const description = image(`${p.name}: ${p.license ?? "licence set per image"}, ${p.supportsDownload ? "download images straight from the source" : "linked searches"}. Searched alongside ${SOURCE_COUNT - 1} other image sites. ${p.description}`, 160);
 const trail = [{ name: "Home", path: "/" }, { name: "Sources", path: "/docs/sources" }, { name: p.name, path }];
 const byCategory = t ? Object.entries(t.byCategory).sort((a, b) => b[1] - a[1]) : [];
 const categories = t?.categories ? Object.keys(t.categories).slice(0, 10) : [];
@@ -66,10 +66,10 @@ const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.i
       <div class="bg-background p-4"><dt class="text-muted-foreground">Licence</dt><dd class="mt-1 font-medium">{p.license ?? "Set per image"}{p.licenseVerdict && <span class="block text-xs font-normal text-muted-foreground">{VERDICT_LABELS[p.licenseVerdict as Verdict] ?? p.licenseVerdict}</span>}</dd></div>
       <div class="bg-background p-4"><dt class="text-muted-foreground">Pricing</dt><dd class="mt-1 font-medium">{pricing[p.pricing as keyof typeof pricing]}</dd></div>
       <div class="bg-background p-4"><dt class="text-muted-foreground">Direct download</dt><dd class="mt-1 font-medium">{p.supportsDownload ? "Yes, straight from the source" : "No, results link to the source site"}</dd></div>
-      <div class="bg-background p-4"><dt class="text-muted-foreground">Footage</dt><dd class="mt-1 font-medium">{p.categories.map(categoryLabel).join(", ") || "Various"}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Subjects</dt><dd class="mt-1 font-medium">{p.categories.map(categoryLabel).join(", ") || "Various"}</dd></div>
       <div class="bg-background p-4 sm:col-span-2"><dt class="text-muted-foreground">How it is searched</dt><dd class="mt-1 font-medium">{access[p.access as keyof typeof access]}</dd></div>
       {t && (
-        <div class="bg-background p-4"><dt class="text-muted-foreground">Videos (counted {COUNTED_ON})</dt><dd class="mt-1 font-medium">{fmt(t.total, t.atLeast)}{t.free !== undefined && t.pricing !== "free" ? `, ${fmt(t.free)} free` : ""}</dd></div>
+        <div class="bg-background p-4"><dt class="text-muted-foreground">Images (counted {COUNTED_ON})</dt><dd class="mt-1 font-medium">{fmt(t.total, t.atLeast)}{t.free !== undefined && t.pricing !== "free" ? `, ${fmt(t.free)} free` : ""}</dd></div>
       )}
       {t && byCategory.length > 0 && (
         <div class="bg-background p-4"><dt class="text-muted-foreground">By category</dt><dd class="mt-1 font-medium">{byCategory.slice(0, 4).map(([k, n]) => `${categoryName(k)} ${fmt(n)}`).join(", ")}</dd></div>
@@ -94,7 +94,7 @@ const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.i
             <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.bestFor}</p>
           </section>
           <section aria-labelledby="licence">
-            <h2 id="licence" class="text-xl font-semibold tracking-tight">Licence and what it means for your video</h2>
+            <h2 id="licence" class="text-xl font-semibold tracking-tight">Licence and what it means for you</h2>
             <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.licence}</p>
           </section>
           <section aria-labelledby="how">
@@ -127,7 +127,7 @@ const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.i
     {s.images.length > 0 && (
       <section class="mt-14" aria-labelledby="examples">
         <h2 id="examples" class="text-2xl font-semibold tracking-tight">{p.name} in the collections</h2>
-        <p class="mt-2 text-sm text-muted-foreground">Some of the {p.name} images picked for the curated collections below. Hover one to watch its preview, straight from {p.name}.</p>
+        <p class="mt-2 text-sm text-muted-foreground">Some of the {p.name} images picked for the curated collections below. Thumbnails load straight from {p.name}.</p>
         <ul class="mt-6 grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {s.images.map((a) => <ImageCard image={a} />)}
         </ul>
@@ -136,7 +136,7 @@ const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.i
 
     {s.collections.length > 0 && (
       <section class="mt-14 max-w-3xl" aria-labelledby="collections">
-        <h2 id="collections" class="text-xl font-semibold tracking-tight">Collections with {p.name} footage</h2>
+        <h2 id="collections" class="text-xl font-semibold tracking-tight">Collections with {p.name} images</h2>
         <ul class="mt-4 divide-y rounded-xl border text-sm">
           {s.collections.map(({ collection: c, count }) => (
             <li class="flex items-center justify-between gap-3 px-4 py-3">

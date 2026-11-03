@@ -48,8 +48,8 @@ export function collectionMarkdown(c: Collection, related: Collection[]): string
     `- Same search in the browser: ${abs(searchHref(d.search))}`,
     `- Same search over the API: \`curl "${apiHref(d.search)}"\``,
     "- Details, files and the credit line: `GET " + SITE.url + "/v1/images/{id}` with an id from the table below.",
-    "- Licence verdicts: \"Commercial use OK\" (with or without credit) is cleared for commercial videos; anything else must be checked or is non-commercial. \"(editorial)\" means people, insignia or brands appear without releases: not for ads. See " + abs("/docs/licences.md"),
-    "- Video is never re-hosted: posters, previews and downloads come straight from the source sites.",
+    "- Licence verdicts: \"Commercial use OK\" (with or without credit) is cleared for commercial use; anything else must be checked or is non-commercial. \"(editorial)\" means people, insignia or brands appear without releases: not for ads. See " + abs("/docs/licences.md"),
+    "- Images are never re-hosted: thumbnails, previews and downloads come straight from the source sites.",
     "",
     absolutize(c.topic.body?.trim() ?? ""),
     "",
@@ -93,9 +93,9 @@ export function hubMarkdown(hub: Hub, cs: Collection[], hubs: Hub[], guides: { t
 export function indexMarkdown(all: Collection[], hubs: Hub[]): string {
   const updated = latest(all);
   return [
-    "# Free stock footage collections",
+    "# Free image collections",
     "",
-    `> Curated collections of free stock video (nature, cities, space, science, archive films, backgrounds and vertical images) from many video sites, with a licence verdict on every image, refreshed daily${updated ? ` (last change ${day(updated)})` : ""}. Each collection is a saved search; agents can run the same search with \`GET ${SITE.url}/v1/search\`.`,
+    `> Curated collections of free images (nature photos, public-domain art, space, old maps and photographs, icons and textures) from many image sites, with a licence verdict on every image, refreshed daily${updated ? ` (last change ${day(updated)})` : ""}. Each collection is a saved search; agents can run the same search with \`GET ${SITE.url}/v1/search\`.`,
     "",
     ...hubs.flatMap((hub) => {
       const cs = all.filter((c) => c.hub.id === hub.id);

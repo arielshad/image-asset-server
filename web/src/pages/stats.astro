@@ -7,10 +7,10 @@ import { aboutPage, breadcrumbs, catalogDataset } from "@/lib/schema";
 import { INTEGRATIONS, PROVIDERS, SOURCE_COUNT } from "@/lib/site";
 
 const t = CATALOG.totals;
-const title = "Stock video statistics";
+const title = "Free image statistics";
 const description = HAS_CATALOG
-  ? `${fmtWords(t.listings.count, t.listings.atLeast)} video listings from ${t.sourcesCounted} sources, ${fmtWords(t.free.count, t.free.atLeast)} of them free, counted daily by category and source, plus live usage.`
-  : `How many videos the ${SOURCE_COUNT} searched sites hold, counted daily by category and source, and how people and AI agents use Image Asset Server.`;
+  ? `${fmtWords(t.listings.count, t.listings.atLeast)} image listings from ${t.sourcesCounted} sources, ${fmtWords(t.free.count, t.free.atLeast)} of them free, counted daily by category and source, plus live usage.`
+  : `How many images the ${SOURCE_COUNT} searched sites hold, counted daily by category and source, and how people and AI agents use Image Asset Server.`;
 const names = Object.fromEntries(PROVIDERS.map((p) => [p.id, p.name]));
 const recent = INTEGRATIONS.slice(0, 6);
 const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
@@ -25,9 +25,9 @@ const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short",
   <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
     <header class="max-w-3xl">
       <p class="text-sm font-medium text-primary">Image Asset Server</p>
-      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">Stock video in numbers</h1>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">Free images in numbers</h1>
       <p class="mt-4 text-pretty text-muted-foreground">
-        How many videos the sources Image Asset Server searches hold, counted every day by category and source, and how people and AI agents use it. Usage counts are anonymous totals: no search terms, IP addresses or accounts.
+        How many images the sources Image Asset Server searches hold, counted every day by category and source, and how people and AI agents use it. Usage counts are anonymous totals: no search terms, IP addresses or accounts.
       </p>
     </header>
 
@@ -47,7 +47,7 @@ const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short",
         <a href="/docs/sources" class="text-sm text-primary underline underline-offset-2 hover:decoration-2">All sources &amp; licences →</a>
       </div>
       <p class="mt-1 text-sm text-muted-foreground">
-        New video sources are checked regularly. A site is searched directly only when its terms allow automated search and its integration passes the test suite against the live site; the rest get deep links.
+        New image sources are checked regularly. A site is searched directly only when its terms allow automated search and its integration passes the test suite against the live site; the rest get deep links.
       </p>
       <ul class="mt-4 divide-y rounded-xl border">
         {recent.map((i) => (

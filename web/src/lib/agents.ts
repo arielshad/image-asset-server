@@ -79,8 +79,8 @@ export const AGENT_CLIENTS: AgentClient[] = [
 ];
 
 export const EXAMPLE_PROMPTS = [
-  "Find three 4K images of ocean waves at sunset I can use in a client ad, and tell me the credit lines",
-  "Build a 30-second vertical b-roll sequence for a Reel: city skyline at night, coffee pour, people walking in the rain",
-  "Get a rocket launch in slow motion from NASA and download the 1080p rendition into ./footage",
-  "I need a 1950s newsreel shot of a factory for a documentary; check whether it's editorial-only",
+  "Find a wide 4K photo of a misty forest I can use in a client's hero section, and tell me the credit line",
+  "Pick the images for this landing page: a hero of a mountain lake, icons for upload, share and settings, and a paper texture background",
+  "Get Hubble's Crab Nebula from NASA and download a 1920 px copy into ./images",
+  "I need a public-domain Hokusai print for a book cover; check the licence and which museum it's from",
 ];

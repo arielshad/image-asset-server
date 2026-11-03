@@ -1,0 +1,1005 @@
+{
+  "slug": "public-domain-impressionist-paintings",
+  "search": {
+    "q": "impressionism",
+    "categories": [
+      "art.painting"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:56:36.162Z",
+  "images": [
+    {
+      "id": "openverse:a40da463-5b0f-4982-bf83-ba40153052ec",
+      "provider": "openverse",
+      "title": "In an #odilonredon kind of mood. #lilypads #dreamscape #rêve #impressionism #nénuphars",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/71078118@N00/19856128564",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/a40da463-5b0f-4982-bf83-ba40153052ec/thumb/",
+      "previewUrl": "https://live.staticflickr.com/556/19856128564_d0154d897f_b.jpg",
+      "author": "Joel Bedford",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "wikimediacommons:Milwaukee_Art_Museum_January_2023_08_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "provider": "wikimediacommons",
+      "title": "Milwaukee Art Museum January 2023 08 (The European Galleries--Impressionism and Its Influence)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_January_2023_08_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "painting"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Milwaukee_Art_Museum_January_2023_08_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/330px-Milwaukee_Art_Museum_January_2023_08_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Milwaukee_Art_Museum_January_2023_08_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/1280px-Milwaukee_Art_Museum_January_2023_08_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "author": "Michael Barera",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6000,
+      "height": 4000,
+      "year": 2023
+    },
+    {
+      "id": "openverse:a7d3ba6d-d4b2-43da-8174-8e2cd060498f",
+      "provider": "openverse",
+      "title": "Second Impressionism - Saturday in the Park with Friends",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/76154228@N00/182839989",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/a7d3ba6d-d4b2-43da-8174-8e2cd060498f/thumb/",
+      "previewUrl": "https://live.staticflickr.com/9/182839989_a6567e85fa_b.jpg",
+      "author": "OldOnliner",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "artic:64729",
+      "provider": "artic",
+      "title": "Early Morning, Tarpon Springs",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/64729",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+      "author": "George Inness",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 4658,
+      "height": 6097,
+      "year": 1892
+    },
+    {
+      "id": "wikimediacommons:20260324_Inside_of_the_Museum_of_Russian_Impressionism_(29706).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Inside of the Museum of Russian Impressionism (29706)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Inside_of_the_Museum_of_Russian_Impressionism_(29706).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2829706%29.jpg/330px-20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2829706%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2829706%29.jpg/1280px-20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2829706%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "openverse:4b24e601-818a-4da7-887c-552e58de3cea",
+      "provider": "openverse",
+      "title": "'Place de la Concorde à Paris' (1880) by Giuseppe De Nittis (Barletta 1846-Saint Germain en Laye 1884) - Courtesy Galleria Bottegantica, Milan, now at Exhibition 'From De Nittis to Gemito. Neapolitain Painters in Paris during the Impressionism' at Zevallo",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/70125105@N06/39330812044",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/4b24e601-818a-4da7-887c-552e58de3cea/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4662/39330812044_dc42a6e976_b.jpg",
+      "author": "Carlo Raso",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "check-terms",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 816
+    },
+    {
+      "id": "wikimediacommons:20260324_Exhibition_\"Under_the_mask\"_in_the_Museum_of_Russian_Impressionism_(41336).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Exhibition \"Under the mask\" in the Museum of Russian Impressionism (41336)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_(41336).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2841336%29.jpg/330px-20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2841336%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2841336%29.jpg/1280px-20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2841336%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "artic:27992",
+      "provider": "artic",
+      "title": "A Sunday on La Grande Jatte — 1884",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/27992",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "author": "Georges Seurat",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 9310,
+      "height": 6237,
+      "year": 1884
+    },
+    {
+      "id": "loc:2021670666",
+      "provider": "loc",
+      "title": "View of the Port of La Luz and the City of Las Palmas de Gran Canaria.",
+      "category": "art.painting",
+      "url": "https://www.loc.gov/item/2021670666/",
+      "downloadable": true,
+      "thumbnailUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:13:06:9:wdl_13069:cabgc_016_0001/full/pct:12.5/0/default.jpg",
+      "previewUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:13:06:9:wdl_13069:cabgc_016_0001/full/pct:100/0/default.jpg",
+      "author": "eliseo meifrén",
+      "license": {
+        "id": "LicenseRef-Rights-not-stated",
+        "name": "Rights not stated",
+        "url": "https://www.loc.gov/rr/print/195_copr.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 2646,
+      "height": 1937,
+      "year": 1889
+    },
+    {
+      "id": "wikimediacommons:Milwaukee_Art_Museum_January_2023_09_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "provider": "wikimediacommons",
+      "title": "Milwaukee Art Museum January 2023 09 (The European Galleries--Impressionism and Its Influence)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_January_2023_09_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "painting"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Milwaukee_Art_Museum_January_2023_09_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/330px-Milwaukee_Art_Museum_January_2023_09_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Milwaukee_Art_Museum_January_2023_09_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/1280px-Milwaukee_Art_Museum_January_2023_09_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "author": "Michael Barera",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6000,
+      "height": 4000,
+      "year": 2023
+    },
+    {
+      "id": "openverse:693216f2-ef60-4e7b-ad4e-603229bf4e57",
+      "provider": "openverse",
+      "title": "Manguin, the Joy of Colour - A Special Exhibition at the Museum of Impressionism, Giverny - 2017",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/22834654@N04/38158897601",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/693216f2-ef60-4e7b-ad4e-603229bf4e57/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4520/38158897601_477ff90446_b.jpg",
+      "author": "UGArdener",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 798
+    },
+    {
+      "id": "artic:138",
+      "provider": "artic",
+      "title": "Flower Girl in Holland",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/138",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/843,/0/default.jpg",
+      "author": "George Hitchcock",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6374,
+      "height": 3368,
+      "year": 1887
+    },
+    {
+      "id": "wikimediacommons:20260324_Inside_of_the_Museum_of_Russian_Impressionism_(42525).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Inside of the Museum of Russian Impressionism (42525)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Inside_of_the_Museum_of_Russian_Impressionism_(42525).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2842525%29.jpg/330px-20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2842525%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2842525%29.jpg/1280px-20260324_Inside_of_the_Museum_of_Russian_Impressionism_%2842525%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "openverse:c6ac92db-19ad-4963-b197-3069edbf4853",
+      "provider": "openverse",
+      "title": "First Impressionism",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/76154228@N00/179768787",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/c6ac92db-19ad-4963-b197-3069edbf4853/thumb/",
+      "previewUrl": "https://live.staticflickr.com/67/179768787_c2cf90edc0_b.jpg",
+      "author": "OldOnliner",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "artic:71573",
+      "provider": "artic",
+      "title": "A Holiday",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/71573",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
+      "author": "Edward Henry Potthast",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 5778,
+      "height": 4322,
+      "year": 1915
+    },
+    {
+      "id": "wikimediacommons:20260324_Museum_of_Russian_Impressionism_building.jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Museum of Russian Impressionism building",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Museum_of_Russian_Impressionism_building.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/20260324_Museum_of_Russian_Impressionism_building.jpg/330px-20260324_Museum_of_Russian_Impressionism_building.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/20260324_Museum_of_Russian_Impressionism_building.jpg/1280px-20260324_Museum_of_Russian_Impressionism_building.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 2252,
+      "height": 4000,
+      "year": 2026
+    },
+    {
+      "id": "openverse:9af40a53-2a07-4b38-bce4-1aa0e1abbca4",
+      "provider": "openverse",
+      "title": "Impressionism pictures",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/39194929@N02/4221630753",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/9af40a53-2a07-4b38-bce4-1aa0e1abbca4/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2640/4221630753_9027a16fdc_b.jpg",
+      "author": "yokopakumayoko",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "artic:4749",
+      "provider": "artic",
+      "title": "Mrs. George Swinton (Elizabeth Ebsworth)",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/4749",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
+      "author": "John Singer Sargent",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 3330,
+      "height": 6269,
+      "year": 1897
+    },
+    {
+      "id": "wikimediacommons:20260324_Exhibition_\"Under_the_mask\"_in_the_Museum_of_Russian_Impressionism_(53183).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Exhibition \"Under the mask\" in the Museum of Russian Impressionism (53183)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_(53183).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2853183%29.jpg/330px-20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2853183%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2853183%29.jpg/1280px-20260324_Exhibition_%22Under_the_mask%22_in_the_Museum_of_Russian_Impressionism_%2853183%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "openverse:b5e5ce1b-7e69-4296-a16e-d6516a12d07c",
+      "provider": "openverse",
+      "title": "Impressionism",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/26479542@N04/44893190401",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/b5e5ce1b-7e69-4296-a16e-d6516a12d07c/thumb/",
+      "previewUrl": "https://live.staticflickr.com/1918/44893190401_1e0a5d070b_b.jpg",
+      "author": "Spyros Papaspyropoulos",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "artic:14309",
+      "provider": "artic",
+      "title": "Coast Scene, Bathers",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/14309",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
+      "author": "James McNeill Whistler",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6110,
+      "height": 3662,
+      "year": 1884
+    },
+    {
+      "id": "wikimediacommons:20260324_Museum_of_Russian_Impressionism_building_(86900).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Museum of Russian Impressionism building (86900)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Museum_of_Russian_Impressionism_building_(86900).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/20260324_Museum_of_Russian_Impressionism_building_%2886900%29.jpg/330px-20260324_Museum_of_Russian_Impressionism_building_%2886900%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/20260324_Museum_of_Russian_Impressionism_building_%2886900%29.jpg/1280px-20260324_Museum_of_Russian_Impressionism_building_%2886900%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "openverse:d6890ec6-11ff-41dc-a45b-b98111b4535e",
+      "provider": "openverse",
+      "title": "National Museum of Korea - Beyond Impressionism, the Birth of Modern Art 04",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=36228068",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/d6890ec6-11ff-41dc-a45b-b98111b4535e/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/d6890ec6-11ff-41dc-a45b-b98111b4535e/thumb/",
+      "author": "KOREA.NET - Official page of the Republic of Korea",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4984,
+      "height": 1824
+    },
+    {
+      "id": "artic:90333",
+      "provider": "artic",
+      "title": "An Alcove in the Art Students' League",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/90333",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/607d4ff1-578f-79ee-9980-ed133c743e64/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/607d4ff1-578f-79ee-9980-ed133c743e64/full/843,/0/default.jpg",
+      "author": "Charles Courtney Curran",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 5848,
+      "height": 4365,
+      "year": 1888
+    },
+    {
+      "id": "wikimediacommons:Milwaukee_Art_Museum_January_2023_12_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "provider": "wikimediacommons",
+      "title": "Milwaukee Art Museum January 2023 12 (The European Galleries--Impressionism and Its Influence)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_January_2023_12_(The_European_Galleries--Impressionism_and_Its_Influence).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "painting"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Milwaukee_Art_Museum_January_2023_12_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/330px-Milwaukee_Art_Museum_January_2023_12_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Milwaukee_Art_Museum_January_2023_12_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg/1280px-Milwaukee_Art_Museum_January_2023_12_%28The_European_Galleries--Impressionism_and_Its_Influence%29.jpg",
+      "author": "Michael Barera",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6000,
+      "height": 4000,
+      "year": 2023
+    },
+    {
+      "id": "artic:111442",
+      "provider": "artic",
+      "title": "The Child's Bath",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/111442",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "author": "Mary Cassatt",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 8470,
+      "height": 12853,
+      "year": 1893
+    },
+    {
+      "id": "wikimediacommons:Suprematism_of_1915,_Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
+      "provider": "wikimediacommons",
+      "title": "Suprematism of 1915, Kazimir Malevich - His Path From Impressionism to Suprematism Moscow, 1920",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Suprematism_of_1915,_Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Suprematism_of_1915%2C_Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png/330px-Suprematism_of_1915%2C_Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Suprematism_of_1915%2C_Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
+      "author": "Unknown author Unknown author",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "landscape",
+      "width": 882,
+      "height": 649,
+      "year": 1920
+    },
+    {
+      "id": "openverse:fd351179-86e0-49f7-9b83-b0db5eff24fb",
+      "provider": "openverse",
+      "title": "Samui Impressionism",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/63284950@N00/7480853212",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/fd351179-86e0-49f7-9b83-b0db5eff24fb/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7126/7480853212_7bf8582bab_b.jpg",
+      "author": "David L.",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 587
+    },
+    {
+      "id": "artic:80499",
+      "provider": "artic",
+      "title": "Dorothea and Francesca",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/80499",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/843,/0/default.jpg",
+      "author": "Cecilia Beaux",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 3372,
+      "height": 5957,
+      "year": 1898
+    },
+    {
+      "id": "wikimediacommons:20260324_Museum_of_Russian_Impressionism_building_(94146).jpg",
+      "provider": "wikimediacommons",
+      "title": "20260324 Museum of Russian Impressionism building (94146)",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:20260324_Museum_of_Russian_Impressionism_building_(94146).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/20260324_Museum_of_Russian_Impressionism_building_%2894146%29.jpg/330px-20260324_Museum_of_Russian_Impressionism_building_%2894146%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/20260324_Museum_of_Russian_Impressionism_building_%2894146%29.jpg/1280px-20260324_Museum_of_Russian_Impressionism_building_%2894146%29.jpg",
+      "author": "Sergey A. Demidov",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2252,
+      "year": 2026
+    },
+    {
+      "id": "openverse:6ff93cf4-dfbe-406b-b640-2043b2fa8089",
+      "provider": "openverse",
+      "title": "Impressionism, the DSLR way",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/46645318@N02/4415652739",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/6ff93cf4-dfbe-406b-b640-2043b2fa8089/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4036/4415652739_4f63858a19_b.jpg",
+      "author": "Joe Dsilva",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "artic:7503",
+      "provider": "artic",
+      "title": "The Annunciation",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/7503",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/e35161fb-cd78-b757-8000-15ba3ebb0fc3/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/e35161fb-cd78-b757-8000-15ba3ebb0fc3/full/843,/0/default.jpg",
+      "author": "George Hitchcock",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 8006,
+      "height": 6266,
+      "year": 1887
+    },
+    {
+      "id": "wikimediacommons:\"Realism_meets_Impressionism\"_René_Cheng,_oil_painting,_2018.jpg",
+      "provider": "wikimediacommons",
+      "title": "\"Realism meets Impressionism\" René Cheng, oil painting, 2018",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Realism_meets_Impressionism%22_Ren%C3%A9_Cheng,_oil_painting,_2018.jpg",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%22Realism_meets_Impressionism%22_Ren%C3%A9_Cheng%2C_oil_painting%2C_2018.jpg/330px-%22Realism_meets_Impressionism%22_Ren%C3%A9_Cheng%2C_oil_painting%2C_2018.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%22Realism_meets_Impressionism%22_Ren%C3%A9_Cheng%2C_oil_painting%2C_2018.jpg/1280px-%22Realism_meets_Impressionism%22_Ren%C3%A9_Cheng%2C_oil_painting%2C_2018.jpg",
+      "author": "René Cheng",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3099,
+      "height": 2179,
+      "year": 2018
+    },
+    {
+      "id": "openverse:a1d79719-b167-4723-9feb-bc75593a7e57",
+      "provider": "openverse",
+      "title": "IMG_4753A Emil Jakob Schindler 1842-1892 Wien Voie forestière près de Schärfling Forest lane near Schärfling 1890 Wien Leopold Museum Pré-impressionnisme, Influence du paysagisme néerlandais du 17è siècle Pre-Impressionism, Influence of Dutch Landscap",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/79505738@N03/49104503937",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/a1d79719-b167-4723-9feb-bc75593a7e57/thumb/",
+      "previewUrl": "https://live.staticflickr.com/65535/49104503937_6d2658f46a_b.jpg",
+      "author": "jean louis mazieres",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 731
+    },
+    {
+      "id": "artic:121377",
+      "provider": "artic",
+      "title": "Boats at Rest",
+      "category": "art.painting",
+      "url": "https://www.artic.edu/artworks/121377",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://www.artic.edu/iiif/2/56a4af78-1d23-3e2a-6119-8aa47e0cf285/full/400,/0/default.jpg",
+      "previewUrl": "https://www.artic.edu/iiif/2/56a4af78-1d23-3e2a-6119-8aa47e0cf285/full/843,/0/default.jpg",
+      "author": "Arthur Wesley Dow",
+      "license": {
+        "id": "LicenseRef-Museum-Open-Access",
+        "name": "Public domain (museum open access, CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 9449,
+      "height": 6841,
+      "year": 1895
+    },
+    {
+      "id": "wikimediacommons:In_the_Museum_of_Russian_impressionism_2018-03-08.jpg",
+      "provider": "wikimediacommons",
+      "title": "In the Museum of Russian impressionism 2018-03-08",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:In_the_Museum_of_Russian_impressionism_2018-03-08.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/In_the_Museum_of_Russian_impressionism_2018-03-08.jpg/330px-In_the_Museum_of_Russian_impressionism_2018-03-08.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/In_the_Museum_of_Russian_impressionism_2018-03-08.jpg/1280px-In_the_Museum_of_Russian_impressionism_2018-03-08.jpg",
+      "author": "Krassotkin",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3264,
+      "height": 1836,
+      "year": 2018
+    }
+  ]
+}

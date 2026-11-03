@@ -7,8 +7,8 @@ import { CATALOG, CATALOG_SENTENCE, CATEGORIES_BY_SIZE, COUNTED_ON, FREE_LIBRARI
 
 const t = CATALOG.totals;
 const tiles = [
-  { label: "Video listings", value: fmtShort(t.listings.count, t.listings.atLeast), exact: fmt(t.listings.count, t.listings.atLeast), hint: `on ${t.sourcesCounted} sources` },
-  { label: "Free", value: fmtShort(t.free.count, t.free.atLeast), exact: fmt(t.free.count, t.free.atLeast), hint: "free to watch and download" },
+  { label: "Image listings", value: fmtShort(t.listings.count, t.listings.atLeast), exact: fmt(t.listings.count, t.listings.atLeast), hint: `on ${t.sourcesCounted} sources` },
+  { label: "Free", value: fmtShort(t.free.count, t.free.atLeast), exact: fmt(t.free.count, t.free.atLeast), hint: "free to view and download" },
   // The CC0 count only covers sources that report licences in their totals: leave it out until one does.
   ...(t.cc0.count > 0 ? [{ label: "CC0 / public domain", value: fmtShort(t.cc0.count, t.cc0.atLeast), exact: fmt(t.cc0.count, t.cc0.atLeast), hint: "no credit needed" }] : []),
   { label: "Direct downloads", value: fmtShort(t.directDownload.count, t.directDownload.atLeast), exact: fmt(t.directDownload.count, t.directDownload.atLeast), hint: "free files linked straight from the source" },
@@ -65,7 +65,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
     <blockquote class="max-w-3xl text-pretty text-base">{CATALOG_SENTENCE}</blockquote>
     <CopyButton client:visible text={`${CATALOG_SENTENCE} Source: https://image.shep.bot/stats`} />
     <figcaption class="w-full text-xs text-muted-foreground">
-      Quote it freely. A "listing" is one video item on its source (an archive item can hold a whole film). Numbers with + are lower bounds (some sources cap the counts they report).
+      Quote it freely. A "listing" is one image record on its source (a museum record can hold several views of an object). Numbers with + are lower bounds (some sources cap the counts they report).
     </figcaption>
   </figure>
 
@@ -96,7 +96,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
           <li class="flex items-center justify-between gap-3 px-4 py-2.5 text-sm">
             <a href={`/sources/${s.id}`} class="font-medium hover:underline">{s.name}</a>
             <span class="text-right text-muted-foreground">
-              <span class="tabular-nums text-foreground">{fmt(s.total, s.atLeast)}</span> videos
+              <span class="tabular-nums text-foreground">{fmt(s.total, s.atLeast)}</span> images
               {licenceName(s) && <span class="ml-1 text-xs">· {licenceName(s)}</span>}
             </span>
           </li>
@@ -159,7 +159,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
         ))}
         {downloads.map((s) => (
           <li class="rounded-xl border bg-card/40 p-5">
-            <p class="text-xs text-muted-foreground">All {s.name} videos</p>
+            <p class="text-xs text-muted-foreground">All {s.name} images</p>
             <p class="mt-1 font-medium">Downloaded in total</p>
             <p class="mt-2 text-2xl font-semibold tabular-nums tracking-tight">{fmtShort(s.downloads!)} <span class="text-sm font-normal text-muted-foreground">({fmt(s.downloads!)})</span></p>
           </li>

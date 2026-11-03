@@ -26,9 +26,9 @@ const KICKERS = [
   ["/docs/faq", "FAQ"],
   ["/docs", "Docs"],
   ["/stats", "Live stats"],
-  ["/sequence", "Sequence builder"],
+  ["/build", "Image set builder"],
   ["/glossary", "Glossary"],
-  ["/footage", "Footage collections"],
+  ["/collections", "Collections"],
   ["/sources", "Source"],
   ["/search", "Search"],
   ["/about", "About"],
@@ -38,9 +38,9 @@ const KICKERS = [
 ];
 
 const CHIPS = {
-  "/glossary": ["B-roll", "4K", "Codec", "CC BY", "Editorial"],
+  "/glossary": ["Resolution", "SVG", "CC0", "CC BY", "Editorial"],
   "/docs/faq": ["Licences", "Downloads", "API", "Agents"],
-  "/guides": ["Licences", "Credits", "NASA", "Vertical video"],
+  "/guides": ["Licences", "Credits", "Museums", "Icons"],
   "/docs/mcp": ["MCP", "Claude Code", "Cursor", "Copilot"],
   "/docs/api": ["REST", "OpenAPI 3.1", "JSON"],
   "/docs/api/reference": ["OpenAPI 3.1", "Schemas", "curl"],
@@ -48,9 +48,9 @@ const CHIPS = {
   "/docs/api/versioning": ["/v1", "RateLimit headers", "Deprecation"],
   "/docs/cli": ["CLI", "npx", "stdio MCP", "Docker"],
   "/docs/self-hosting": ["Docker", "Port 8787", "Prometheus"],
-  "/docs/licences": ["CC0", "CC BY", "NASA", "Editorial"],
-  "/sequence": ["Shot list", "OTIO", "ffmpeg", "Remotion"],
-  "/stats": ["Videos by category", "Every source", "Live usage"],
+  "/docs/licences": ["CC0", "CC BY", "Museums", "Icon sets"],
+  "/build": ["Slot list", "images.json", "credits.html", "download.sh"],
+  "/stats": ["Images by category", "Every source", "Live usage"],
 };
 
 const attr = (html, re) => {
@@ -84,7 +84,7 @@ export default function ogImages() {
               .filter((f) => f.endsWith(".md"))
               .map((f) => [`/guides/${f.slice(0, -3)}`, `Guide · ${readFileSync(join(guidesDir, f), "utf8").match(/^section:\s*"?([^"\n]+)"?\s*$/m)?.[1] ?? "Guide"}`])
           : [];
-        const kickers = [...guideKickers, ["/guides", "Guides"], ...hubs.map((h) => [`/footage/${h.id}`, h.name]), ...KICKERS];
+        const kickers = [...guideKickers, ["/guides", "Guides"], ...hubs.map((h) => [`/collections/${h.id}`, h.name]), ...KICKERS];
         const big = (c) => (c.count >= 1e6 ? `${Math.floor(c.count / 1e5) / 10}M` : c.count >= 1e4 ? `${Math.floor(c.count / 1e3)}K` : c.count.toLocaleString("en")) + (c.atLeast || c.count >= 1e4 ? "+" : "");
         const out = fileURLToPath(dir);
         const started = Date.now();
@@ -104,8 +104,8 @@ export default function ogImages() {
             route === "/"
               ? pageCard({
                   title: "One search for every",
-                  highlight: "free stock video image",
-                  subtitle: `${totals?.free?.count ? `${big(totals.free)} free videos` : "B-roll, backgrounds, space and archive films"} from ${providers.length} sites · watch from the source · a licence verdict on every image · API & MCP`,
+                  highlight: "free image",
+                  subtitle: `${totals?.free?.count ? `${big(totals.free)} free images` : "Photos, museum art, maps, vectors and icons"} from ${providers.length} sites · straight from the source · a licence verdict on every image · API & MCP`,
                   chips: searched.slice(0, 4).map((p) => p.name),
                   site: host,
                 })
@@ -117,10 +117,10 @@ export default function ogImages() {
                     CHIPS[route] ??
                     (route === "/docs/sources" || route === "/search"
                       ? searched.slice(0, 4).map((p) => p.name)
-                      : route.startsWith("/footage")
-                        ? ["Free", "Hover to preview", "Licence verdicts", "Updated daily"]
+                      : route.startsWith("/collections")
+                        ? ["Free", "Licence verdicts", "Credit lines", "Updated daily"]
                         : route.startsWith("/sources/")
-                          ? ["Search", "Licences", "Previews"]
+                          ? ["Search", "Licences", "Downloads"]
                           : route.startsWith("/guides/")
                             ? ["Short answer", "Licences", "Live searches"]
                             : ["B-roll", "4K", "Vertical", "Archive"]),

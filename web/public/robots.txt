@@ -1,7 +1,7 @@
 # Image Asset Server: everything public may be crawled, including by AI search
 # and answer engines. Agents: start with /AGENTS.md or /llms.txt.
 #
-# Not for crawling: download and credit endpoints (redirects to video files on
+# Not for crawling: download and credit endpoints (redirects to image files on
 # the sources and generated zips) and the interactive API playground (a
 # client-side app; the indexable API reference is /docs/api/reference).
 User-agent: *

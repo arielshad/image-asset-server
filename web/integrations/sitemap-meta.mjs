@@ -1,7 +1,7 @@
 // Per-URL sitemap facts, read from the site's data files at build time:
 //
 //   lastmod  only where the date is known and honest: a collection's last
-//            content change, the newest change in a hub (and in /footage), the
+//            content change, the newest change in a hub (and in /collections), the
 //            census date for /stats and the source pages. Other pages get no
 //            lastmod rather than the build time, which would claim every page
 //            changed on every deploy and teach crawlers to ignore the field.
@@ -43,13 +43,13 @@ export function sitemapMeta() {
     const snap = existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : undefined;
     const images = snap?.images ?? [];
     for (const a of images) perSource.set(a.provider, (perSource.get(a.provider) ?? 0) + 1);
-    if (images.length < MIN_INDEXABLE || new Set(images.map((a) => a.provider)).size < MIN_SOURCES) noindex.add(`/footage/${slug}`);
+    if (images.length < MIN_INDEXABLE || new Set(images.map((a) => a.provider)).size < MIN_SOURCES) noindex.add(`/collections/${slug}`);
     if (!snap) continue;
-    lastmod.set(`/footage/${slug}`, snap.updatedAt);
-    lastmod.set(`/footage/${hub}`, newest(lastmod.get(`/footage/${hub}`), snap.updatedAt));
+    lastmod.set(`/collections/${slug}`, snap.updatedAt);
+    lastmod.set(`/collections/${hub}`, newest(lastmod.get(`/collections/${hub}`), snap.updatedAt));
     all = newest(all, snap.updatedAt);
   }
-  if (all) lastmod.set("/footage", all);
+  if (all) lastmod.set("/collections", all);
 
   if (catalog.countedAt) lastmod.set("/stats", catalog.countedAt);
 

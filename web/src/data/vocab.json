@@ -1,0 +1,240 @@
+{
+  "categories": [
+    {
+      "id": "nature",
+      "label": "Nature & landscapes"
+    },
+    {
+      "id": "nature.ocean",
+      "label": "Ocean & beach"
+    },
+    {
+      "id": "nature.water",
+      "label": "Rivers & lakes"
+    },
+    {
+      "id": "nature.sky",
+      "label": "Sky & weather"
+    },
+    {
+      "id": "nature.forest",
+      "label": "Forest & trees"
+    },
+    {
+      "id": "nature.plants",
+      "label": "Flowers & plants"
+    },
+    {
+      "id": "nature.mountain",
+      "label": "Mountains & snow"
+    },
+    {
+      "id": "animals",
+      "label": "Animals & wildlife"
+    },
+    {
+      "id": "city",
+      "label": "Cities & streets"
+    },
+    {
+      "id": "city.skyline",
+      "label": "Skylines"
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture & interiors"
+    },
+    {
+      "id": "people",
+      "label": "People & portraits"
+    },
+    {
+      "id": "people.work",
+      "label": "Work & business"
+    },
+    {
+      "id": "people.lifestyle",
+      "label": "Lifestyle & travel"
+    },
+    {
+      "id": "people.sport",
+      "label": "Sport"
+    },
+    {
+      "id": "food",
+      "label": "Food & drink"
+    },
+    {
+      "id": "objects",
+      "label": "Objects & still life"
+    },
+    {
+      "id": "tech",
+      "label": "Technology"
+    },
+    {
+      "id": "transport",
+      "label": "Transport"
+    },
+    {
+      "id": "space",
+      "label": "Space & astronomy"
+    },
+    {
+      "id": "space.earth",
+      "label": "Earth from space"
+    },
+    {
+      "id": "space.missions",
+      "label": "Rockets & astronauts"
+    },
+    {
+      "id": "space.planets",
+      "label": "Sun, moon & planets"
+    },
+    {
+      "id": "science",
+      "label": "Science & medicine"
+    },
+    {
+      "id": "art",
+      "label": "Art"
+    },
+    {
+      "id": "art.painting",
+      "label": "Paintings"
+    },
+    {
+      "id": "art.drawing",
+      "label": "Drawings & prints"
+    },
+    {
+      "id": "art.sculpture",
+      "label": "Sculpture & objects"
+    },
+    {
+      "id": "archive",
+      "label": "History & archives"
+    },
+    {
+      "id": "archive.map",
+      "label": "Maps"
+    },
+    {
+      "id": "archive.poster",
+      "label": "Posters & ephemera"
+    },
+    {
+      "id": "background",
+      "label": "Backgrounds & textures"
+    },
+    {
+      "id": "icons",
+      "label": "Icons & symbols"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "topCategories": [
+    "nature",
+    "animals",
+    "city",
+    "architecture",
+    "people",
+    "food",
+    "objects",
+    "tech",
+    "transport",
+    "space",
+    "science",
+    "art",
+    "archive",
+    "background",
+    "icons",
+    "other"
+  ],
+  "styles": [
+    {
+      "id": "photo",
+      "label": "Photo"
+    },
+    {
+      "id": "illustration",
+      "label": "Illustration"
+    },
+    {
+      "id": "painting",
+      "label": "Painting"
+    },
+    {
+      "id": "drawing",
+      "label": "Drawing / print"
+    },
+    {
+      "id": "vector",
+      "label": "Vector (SVG)"
+    },
+    {
+      "id": "icon",
+      "label": "Icon"
+    },
+    {
+      "id": "transparent",
+      "label": "Transparent background"
+    },
+    {
+      "id": "black-white",
+      "label": "Black & white"
+    }
+  ],
+  "orientations": [
+    "landscape",
+    "portrait",
+    "square"
+  ],
+  "resolutions": [
+    {
+      "id": "sd",
+      "label": "Small",
+      "minShortSide": 0
+    },
+    {
+      "id": "hd",
+      "label": "Medium 720+",
+      "minShortSide": 720
+    },
+    {
+      "id": "fhd",
+      "label": "Large 1080+",
+      "minShortSide": 1080
+    },
+    {
+      "id": "qhd",
+      "label": "XL 1440+",
+      "minShortSide": 1440
+    },
+    {
+      "id": "uhd",
+      "label": "4K+ 2160+",
+      "minShortSide": 2160
+    }
+  ],
+  "verdicts": [
+    "yes",
+    "yes-with-credit",
+    "restricted",
+    "clearance-required",
+    "check-terms",
+    "no"
+  ],
+  "verdictLabels": {
+    "yes": "Commercial use OK",
+    "yes-with-credit": "Commercial use OK with credit",
+    "restricted": "Restricted: read the conditions",
+    "clearance-required": "Needs a paid licence or releases",
+    "check-terms": "Unclear: check the terms",
+    "no": "Non-commercial only"
+  }
+}

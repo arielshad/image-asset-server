@@ -1,0 +1,167 @@
+{
+  "slug": "vintage-maps",
+  "search": {
+    "q": "old map",
+    "categories": [
+      "archive.map"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:57:17.713Z",
+  "images": [
+    {
+      "id": "loc:2019701186",
+      "provider": "loc",
+      "title": "[Map of the old city of Jerusalem",
+      "category": "archive.map",
+      "url": "https://www.loc.gov/item/2019701186/",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://tile.loc.gov/storage-services/service/pnp/matpc/09900/09964r.jpg",
+      "previewUrl": "https://tile.loc.gov/storage-services/service/pnp/matpc/09900/09964v.jpg",
+      "license": {
+        "id": "LicenseRef-No-Known-Restrictions",
+        "name": "No known restrictions on publication",
+        "url": "https://www.loc.gov/legal/understanding-copyright/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 755,
+      "height": 1024,
+      "year": 1898
+    },
+    {
+      "id": "wikimediacommons:Old_map_of_Kyiv.jpg",
+      "provider": "wikimediacommons",
+      "title": "Old map of Kyiv",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_map_of_Kyiv.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Old_map_of_Kyiv.jpg/330px-Old_map_of_Kyiv.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Old_map_of_Kyiv.jpg/1280px-Old_map_of_Kyiv.jpg",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 8585,
+      "height": 6300
+    },
+    {
+      "id": "wikimediacommons:Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2,500.jpg",
+      "provider": "wikimediacommons",
+      "title": "Old City of Jerusalem map by Survey of Palestine map 1-2,500",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2,500.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2%2C500.jpg/330px-Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2%2C500.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2%2C500.jpg/1280px-Old_City_of_Jerusalem_map_by_Survey_of_Palestine_map_1-2%2C500.jpg",
+      "author": "Survey of Palestine",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 7194,
+      "height": 8850,
+      "year": 1936
+    },
+    {
+      "id": "wikimediacommons:Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
+      "provider": "wikimediacommons",
+      "title": "Antique map of Lower Egypt showing Babylon Fortress in Old Cairo",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg/330px-Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
+      "author": "The mapmaker is unknown. Professor Park Yong-woo of Soongsil University posted this map.",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 963,
+      "height": 653
+    },
+    {
+      "id": "wikimediacommons:Daidō-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg",
+      "provider": "wikimediacommons",
+      "title": "Daidō-an Ruins the old map of Hakata Narayamachi Hakata-ku fukuoka 20231215",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Daid%C5%8D-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Daid%C5%8D-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg/330px-Daid%C5%8D-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Daid%C5%8D-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg/1280px-Daid%C5%8D-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg",
+      "author": "Hirho",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 3000,
+      "year": 2023
+    },
+    {
+      "id": "wikimediacommons:Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden,_1857_Canvas_Print.jpg",
+      "provider": "wikimediacommons",
+      "title": "Antique Maps - Old Cartographic maps - Antique Map of the Gulf of Aden, 1857 Canvas Print",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden,_1857_Canvas_Print.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg/330px-Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg",
+      "author": "Sam thunder",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 594,
+      "height": 555,
+      "year": 2025
+    }
+  ]
+}

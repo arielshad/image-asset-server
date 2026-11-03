@@ -1,0 +1,435 @@
+{
+  "slug": "earth-from-space-photos",
+  "search": {
+    "q": "earth from space",
+    "categories": [
+      "space.earth"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:54:22.910Z",
+  "images": [
+    {
+      "id": "nasa:iss045e013851",
+      "provider": "nasa",
+      "title": "Earth Observation from the International Space Station",
+      "category": "space.earth",
+      "url": "https://images.nasa.gov/details/iss045e013851",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss045e013851/iss045e013851~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/iss045e013851/iss045e013851~medium.jpg",
+      "author": "NASA JSC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4928,
+      "height": 3280,
+      "year": 2015
+    },
+    {
+      "id": "wikimediacommons:Earth_from_space,_hurricane.jpg",
+      "provider": "wikimediacommons",
+      "title": "Earth from space, hurricane",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Earth_from_space,_hurricane.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Earth_from_space%2C_hurricane.jpg/330px-Earth_from_space%2C_hurricane.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Earth_from_space%2C_hurricane.jpg/1280px-Earth_from_space%2C_hurricane.jpg",
+      "author": "GSFC team, cropped & up-sampled by Jason Harwell",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 12333,
+      "height": 12225,
+      "year": 2011
+    },
+    {
+      "id": "wikimediacommons:First_photograph_of_Earth_from_space_24_October_1946.jpg",
+      "provider": "wikimediacommons",
+      "title": "First photograph of Earth from space 24 October 1946",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:First_photograph_of_Earth_from_space_24_October_1946.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "black-white"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_photograph_of_Earth_from_space_24_October_1946.jpg/330px-First_photograph_of_Earth_from_space_24_October_1946.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_photograph_of_Earth_from_space_24_October_1946.jpg/1280px-First_photograph_of_Earth_from_space_24_October_1946.jpg",
+      "author": "White Sands Missile Range / Applied Physics Laboratory",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1440,
+      "height": 1138,
+      "year": 1946
+    },
+    {
+      "id": "wikimediacommons:First_color_image_of_the_earth_from_outer_space_(Dodge_Satellite).png",
+      "provider": "wikimediacommons",
+      "title": "First color image of the earth from outer space (Dodge Satellite)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:First_color_image_of_the_earth_from_outer_space_(Dodge_Satellite).png",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/First_color_image_of_the_earth_from_outer_space_%28Dodge_Satellite%29.png/330px-First_color_image_of_the_earth_from_outer_space_%28Dodge_Satellite%29.png",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/First_color_image_of_the_earth_from_outer_space_%28Dodge_Satellite%29.png/1280px-First_color_image_of_the_earth_from_outer_space_%28Dodge_Satellite%29.png",
+      "author": "Department of Defense Gravitational Experiment",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "square",
+      "width": 1494,
+      "height": 1536,
+      "year": 1967
+    },
+    {
+      "id": "wikimediacommons:ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_(972).jpg",
+      "provider": "wikimediacommons",
+      "title": "ISS001-E-5011 - First Image of Earth from the International Space Station (972)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_(972).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_%28972%29.jpg/330px-ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_%28972%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_%28972%29.jpg/1280px-ISS001-E-5011_-_First_Image_of_Earth_from_the_International_Space_Station_%28972%29.jpg",
+      "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1530,
+      "height": 1018,
+      "year": 2000
+    },
+    {
+      "id": "wikimediacommons:North_America_from_low_orbiting_satellite_Suomi_NPP.jpg",
+      "provider": "wikimediacommons",
+      "title": "North America from low orbiting satellite Suomi NPP",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:North_America_from_low_orbiting_satellite_Suomi_NPP.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/North_America_from_low_orbiting_satellite_Suomi_NPP.jpg/330px-North_America_from_low_orbiting_satellite_Suomi_NPP.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/North_America_from_low_orbiting_satellite_Suomi_NPP.jpg/1280px-North_America_from_low_orbiting_satellite_Suomi_NPP.jpg",
+      "author": "NASA/NOAA/GSFC/Suomi NPP/VIIRS/Norman Kuring",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 8000,
+      "height": 8000,
+      "year": 2012
+    },
+    {
+      "id": "wikimediacommons:Earth_from_space_(7628218100).jpg",
+      "provider": "wikimediacommons",
+      "title": "Earth from space (7628218100)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Earth_from_space_(7628218100).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Earth_from_space_%287628218100%29.jpg/330px-Earth_from_space_%287628218100%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Earth_from_space_%287628218100%29.jpg/1280px-Earth_from_space_%287628218100%29.jpg",
+      "author": "DLR German Aerospace Center",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4000,
+      "height": 2667,
+      "year": 2012
+    },
+    {
+      "id": "wikimediacommons:Earth_from_space_(banner_esVoy).jpg",
+      "provider": "wikimediacommons",
+      "title": "Earth from space (banner esVoy)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Earth_from_space_(banner_esVoy).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Earth_from_space_%28banner_esVoy%29.jpg/330px-Earth_from_space_%28banner_esVoy%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Earth_from_space_%28banner_esVoy%29.jpg/1280px-Earth_from_space_%28banner_esVoy%29.jpg",
+      "author": "NASA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4096,
+      "height": 1366,
+      "year": 2000
+    },
+    {
+      "id": "wikimediacommons:1960-_First_“television”_picture_of_Earth_from_space_(TIROS-1).jpg",
+      "provider": "wikimediacommons",
+      "title": "1960- First “television” picture of Earth from space (TIROS-1)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:1960-_First_%E2%80%9Ctelevision%E2%80%9D_picture_of_Earth_from_space_(TIROS-1).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1960-_First_%E2%80%9Ctelevision%E2%80%9D_picture_of_Earth_from_space_%28TIROS-1%29.jpg/330px-1960-_First_%E2%80%9Ctelevision%E2%80%9D_picture_of_Earth_from_space_%28TIROS-1%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/1960-_First_%E2%80%9Ctelevision%E2%80%9D_picture_of_Earth_from_space_%28TIROS-1%29.jpg",
+      "author": "NASA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 590,
+      "height": 658,
+      "year": 2026
+    },
+    {
+      "id": "wikimediacommons:First_Color_Photograph_of_Earth_from_Space.jpg",
+      "provider": "wikimediacommons",
+      "title": "First Color Photograph of Earth from Space",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Color_Photograph_of_Earth_from_Space.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/First_Color_Photograph_of_Earth_from_Space.jpg/330px-First_Color_Photograph_of_Earth_from_Space.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/First_Color_Photograph_of_Earth_from_Space.jpg/1280px-First_Color_Photograph_of_Earth_from_Space.jpg",
+      "author": "Dr. Otto Berg - U.S. Naval Research Laboratory",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3000,
+      "height": 1565,
+      "year": 2009
+    },
+    {
+      "id": "wikimediacommons:First_photo_from_space.jpg",
+      "provider": "wikimediacommons",
+      "title": "First photo from space",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "black-white"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/330px-First_photo_from_space.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/1280px-First_photo_from_space.jpg",
+      "author": "U.S. Army",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 2048,
+      "height": 1619,
+      "year": 1946
+    },
+    {
+      "id": "wikimediacommons:Good_Morning_From_the_International_Space_Station.jpg",
+      "provider": "wikimediacommons",
+      "title": "Good Morning From the International Space Station",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Good_Morning_From_the_International_Space_Station.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Good_Morning_From_the_International_Space_Station.jpg/330px-Good_Morning_From_the_International_Space_Station.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Good_Morning_From_the_International_Space_Station.jpg/1280px-Good_Morning_From_the_International_Space_Station.jpg",
+      "author": "Scott Kelly",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4928,
+      "height": 3280,
+      "year": 2015
+    },
+    {
+      "id": "wikimediacommons:Earth_from_Space_with_Stars_(6143809369).jpg",
+      "provider": "wikimediacommons",
+      "title": "Earth from Space with Stars (6143809369)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Earth_from_Space_with_Stars_(6143809369).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Earth_from_Space_with_Stars_%286143809369%29.jpg/330px-Earth_from_Space_with_Stars_%286143809369%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Earth_from_Space_with_Stars_%286143809369%29.jpg/1280px-Earth_from_Space_with_Stars_%286143809369%29.jpg",
+      "author": "DonkeyHotey",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1500,
+      "height": 1500,
+      "year": 2011
+    },
+    {
+      "id": "wikimediacommons:Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_(42828603210)_(cropped).jpg",
+      "provider": "wikimediacommons",
+      "title": "Dramatic Views of Hurricane Florence from the International Space Station From 9 12 (42828603210) (cropped)",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_(42828603210)_(cropped).jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/330px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/1280px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg",
+      "author": "NASA/Goddard Space Flight Center",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4750,
+      "height": 3250,
+      "year": 2018
+    },
+    {
+      "id": "wikimediacommons:Etna_eruption_seen_from_the_International_Space_Station.jpg",
+      "provider": "wikimediacommons",
+      "title": "Etna eruption seen from the International Space Station",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Etna_eruption_seen_from_the_International_Space_Station.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/330px-Etna_eruption_seen_from_the_International_Space_Station.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/1280px-Etna_eruption_seen_from_the_International_Space_Station.jpg",
+      "author": "NASA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 2720,
+      "height": 2000,
+      "year": 2002
+    }
+  ]
+}

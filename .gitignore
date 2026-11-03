@@ -147,3 +147,14 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# build output
+dist/
+downloads/
+/assets/
+/samples/
+
+# Scratch files of the weekly collection workflow (.github/workflows/draft-collections.yml)
+collection-ideas.json
+review-input.json
+review.json

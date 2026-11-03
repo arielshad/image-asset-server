@@ -1,0 +1,44 @@
+[
+ {
+  "source_name": "flickr",
+  "display_name": "Flickr",
+  "source_url": "https://www.flickr.com",
+  "logo_url": null,
+  "media_count": 536219600
+ },
+ {
+  "source_name": "inaturalist",
+  "display_name": "iNaturalist",
+  "source_url": "https://inaturalist.org",
+  "logo_url": null,
+  "media_count": 266268617
+ },
+ {
+  "source_name": "wikimedia",
+  "display_name": "Wikimedia Commons",
+  "source_url": "https://commons.wikimedia.org",
+  "logo_url": null,
+  "media_count": 88962441
+ },
+ {
+  "source_name": "europeana",
+  "display_name": "Europeana",
+  "source_url": "https://www.europeana.eu/en",
+  "logo_url": null,
+  "media_count": 13841364
+ },
+ {
+  "source_name": "smithsonian_national_museum_of_natural_history",
+  "display_name": "Smithsonian Institution: National Museum of Natural History",
+  "source_url": "https://naturalhistory.si.edu/",
+  "logo_url": null,
+  "media_count": 4990743
+ },
+ {
+  "source_name": "rawpixel",
+  "display_name": "Rawpixel",
+  "source_url": "https://www.rawpixel.com",
+  "logo_url": null,
+  "media_count": 1268095
+ }
+]

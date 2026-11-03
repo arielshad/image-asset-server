@@ -1,0 +1,351 @@
+{
+  "integrated": [
+    {
+      "id": "nasa",
+      "name": "NASA Image and Video Library",
+      "homepage": "https://images.nasa.gov",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "images-api.nasa.gov, keyless. Credit NASA; editorial (no endorsement, no insignia)."
+    },
+    {
+      "id": "met",
+      "name": "The Metropolitan Museum of Art",
+      "homepage": "https://www.metmuseum.org",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "collectionapi.metmuseum.org v1.1 search (v1 retired 2026-10-01) + per-object records; public-domain works only."
+    },
+    {
+      "id": "artic",
+      "name": "Art Institute of Chicago",
+      "homepage": "https://www.artic.edu",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "api.artic.edu with AIC-User-Agent; public-domain works with IIIF images."
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland Museum of Art",
+      "homepage": "https://www.clevelandart.org",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "openaccess-api.clevelandart.org; CC0 works only."
+    },
+    {
+      "id": "loc",
+      "name": "Library of Congress",
+      "homepage": "https://www.loc.gov/photos/",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "loc.gov JSON API (photos, prints, maps); viewable items only, rights advisory per item."
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "MediaWiki API with a contact User-Agent; licence per file."
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "homepage": "https://iconify.design",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "api.iconify.design, keyless; licence per icon set."
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse",
+      "homepage": "https://openverse.org",
+      "access": "api",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "api.openverse.org anonymous (20/min, 200/day); OPENVERSE_CLIENT_ID/SECRET raise the limit. Aggregator: listed after the originals."
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "homepage": "https://unsplash.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a key and its terms forbid replicating Unsplash."
+    },
+    {
+      "id": "pexels",
+      "name": "Pexels",
+      "homepage": "https://www.pexels.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a key and its terms forbid competing services."
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "homepage": "https://pixabay.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a key and its terms limit automated use."
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr (Creative Commons)",
+      "homepage": "https://www.flickr.com/creativecommons/",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: the API needs a key, and Openverse already indexes Flickr's CC photos."
+    },
+    {
+      "id": "rawpixel",
+      "name": "Rawpixel",
+      "homepage": "https://www.rawpixel.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: downloads need an account."
+    },
+    {
+      "id": "stocksnap",
+      "name": "StockSnap.io",
+      "homepage": "https://stocksnap.io",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no public API."
+    },
+    {
+      "id": "burst",
+      "name": "Burst (Shopify)",
+      "homepage": "https://burst.shopify.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no public API."
+    },
+    {
+      "id": "vecteezy",
+      "name": "Vecteezy",
+      "homepage": "https://www.vecteezy.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API is paid and its terms forbid scraping."
+    },
+    {
+      "id": "freepik",
+      "name": "Freepik",
+      "homepage": "https://www.freepik.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: paid API, terms against scraping."
+    },
+    {
+      "id": "smithsonian",
+      "name": "Smithsonian Open Access",
+      "homepage": "https://www.si.edu/openaccess",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs an api.data.gov key."
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana",
+      "homepage": "https://www.europeana.eu",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a key."
+    },
+    {
+      "id": "rijksmuseum",
+      "name": "Rijksmuseum",
+      "homepage": "https://www.rijksmuseum.nl/en/collection",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its data services need a key."
+    },
+    {
+      "id": "nga",
+      "name": "National Gallery of Art",
+      "homepage": "https://www.nga.gov/open-access-images.html",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no search API (the open data is a CSV dump)."
+    },
+    {
+      "id": "nypl",
+      "name": "NYPL Digital Collections",
+      "homepage": "https://digitalcollections.nypl.org",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a token."
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive (images)",
+      "homepage": "https://archive.org/details/image",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: licences are uploader-asserted and image search through its API is poor."
+    },
+    {
+      "id": "openclipart",
+      "name": "Openclipart",
+      "homepage": "https://openclipart.org",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no public API."
+    },
+    {
+      "id": "svgrepo",
+      "name": "SVG Repo",
+      "homepage": "https://www.svgrepo.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no public API and it rate-limits bots."
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "homepage": "https://www.flaticon.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: paid API."
+    },
+    {
+      "id": "nounproject",
+      "name": "The Noun Project",
+      "homepage": "https://thenounproject.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: its API needs a key."
+    },
+    {
+      "id": "undraw",
+      "name": "unDraw",
+      "homepage": "https://undraw.co",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Link-only: no public API."
+    },
+    {
+      "id": "shutterstock",
+      "name": "Shutterstock",
+      "homepage": "https://www.shutterstock.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "One of the largest paid image libraries: over 400 million photos, vectors and illustrations, per image or by subscription."
+    },
+    {
+      "id": "adobestock",
+      "name": "Adobe Stock",
+      "homepage": "https://stock.adobe.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Paid photos, vectors, illustrations and templates, built into Creative Cloud apps."
+    },
+    {
+      "id": "gettyimages",
+      "name": "Getty Images",
+      "homepage": "https://www.gettyimages.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Premium creative and editorial photography: news, sport, entertainment and archive pictures."
+    },
+    {
+      "id": "istock",
+      "name": "iStock",
+      "homepage": "https://www.istockphoto.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Getty Images' lower-priced library of photos, illustrations and vectors."
+    },
+    {
+      "id": "alamy",
+      "name": "Alamy",
+      "homepage": "https://www.alamy.com",
+      "access": "link",
+      "addedAt": "2026-11-03",
+      "addedBy": "launch",
+      "notes": "Over 400 million paid stock photos, strong on travel, news and historical pictures."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Google Images",
+      "homepage": "https://images.google.com",
+      "checkedAt": "2026-11-03",
+      "reason": "A web search engine, not a source: no licence per image and its terms forbid automated queries. The usage-rights filter only points at other sites."
+    },
+    {
+      "name": "Pinterest",
+      "homepage": "https://www.pinterest.com",
+      "checkedAt": "2026-11-03",
+      "reason": "Pins are re-shares of other people's images with no licence information; nothing on it is cleared for reuse."
+    },
+    {
+      "name": "DeviantArt",
+      "homepage": "https://www.deviantart.com",
+      "checkedAt": "2026-11-03",
+      "reason": "Artists keep all rights by default and licences are rarely stated; not a source of reusable images."
+    },
+    {
+      "name": "Behance",
+      "homepage": "https://www.behance.net",
+      "checkedAt": "2026-11-03",
+      "reason": "Portfolios, all rights reserved; no reuse licence and no public search API."
+    },
+    {
+      "name": "Dribbble",
+      "homepage": "https://dribbble.com",
+      "checkedAt": "2026-11-03",
+      "reason": "Design portfolio shots, all rights reserved; the API only reads your own shots."
+    },
+    {
+      "name": "Lorem Picsum",
+      "homepage": "https://picsum.photos",
+      "checkedAt": "2026-11-03",
+      "reason": "A placeholder-image service over a fixed set of Unsplash photos, with no search; Unsplash itself is linked."
+    },
+    {
+      "name": "Wallhaven",
+      "homepage": "https://wallhaven.cc",
+      "checkedAt": "2026-11-03",
+      "reason": "Mostly fan art, game screenshots and photos uploaded without the rights holder's licence."
+    },
+    {
+      "name": "Pikwizard",
+      "homepage": "https://pikwizard.com",
+      "checkedAt": "2026-11-03",
+      "reason": "Small free library behind an account wall, with no public API; its best photos are also on Pixabay and Pexels."
+    }
+  ]
+}

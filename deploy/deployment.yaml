@@ -1,0 +1,147 @@
+# image-asset-server (image.shep.bot) — unified search + download gateway for
+# free images (photos, museum art, illustrations, maps, SVG vectors and
+# icons): web UI at /, REST API at /v1/*, MCP (Streamable HTTP) at /mcp.
+#
+# Image tag is set by kustomization.yaml (pinned by CI on every push to main).
+#
+# No image bytes pass through this pod: thumbnails and previews load in the
+# browser from the sources, and /v1/images/:id/download answers with a 302 to
+# the file on the source. The pod only holds an in-memory HTTP cache, so there
+# is no PVC and rollouts are RollingUpdate. Server-side downloads over MCP stay
+# disabled (IMAGE_SERVER_HTTP_DOWNLOADS unset).
+#
+# Optional `image-asset-server-env` Secret; the pod starts fine without it. It
+# is read both as env vars (at start) and as files under
+# /var/run/secrets/image-asset-server (re-read every minute), so a key added
+# later works without a restart:
+#   IMAGE_SERVER_API_KEY         locks /v1/* and /mcp behind a key
+#   IMAGE_SERVER_SESSION_SECRET  signs MCP session IDs (else random per pod,
+#                                and sessions lose their label on restart)
+#   OPENVERSE_CLIENT_ID, OPENVERSE_CLIENT_SECRET
+#                                a registered Openverse app: lifts the
+#                                anonymous limit (20/min, 200/day)
+#   MAXMIND_ACCOUNT_ID, MAXMIND_LICENSE_KEY
+#                                free GeoLite2-ASN download for the MCP
+#                                `network` label (cached in /tmp, refreshed
+#                                weekly); without them ISP and cloud callers
+#                                show as `unknown`
+# To sync it from Infisical like sound-server does, add an ExternalSecret
+# (sound-server deploy/externalsecret.yaml) for the folder /image-asset-server.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-asset-server
+  namespace: image-asset-server
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: image-asset-server
+  template:
+    metadata:
+      labels:
+        app: image-asset-server
+    spec:
+      # Only needed if the GHCR package is private; a missing pull secret is
+      # ignored and the public image is pulled anonymously.
+      imagePullSecrets:
+        - name: ghcr-pull
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: image-asset-server
+          image: ghcr.io/arielshad/image-asset-server
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: PORT
+              value: "8787"
+            # TLS terminates at the edge Caddy, so the request origin seen by
+            # the pod is http://; links handed to MCP clients must be https.
+            - name: IMAGE_SERVER_PUBLIC_URL
+              value: https://image.shep.bot
+            # Wikimedia throttles anonymous clients hard (about 10 requests a
+            # minute) and allows far more with a descriptive User-Agent; the
+            # Art Institute of Chicago asks for one too (AIC-User-Agent).
+            - name: IMAGE_SERVER_USER_AGENT
+              value: "image-asset-server/0.1 (+https://image.shep.bot; https://github.com/arielshad/image-asset-server)"
+            # Prometheus metrics on a separate port (Service-internal only, not
+            # routed by the Ingress) + JSON event log lines for Loki.
+            - name: METRICS_PORT
+              value: "9464"
+            # The /stats page reads 24h / 7d totals back from the cluster
+            # Prometheus (shep-infra: kube-prometheus-stack, 10-day retention),
+            # which scrapes the port above via servicemonitor.yaml.
+            - name: PROMETHEUS_URL
+              value: http://kube-prometheus-stack-prometheus.monitoring.svc:9090
+            # Cookieless visit counts in the cluster's self-hosted Umami. The website
+            # is registered with this fixed id by shep-infra
+            # (apps/umami/manifests/website-image-shep-bot-job.yaml);
+            # stats.shep.bot serves only the tracker script and collect endpoint.
+            - name: UMAMI_WEBSITE_ID
+              value: 68fac51f-786a-400e-b02b-279a6837aec7
+            - name: UMAMI_HOST
+              value: https://stats.shep.bot
+            - name: IMAGE_SERVER_SECRETS_DIR
+              value: /var/run/secrets/image-asset-server
+            # Install telemetry is opt-in and off here; this instance is
+            # measured by the metrics above.
+            - name: IMAGE_SERVER_TELEMETRY
+              value: "0"
+          envFrom:
+            - secretRef:
+                name: image-asset-server-env
+                optional: true
+          ports:
+            - name: http
+              containerPort: 8787
+            - name: metrics
+              containerPort: 9464
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+            timeoutSeconds: 2
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 3
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+            - name: secrets
+              mountPath: /var/run/secrets/image-asset-server
+              readOnly: true
+          resources:
+            requests:
+              cpu: 25m
+              memory: 128Mi
+            limits:
+              cpu: "1"
+              memory: 512Mi
+      volumes:
+        - name: tmp
+          emptyDir:
+            sizeLimit: 256Mi
+        - name: secrets
+          secret:
+            secretName: image-asset-server-env
+            optional: true

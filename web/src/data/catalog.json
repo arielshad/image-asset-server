@@ -1,0 +1,331 @@
+{
+  "countedAt": "2026-11-03T20:53:34.968Z",
+  "totals": {
+    "listings": {
+      "count": 140342499,
+      "atLeast": true
+    },
+    "free": {
+      "count": 140342499,
+      "atLeast": true
+    },
+    "cc0": {
+      "count": 11288
+    },
+    "directDownload": {
+      "count": 140342499,
+      "atLeast": true
+    },
+    "addedLast30Days": 0,
+    "sourcesCounted": 7,
+    "sourcesLinked": 25
+  },
+  "byCategory": {
+    "archive": {
+      "count": 1133102
+    },
+    "icons": {
+      "count": 464444
+    },
+    "art": {
+      "count": 100866
+    }
+  },
+  "byLicense": {
+    "MIT": 263915,
+    "Apache-2.0": 85431,
+    "CC-BY-4.0": 64681,
+    "CC-BY-SA-4.0": 21862,
+    "CC0-1.0": 11288,
+    "ISC": 6202,
+    "CC-BY-3.0": 4133,
+    "OFL-1.1": 2634,
+    "CC-BY-NC-SA-4.0": 1790,
+    "GPL-2.0-or-later": 686,
+    "GPL-3.0-or-later": 591,
+    "Unlicense": 430,
+    "MPL-2.0": 288,
+    "BSD-3-Clause": 210,
+    "GPL-2.0-only": 207,
+    "GPL-3.0": 51,
+    "CC-BY-SA-3.0": 45
+  },
+  "sources": [
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 138104162,
+      "free": 138104162,
+      "byCategory": {},
+      "categories": {
+        "Vector drawings (SVG)": 5323309,
+        "4K or larger": 78291805
+      },
+      "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "loc",
+      "name": "Library of Congress",
+      "homepage": "https://www.loc.gov/photos/",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 1133102,
+      "free": 1133102,
+      "byCategory": {
+        "archive": 1133102
+      },
+      "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "homepage": "https://iconify.design",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 464444,
+      "free": 464444,
+      "byCategory": {
+        "icons": 464444
+      },
+      "byLicense": {
+        "Apache-2.0": 85431,
+        "OFL-1.1": 2634,
+        "MIT": 263915,
+        "CC-BY-4.0": 64681,
+        "ISC": 6202,
+        "CC-BY-SA-4.0": 21862,
+        "MPL-2.0": 288,
+        "GPL-2.0-only": 207,
+        "GPL-2.0-or-later": 686,
+        "BSD-3-Clause": 210,
+        "Unlicense": 430,
+        "CC0-1.0": 11288,
+        "CC-BY-NC-SA-4.0": 1790,
+        "CC-BY-SA-3.0": 45,
+        "CC-BY-3.0": 4133,
+        "GPL-3.0": 51,
+        "GPL-3.0-or-later": 591
+      },
+      "categories": {
+        "Material": 51491,
+        "UI 24px": 180958,
+        "UI 16px / 32px": 13235,
+        "UI Other / Mixed Grid": 69200,
+        "UI Multicolor": 30436,
+        "Programming": 7493,
+        "Logos": 33760,
+        "Emoji": 25484,
+        "Location": 4900,
+        "Flags": 1736,
+        "Holiday / Seasonal": 6000,
+        "Apps": 1000,
+        "Thematic": 5001,
+        "High Detail": 17534,
+        "High Detail Multicolor": 1567,
+        "Archive / Unmaintained": 14649
+      },
+      "method": "api.iconify.design /collections: `total` per icon set, summed",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "met",
+      "name": "The Metropolitan Museum of Art",
+      "homepage": "https://www.metmuseum.org",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 371316,
+      "free": 371316,
+      "byCategory": {},
+      "categories": {
+        "paintings": 61243,
+        "photographs": 37486
+      },
+      "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA Image and Video Library",
+      "homepage": "https://images.nasa.gov",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 168609,
+      "atLeast": true,
+      "free": 168609,
+      "byCategory": {},
+      "categories": {
+        "Hubble": 4789,
+        "Earth": 41167
+      },
+      "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "artic",
+      "name": "Art Institute of Chicago",
+      "homepage": "https://www.artic.edu",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 59060,
+      "free": 59060,
+      "byCategory": {
+        "art": 59060
+      },
+      "categories": {
+        "paintings": 1874
+      },
+      "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland Museum of Art",
+      "homepage": "https://www.clevelandart.org",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 41806,
+      "free": 41806,
+      "byCategory": {
+        "art": 41806
+      },
+      "categories": {
+        "paintings": 3907,
+        "photographs": 1011
+      },
+      "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
+      "countedAt": "2026-11-03T20:53:34.968Z"
+    }
+  ],
+  "linked": [
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "homepage": "https://unsplash.com"
+    },
+    {
+      "id": "pexels",
+      "name": "Pexels",
+      "homepage": "https://www.pexels.com"
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "homepage": "https://pixabay.com"
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr (Creative Commons)",
+      "homepage": "https://www.flickr.com/creativecommons/"
+    },
+    {
+      "id": "rawpixel",
+      "name": "Rawpixel",
+      "homepage": "https://www.rawpixel.com"
+    },
+    {
+      "id": "stocksnap",
+      "name": "StockSnap.io",
+      "homepage": "https://stocksnap.io"
+    },
+    {
+      "id": "burst",
+      "name": "Burst (Shopify)",
+      "homepage": "https://burst.shopify.com"
+    },
+    {
+      "id": "vecteezy",
+      "name": "Vecteezy",
+      "homepage": "https://www.vecteezy.com"
+    },
+    {
+      "id": "freepik",
+      "name": "Freepik",
+      "homepage": "https://www.freepik.com"
+    },
+    {
+      "id": "smithsonian",
+      "name": "Smithsonian Open Access",
+      "homepage": "https://www.si.edu/openaccess"
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana",
+      "homepage": "https://www.europeana.eu"
+    },
+    {
+      "id": "rijksmuseum",
+      "name": "Rijksmuseum",
+      "homepage": "https://www.rijksmuseum.nl/en/collection"
+    },
+    {
+      "id": "nga",
+      "name": "National Gallery of Art",
+      "homepage": "https://www.nga.gov/open-access-images.html"
+    },
+    {
+      "id": "nypl",
+      "name": "NYPL Digital Collections",
+      "homepage": "https://digitalcollections.nypl.org"
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive (images)",
+      "homepage": "https://archive.org/details/image"
+    },
+    {
+      "id": "openclipart",
+      "name": "Openclipart",
+      "homepage": "https://openclipart.org"
+    },
+    {
+      "id": "svgrepo",
+      "name": "SVG Repo",
+      "homepage": "https://www.svgrepo.com"
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "homepage": "https://www.flaticon.com"
+    },
+    {
+      "id": "nounproject",
+      "name": "The Noun Project",
+      "homepage": "https://thenounproject.com"
+    },
+    {
+      "id": "undraw",
+      "name": "unDraw",
+      "homepage": "https://undraw.co"
+    },
+    {
+      "id": "shutterstock",
+      "name": "Shutterstock",
+      "homepage": "https://www.shutterstock.com"
+    },
+    {
+      "id": "adobestock",
+      "name": "Adobe Stock",
+      "homepage": "https://stock.adobe.com"
+    },
+    {
+      "id": "gettyimages",
+      "name": "Getty Images",
+      "homepage": "https://www.gettyimages.com"
+    },
+    {
+      "id": "istock",
+      "name": "iStock",
+      "homepage": "https://www.istockphoto.com"
+    },
+    {
+      "id": "alamy",
+      "name": "Alamy",
+      "homepage": "https://www.alamy.com"
+    }
+  ]
+}

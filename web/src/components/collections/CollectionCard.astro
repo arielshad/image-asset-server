@@ -1,0 +1,40 @@
+---
+// A collection in a hub or index grid: a strip of its first thumbnails, then
+// title, description and count.
+import { countLabel, type Collection } from "@/lib/collections";
+
+interface Props {
+  collection: Collection;
+}
+const { collection: c } = Astro.props;
+const withThumb = c.images.filter((a) => a.thumbnailUrl && !a.styles?.includes("icon"));
+const lead = withThumb[0];
+const side = withThumb.slice(1, 3);
+---
+<li class="group relative flex flex-col overflow-hidden rounded-xl border bg-card/50 transition hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
+  <div class="grid aspect-[16/7] grid-cols-[2fr_1fr] gap-px overflow-hidden bg-border" aria-hidden="true">
+    <div class="relative overflow-hidden bg-muted">
+      {lead ? (
+        <img src={lead.thumbnailUrl} alt="" width="400" height="225" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="absolute inset-0 size-full object-cover transition duration-500 group-hover:scale-[1.03]" />
+      ) : (
+        <span class="absolute inset-0 bg-[radial-gradient(120%_120%_at_0%_0%,color-mix(in_oklch,var(--color-primary)_25%,transparent),transparent_60%),radial-gradient(120%_120%_at_100%_100%,color-mix(in_oklch,var(--color-brand-2)_20%,transparent),transparent_60%)]"></span>
+      )}
+    </div>
+    <div class="grid grid-rows-2 gap-px">
+      {[0, 1].map((i) => (
+        <div class="relative overflow-hidden bg-muted">
+          {side[i] ? <img src={side[i]!.thumbnailUrl} alt="" width="200" height="113" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="absolute inset-0 size-full object-cover" /> : <span class="absolute inset-0 bg-[linear-gradient(135deg,color-mix(in_oklch,var(--color-primary)_14%,transparent),color-mix(in_oklch,var(--color-brand-2)_10%,transparent))]"></span>}
+        </div>
+      ))}
+    </div>
+  </div>
+  <div class="flex flex-1 flex-col gap-1.5 p-4">
+    <h3 class="font-medium leading-snug group-hover:text-primary">
+      <a href={c.path} class="after:absolute after:inset-0 focus-visible:outline-2 focus-visible:outline-ring">{c.topic.data.title}</a>
+    </h3>
+    <p class="line-clamp-2 text-sm text-muted-foreground">{c.topic.data.description}</p>
+    <p class="mt-auto pt-2 text-xs text-muted-foreground">
+      {c.images.length ? <>{countLabel(c.images)} from {c.sources.length} {c.sources.length === 1 ? "source" : "sources"}{c.facts.hd > 0 && <> · {c.facts.hd} at 1080 px or larger</>}</> : "Being collected: opens a live search"}
+    </p>
+  </div>
+</li>

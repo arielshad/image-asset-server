@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: image-asset-server
+  namespace: image-asset-server
+  labels:
+    app: image-asset-server
+spec:
+  selector:
+    app: image-asset-server
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+    # Scraped by the ServiceMonitor; the Ingress only routes port 80.
+    - name: metrics
+      port: 9464
+      targetPort: metrics

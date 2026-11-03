@@ -1,0 +1,219 @@
+[
+  {
+    "id": "nature",
+    "name": "Nature images",
+    "title": "Free nature photos: landscapes and wildlife",
+    "description": "Free nature photos and illustrations: mountains, lakes, oceans, forests, flowers and wildlife, from public-domain and Creative Commons collections.",
+    "intro": "Nature pictures carry websites, slides and book covers: a misty lake behind a headline, a close-up of leaves on a wellness page, a fox on a children's worksheet. These collections group free nature images by what they show, from Wikimedia Commons, Openverse's Creative Commons index, NASA's Earth photos and the museums' natural-history prints, with links to Unsplash, Pexels and Pixabay for anything they don't have. Every card shows the image's size and shape and says whether you can use it commercially.",
+    "categories": [
+      "nature",
+      "animals"
+    ],
+    "aliases": [
+      "nature photos",
+      "landscape photos",
+      "free nature images",
+      "wildlife photos"
+    ],
+    "sections": [
+      {
+        "heading": "Choosing a nature image",
+        "body": "Pick the shape first: a wide landscape for a hero or a slide, a tall one for a poster or a phone screen. Leave room for text: skies, water and out-of-focus backgrounds take a headline well, busy foliage does not. For print, check the pixel size: a full A4 page at 300 dpi needs about 2480 × 3508 pixels."
+      },
+      {
+        "heading": "Where free nature images come from",
+        "body": "Wikimedia Commons holds millions of nature photos with a licence recorded per file. Openverse indexes Creative Commons photos from Flickr and other sites. Museums such as the Met and the Cleveland Museum of Art publish public-domain natural-history prints and paintings. Unsplash, Pexels and Pixabay have large modern libraries; they can't be searched automatically here, so each search links straight to the same query there."
+      },
+      {
+        "heading": "Licences for nature images",
+        "body": "Landscapes rarely need releases, which makes nature one of the safest kinds of image to use commercially. Check the licence itself: CC0 and public-domain images need nothing, CC BY needs a credit line, and CC BY-SA means an edited version must carry the same licence. Recognisable people or private buildings can still need releases for ads."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are free nature photos safe to use in ads?",
+        "a": "Usually, if the licence allows commercial use: landscapes, skies and plants don't need model releases. Watch for people, logos or private buildings in the picture, which can need a release for advertising."
+      },
+      {
+        "q": "How big should a nature photo be for a website hero?",
+        "a": "About 1920 pixels wide covers most screens; 2560 or more looks sharp on large high-density displays. Download the smallest copy that is at least that wide rather than a huge original."
+      }
+    ],
+    "guides": [
+      "free-images-commercial-use",
+      "credit-cc-by-images"
+    ]
+  },
+  {
+    "id": "art",
+    "name": "Art",
+    "title": "Free public-domain art: paintings and prints",
+    "description": "Free public-domain art from museum open-access collections: paintings, Japanese prints, botanical drawings and engravings, released as CC0 by the museums.",
+    "intro": "Museums have released millions of photographs of public-domain works under CC0: you can print a Van Gogh on a tote bag, put a Hokusai wave on a book cover or use a 19th-century botanical plate on a packaging design without asking anyone. These collections gather that art from the Metropolitan Museum of Art, the Art Institute of Chicago and the Cleveland Museum of Art, searched directly, with Wikimedia Commons and Openverse filling the gaps. Every card shows the museum, the year and the licence.",
+    "categories": [
+      "art"
+    ],
+    "styles": [
+      "painting",
+      "drawing"
+    ],
+    "aliases": [
+      "public domain art",
+      "museum images",
+      "free paintings",
+      "old master paintings"
+    ],
+    "sections": [
+      {
+        "heading": "What open access means",
+        "body": "When a work's copyright has expired (in most countries 70 years after the artist died), museums that photograph it can release the photograph under CC0. The Met, the Art Institute of Chicago and the Cleveland Museum of Art do this for hundreds of thousands of works and offer the files at print resolution. Works still in copyright stay out of these collections."
+      },
+      {
+        "heading": "Using museum images well",
+        "body": "Crop and recolour freely: CC0 has no conditions. A credit line ('Vincent van Gogh, Sunflowers, 1887. The Metropolitan Museum of Art') is good manners and helps your readers. Use the largest file for print: museum originals often run to 4000 pixels or more, and the Cleveland Museum of Art also offers full-resolution TIFFs."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I sell prints of public-domain paintings?",
+        "a": "Yes, when the museum releases the image as CC0 or public domain, as the Met, the Art Institute of Chicago and the Cleveland Museum of Art do for their open-access works. Check the verdict on each image: works still in copyright are not included."
+      },
+      {
+        "q": "Do I have to credit the museum?",
+        "a": "Not for CC0 images, but museums ask for it and it helps readers find the original. A line with the artist, title, date and museum is enough."
+      }
+    ],
+    "guides": [
+      "museum-open-access-art",
+      "free-images-commercial-use"
+    ]
+  },
+  {
+    "id": "space",
+    "name": "Space & science",
+    "title": "Free space images: planets, galaxies and Earth",
+    "description": "Free space and science images from NASA and open archives: planets, nebulae, galaxies, Earth from orbit, rockets and astronauts, with NASA's credit rules shown.",
+    "intro": "NASA is the largest free source of space pictures: Hubble and Webb views of galaxies and nebulae, the planets from passing probes, Earth from the International Space Station, rockets on the pad and astronauts at work. These collections group them by subject, with Wikimedia Commons adding images from other agencies and observatories. Every card shows the image's size and the credit NASA asks for.",
+    "categories": [
+      "space",
+      "science"
+    ],
+    "aliases": [
+      "space photos",
+      "nasa images",
+      "astronomy pictures",
+      "galaxy images"
+    ],
+    "sections": [
+      {
+        "heading": "NASA's rules, briefly",
+        "body": "NASA images are generally not copyrighted in the US and may be used commercially with credit. Don't use the NASA insignia or logotype as part of your branding, don't suggest NASA endorses you, and ask before identifiable astronauts or staff appear in an ad. That is why NASA images carry an editorial flag here. Images credited to partners such as ESA or a university may belong to them: those say 'check the terms'."
+      },
+      {
+        "heading": "Photos, composites and illustrations",
+        "body": "Many space pictures are composites of several exposures, colourised from invisible wavelengths, or artist's concepts of things no camera has seen. They are labelled as illustrations where the source says so. For a science article, say which it is in the caption."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use NASA images on a product?",
+        "a": "Usually yes, with credit, as long as the NASA logo isn't on it and nothing suggests NASA endorses the product. Check images credited to other organisations, which may be copyrighted by them."
+      },
+      {
+        "q": "Why do some galaxy images look different from others?",
+        "a": "Telescopes see different wavelengths: Hubble mostly visible light, Webb infrared, Chandra X-rays. The colours are mapped to what the eye can see, so the same object can look very different."
+      }
+    ],
+    "guides": [
+      "nasa-image-rules",
+      "free-images-commercial-use"
+    ]
+  },
+  {
+    "id": "history",
+    "name": "History & archives",
+    "title": "Free historical images: old photos and maps",
+    "description": "Free historical images from the Library of Congress, Wikimedia Commons and museums: vintage photographs, antique maps, posters and prints, with rights shown.",
+    "intro": "Archives hold the pictures that make a history article, a documentary slide or a vintage-styled design: street scenes from a century ago, hand-coloured maps, travel posters and magazine covers. These collections gather them from the Library of Congress, Wikimedia Commons and the museums. Old does not always mean free, so every card shows the rights statement the archive gives.",
+    "categories": [
+      "archive"
+    ],
+    "aliases": [
+      "vintage photos",
+      "historical photos",
+      "old maps",
+      "antique maps"
+    ],
+    "sections": [
+      {
+        "heading": "Reading archive rights statements",
+        "body": "The Library of Congress marks many photographs 'No known restrictions on publication': you can use them freely, and crediting the collection is a courtesy. Others say 'Rights status not evaluated' or 'Publication may be restricted': those are shown as 'check the terms', because a photographer's estate or a publisher may still hold rights."
+      },
+      {
+        "heading": "Maps and posters",
+        "body": "Maps published before about 1930 are public domain in the US and make striking backgrounds and illustrations. Posters and advertisements of the same age often are too, but trademarks in them (a brand name or logo) can still matter if you use them commercially."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is every old photograph in the public domain?",
+        "a": "No. In the US, works published before 1930 are public domain, but unpublished photographs and later ones may still be in copyright. Use the archive's rights statement, shown on each image."
+      },
+      {
+        "q": "How do I credit the Library of Congress?",
+        "a": "A line such as 'Library of Congress, Prints & Photographs Division' with the item's link is what the library suggests. It is a courtesy for items with no known restrictions."
+      }
+    ],
+    "guides": [
+      "free-images-commercial-use",
+      "credit-cc-by-images"
+    ]
+  },
+  {
+    "id": "design",
+    "name": "Icons & design assets",
+    "title": "Free icons, vectors and textures for design",
+    "description": "Free SVG icons from open-source icon sets, plus vectors, textures and backgrounds, with the licence of every set and file shown and transparent files marked.",
+    "intro": "Interface and slide design runs on small assets: icons for features and buttons, textures and gradients for backgrounds, cut-outs that sit on any colour. These collections gather open-source icon sets through Iconify (over 200,000 icons from Material Design, Tabler, Phosphor and more), SVG drawings from Wikimedia Commons, and textures from open collections. Every card says whether the file is a vector and whether its background is transparent.",
+    "categories": [
+      "icons",
+      "background",
+      "objects"
+    ],
+    "styles": [
+      "icon",
+      "vector",
+      "transparent"
+    ],
+    "aliases": [
+      "free svg icons",
+      "free icons",
+      "vector graphics",
+      "background textures"
+    ],
+    "sections": [
+      {
+        "heading": "Icon licences",
+        "body": "Open-source icon sets use software licences: MIT, Apache 2.0, ISC or the SIL Open Font License. All allow commercial use in apps and websites. MIT, Apache and ISC ask you to keep the licence notice with copies you distribute, which for a website or app usually means listing the set in your open-source notices. A few sets are CC BY and need a visible credit."
+      },
+      {
+        "heading": "SVG or PNG",
+        "body": "SVG is a vector format: it scales to any size, stays sharp on every screen and can be recoloured with CSS. Use it for icons and logos-style graphics. PNG is a bitmap: pick it for cut-out photos with a transparent background, at the size you'll show them."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use open-source icons in a commercial app?",
+        "a": "Yes. MIT, Apache 2.0, ISC and OFL icon sets allow commercial use; keep the set's licence notice with your app's third-party notices. Check the licence shown on each icon, since a few sets need a visible credit."
+      },
+      {
+        "q": "How do I change an SVG icon's colour?",
+        "a": "Iconify icons use currentColor, so they take the text colour of the element they sit in. Set color in CSS, or replace the fill in the file."
+      }
+    ],
+    "guides": [
+      "transparent-png-and-svg-icons",
+      "free-images-commercial-use"
+    ]
+  }
+]

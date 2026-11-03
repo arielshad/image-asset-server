@@ -1,0 +1,30 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SearchApp from "@/components/search/SearchApp";
+import { breadcrumbs } from "@/lib/schema";
+import { PROVIDERS, SOURCE_COUNT } from "@/lib/site";
+import { allCollections } from "@/lib/collections";
+
+const collections = (await allCollections()).filter((c) => c.indexable);
+---
+
+<BaseLayout
+  title="Search free photos, art, vectors and icons"
+  description={`One search over ${SOURCE_COUNT} sites for free photos, museum art, old maps, SVG icons and textures, with a commercial-use verdict and credit line on every image.`}
+  schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: "Search", path: "/search" }])]}
+  markdown="/search.md"
+>
+  <h1 class="sr-only">Search free images across {SOURCE_COUNT} sources</h1>
+  <SearchApp client:load />
+  <noscript>
+    <div class="mx-auto max-w-3xl px-4 py-10 text-sm text-muted-foreground">
+      Live search needs JavaScript. You can also use the JSON API directly:
+      <code>/v1/search?q=ocean+waves&amp;orientation=portrait&amp;min_resolution=1080&amp;commercial=true</code>. Sources searched:
+      {PROVIDERS.map((p) => p.name).join(", ")}.
+      {collections.length > 0 && <p class="mt-4">Or browse the curated collections, which work without JavaScript:</p>}
+      <ul class="mt-2 list-disc pl-5">
+        {collections.map((c) => <li><a href={c.path} class="text-primary underline underline-offset-2 hover:decoration-2">{c.topic.data.title}</a></li>)}
+      </ul>
+    </div>
+  </noscript>
+</BaseLayout>

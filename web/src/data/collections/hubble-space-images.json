@@ -1,0 +1,963 @@
+{
+  "slug": "hubble-space-images",
+  "search": {
+    "q": "hubble nebula",
+    "categories": [
+      "space"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:55:17.858Z",
+  "images": [
+    {
+      "id": "nasa:GSFC_20171208_Archive_e001464",
+      "provider": "nasa",
+      "title": "Hubble reveals the Ring Nebula’s true shape",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001464",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001464/GSFC_20171208_Archive_e001464~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001464/GSFC_20171208_Archive_e001464~small.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "wikimediacommons:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+      "provider": "wikimediacommons",
+      "title": "Orion Nebula - Hubble 2006 mosaic 18000",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/330px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1280px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+      "author": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Tea",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 18000,
+      "height": 18000,
+      "year": 2006
+    },
+    {
+      "id": "openverse:6212f927-6455-42c0-8942-80d8e85e20b9",
+      "provider": "openverse",
+      "title": "Hubble Spins a Web Into a Giant Red Spider Nebula",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/29835637913",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/6212f927-6455-42c0-8942-80d8e85e20b9/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/6212f927-6455-42c0-8942-80d8e85e20b9/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 570
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e001955",
+      "provider": "nasa",
+      "title": "Hubble reveals heart of Lagoon Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001955",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001955/GSFC_20171208_Archive_e001955~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001955/GSFC_20171208_Archive_e001955~medium.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "wikimediacommons:Hubble_reveals_the_Ring_Nebula’s_true_shape.jpg",
+      "provider": "wikimediacommons",
+      "title": "Hubble reveals the Ring Nebula’s true shape",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Hubble_reveals_the_Ring_Nebula%E2%80%99s_true_shape.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hubble_reveals_the_Ring_Nebula%E2%80%99s_true_shape.jpg/330px-Hubble_reveals_the_Ring_Nebula%E2%80%99s_true_shape.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hubble_reveals_the_Ring_Nebula%E2%80%99s_true_shape.jpg/1280px-Hubble_reveals_the_Ring_Nebula%E2%80%99s_true_shape.jpg",
+      "author": "NASA, ESA, C.R. Robert O’Dell (Vanderbilt University), G.J. Ferland (University of Kentucky), W.J. Henney and M. Peimber",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7000,
+      "height": 6500,
+      "year": 2013
+    },
+    {
+      "id": "openverse:66d9297a-e749-477e-a233-b9b71b8da5e3",
+      "provider": "openverse",
+      "title": "Planetary Nebula",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/8804537584",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/66d9297a-e749-477e-a233-b9b71b8da5e3/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/66d9297a-e749-477e-a233-b9b71b8da5e3/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1003,
+      "height": 1024
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e000699",
+      "provider": "nasa",
+      "title": "Hubble View of a Nitrogen-Rich Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000699",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000699/GSFC_20171208_Archive_e000699~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000699/GSFC_20171208_Archive_e000699~medium.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "wikimediacommons:Keyhole_Nebula_-_Hubble_1999.jpg",
+      "provider": "wikimediacommons",
+      "title": "Keyhole Nebula - Hubble 1999",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Keyhole_Nebula_-_Hubble_1999.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Keyhole_Nebula_-_Hubble_1999.jpg/330px-Keyhole_Nebula_-_Hubble_1999.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Keyhole_Nebula_-_Hubble_1999.jpg/1280px-Keyhole_Nebula_-_Hubble_1999.jpg",
+      "author": "NASA, The Hubble Heritage Team (AURA/STScI)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 2292,
+      "height": 1480,
+      "year": 2000
+    },
+    {
+      "id": "openverse:f12d2c15-0e9f-437a-bacc-17f20ec7f346",
+      "provider": "openverse",
+      "title": "Lagoon Nebula",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/27717718518",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/f12d2c15-0e9f-437a-bacc-17f20ec7f346/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/f12d2c15-0e9f-437a-bacc-17f20ec7f346/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 870,
+      "height": 1024
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e001743",
+      "provider": "nasa",
+      "title": "Hubble Images Searchlight Beams from a Preplanetary Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001743",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001743/GSFC_20171208_Archive_e001743~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001743/GSFC_20171208_Archive_e001743~small.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "wikimediacommons:Tarantula_Nebula_-_Hubble.jpg",
+      "provider": "wikimediacommons",
+      "title": "Tarantula Nebula - Hubble",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Tarantula_Nebula_-_Hubble.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Tarantula_Nebula_-_Hubble.jpg/330px-Tarantula_Nebula_-_Hubble.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Tarantula_Nebula_-_Hubble.jpg/1280px-Tarantula_Nebula_-_Hubble.jpg",
+      "author": "ESA/NASA, ESO and Danny LaCrue",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3204,
+      "height": 2602,
+      "year": 2004
+    },
+    {
+      "id": "openverse:1bdcf7ea-e1a0-47e3-96ce-101d06b8afec",
+      "provider": "openverse",
+      "title": "Hubble's New Eyes: Butterfly Emerges from Stellar Demise in Planetary Nebula NGC 6302",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/35278629@N08/6550937255",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/1bdcf7ea-e1a0-47e3-96ce-101d06b8afec/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7173/6550937255_4e5a28c4e5_b.jpg",
+      "author": "NASA Goddard Space Flight Center",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 858,
+      "height": 1024
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e000273",
+      "provider": "nasa",
+      "title": "NASA's Hubble Captures the Beating Heart of the Crab Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000273",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000273/GSFC_20171208_Archive_e000273~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000273/GSFC_20171208_Archive_e000273~small.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "wikimediacommons:Hubble_image_of_the_Ring_Nebula_(Messier_57).jpg",
+      "provider": "wikimediacommons",
+      "title": "Hubble image of the Ring Nebula (Messier 57)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Hubble_image_of_the_Ring_Nebula_(Messier_57).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Hubble_image_of_the_Ring_Nebula_%28Messier_57%29.jpg/330px-Hubble_image_of_the_Ring_Nebula_%28Messier_57%29.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Hubble_image_of_the_Ring_Nebula_%28Messier_57%29.jpg/1280px-Hubble_image_of_the_Ring_Nebula_%28Messier_57%29.jpg",
+      "author": "NASA, ESA, and C. Robert O’Dell (Vanderbilt University)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 3179,
+      "height": 3179,
+      "year": 2013
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e000134",
+      "provider": "nasa",
+      "title": "Hubble sniffs out a brilliant star death in a “rotten egg” nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000134",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000134/GSFC_20171208_Archive_e000134~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000134/GSFC_20171208_Archive_e000134~small.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "openverse:5cde2b7d-139a-465b-bf0c-ca2178571c67",
+      "provider": "openverse",
+      "title": "Hubble Captures the Galaxy’s Biggest Ongoing Stellar Fireworks Show",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/48181466307",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/5cde2b7d-139a-465b-bf0c-ca2178571c67/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/5cde2b7d-139a-465b-bf0c-ca2178571c67/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 985,
+      "height": 985
+    },
+    {
+      "id": "wikimediacommons:Flame_Nebula-_Hubble_Observation_(2025-105).png",
+      "provider": "wikimediacommons",
+      "title": "Flame Nebula- Hubble Observation (2025-105)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Flame_Nebula-_Hubble_Observation_(2025-105).png",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/330px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/1280px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
+      "author": "Image: NASA, ESA, CSA, STScI, Michael Meyer (University of Michigan), Matthew De Furio (UT Austin), Massimo Robberto (ST",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "portrait",
+      "width": 3934,
+      "height": 4344,
+      "year": 2025
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e002076",
+      "provider": "nasa",
+      "title": "Hubble Captures Spectacular \"Landscape\" in the Carina Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002076",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002076/GSFC_20171208_Archive_e002076~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002076/GSFC_20171208_Archive_e002076~medium.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "openverse:fdc9bc5a-5adb-4cad-9332-999696157082",
+      "provider": "openverse",
+      "title": "Hubble’s Cosmic Holiday Wreath",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/31468331457",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/fdc9bc5a-5adb-4cad-9332-999696157082/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/fdc9bc5a-5adb-4cad-9332-999696157082/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1006
+    },
+    {
+      "id": "wikimediacommons:Schematic_of_Planetary_Nebula_Hubble_5_(1997-38-573).gif",
+      "provider": "wikimediacommons",
+      "title": "Schematic of Planetary Nebula Hubble 5 (1997-38-573)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Schematic_of_Planetary_Nebula_Hubble_5_(1997-38-573).gif",
+      "downloadable": true,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Schematic_of_Planetary_Nebula_Hubble_5_%281997-38-573%29.gif",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Schematic_of_Planetary_Nebula_Hubble_5_%281997-38-573%29.gif",
+      "author": "Hubble Space Telescope",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "gif"
+      ],
+      "orientation": "square",
+      "width": 220,
+      "height": 219,
+      "year": 1997
+    },
+    {
+      "id": "nasa:GSFC_20171208_Archive_e000195",
+      "provider": "nasa",
+      "title": "Hubble Spins a Web Into a Giant Red Spider Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000195",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000195/GSFC_20171208_Archive_e000195~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000195/GSFC_20171208_Archive_e000195~medium.jpg",
+      "author": "NASA GSFC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "openverse:4f181054-b93a-4339-a89c-728a13d7280e",
+      "provider": "openverse",
+      "title": "Hubble Sees an Aging Star Wave Goodbye",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/24662369@N07/21866697898",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/4f181054-b93a-4339-a89c-728a13d7280e/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/4f181054-b93a-4339-a89c-728a13d7280e/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1021
+    },
+    {
+      "id": "nasa:PIA17563",
+      "provider": "nasa",
+      "title": "Crab Nebula, as Seen by Herschel and Hubble",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/PIA17563",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/PIA17563/PIA17563~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/PIA17563/PIA17563~medium.jpg",
+      "author": "NASA JPL (ESA/Herschel/PACS/MESS Key Programme Supernova Remnant Team; NASA et al.)",
+      "license": {
+        "id": "LicenseRef-NASA-media-third-party-credit",
+        "name": "NASA media (third-party credit)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 3864,
+      "height": 3864,
+      "year": 2013
+    },
+    {
+      "id": "wikimediacommons:Hubble's_variable_nebula_(NGC_2261)_(opo9935c).tiff",
+      "provider": "wikimediacommons",
+      "title": "Hubble's variable nebula (NGC 2261) (opo9935c)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Hubble%27s_variable_nebula_(NGC_2261)_(opo9935c).tiff",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hubble%27s_variable_nebula_%28NGC_2261%29_%28opo9935c%29.tiff/lossy-page1-330px-Hubble%27s_variable_nebula_%28NGC_2261%29_%28opo9935c%29.tiff.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hubble%27s_variable_nebula_%28NGC_2261%29_%28opo9935c%29.tiff/lossy-page1-1280px-Hubble%27s_variable_nebula_%28NGC_2261%29_%28opo9935c%29.tiff.jpg",
+      "author": "NASA / ESA and The Hubble Heritage Team ( AURA / STScI ).",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1472,
+      "height": 1505,
+      "year": 1999
+    },
+    {
+      "id": "openverse:d707c306-aa69-42dc-a7e1-25f9b2095768",
+      "provider": "openverse",
+      "title": "Orion Nebula M42",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/34168865@N08/3198607979",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/d707c306-aa69-42dc-a7e1-25f9b2095768/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3453/3198607979_0a9d2c7645_b.jpg",
+      "author": "Hubble Heritage",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 717
+    },
+    {
+      "id": "wikimediacommons:Hubble's_Variable_Nebula_-_NGC_2261.png",
+      "provider": "wikimediacommons",
+      "title": "Hubble's Variable Nebula - NGC 2261",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Hubble%27s_Variable_Nebula_-_NGC_2261.png",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hubble%27s_Variable_Nebula_-_NGC_2261.png/330px-Hubble%27s_Variable_Nebula_-_NGC_2261.png",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hubble%27s_Variable_Nebula_-_NGC_2261.png/1280px-Hubble%27s_Variable_Nebula_-_NGC_2261.png",
+      "author": "Judy Schmidt from Fresh Meadows, NY, USA",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "square",
+      "width": 1507,
+      "height": 1490,
+      "year": 2017
+    },
+    {
+      "id": "nasa:PIA14442",
+      "provider": "nasa",
+      "title": "Hubble Finds an Hourglass Nebula around a Dying Star",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/PIA14442",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/PIA14442/PIA14442~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/PIA14442/PIA14442~medium.jpg",
+      "author": "NASA/JPL-Caltech/ESA, the Hubble Heritage Team STScI/AURA",
+      "license": {
+        "id": "LicenseRef-NASA-media-third-party-credit",
+        "name": "NASA media (third-party credit)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1280,
+      "height": 1280,
+      "year": 1996
+    },
+    {
+      "id": "openverse:16402190-46b4-43a2-b74c-5a709d44c6d0",
+      "provider": "openverse",
+      "title": "Eagle Nebula M16",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/34168865@N08/3195427328",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/16402190-46b4-43a2-b74c-5a709d44c6d0/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3111/3195427328_3417902216_b.jpg",
+      "author": "Hubble Heritage",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 507,
+      "height": 1024
+    },
+    {
+      "id": "wikimediacommons:New_Hubble_image_of_Kleinmann-Low_Nebula.jpg",
+      "provider": "wikimediacommons",
+      "title": "New Hubble image of Kleinmann-Low Nebula",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Hubble_image_of_Kleinmann-Low_Nebula.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/New_Hubble_image_of_Kleinmann-Low_Nebula.jpg/330px-New_Hubble_image_of_Kleinmann-Low_Nebula.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/New_Hubble_image_of_Kleinmann-Low_Nebula.jpg/1280px-New_Hubble_image_of_Kleinmann-Low_Nebula.jpg",
+      "author": "NASA, ESA/Hubble",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4699,
+      "height": 3132,
+      "year": 2017
+    },
+    {
+      "id": "nasa:PIA04216",
+      "provider": "nasa",
+      "title": "Ant Nebula",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/PIA04216",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/PIA04216/PIA04216~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/PIA04216/PIA04216~small.jpg",
+      "author": "NASA/Space Telescope Science Institute",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1072,
+      "height": 708,
+      "year": 1999
+    },
+    {
+      "id": "openverse:b94d7d9e-4368-4c79-a220-af03e18a8e00",
+      "provider": "openverse",
+      "title": "Tarantula Nebula in the Large Magellanic Cloud",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/34168865@N08/6941855342",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/b94d7d9e-4368-4c79-a220-af03e18a8e00/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5443/6941855342_88d423847e_b.jpg",
+      "author": "Hubble Heritage",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 960,
+      "height": 1024
+    },
+    {
+      "id": "wikimediacommons:Tarantula_Nebula_Hubble_combi.jpg",
+      "provider": "wikimediacommons",
+      "title": "Tarantula Nebula Hubble combi",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Tarantula_Nebula_Hubble_combi.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tarantula_Nebula_Hubble_combi.jpg/330px-Tarantula_Nebula_Hubble_combi.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tarantula_Nebula_Hubble_combi.jpg/1280px-Tarantula_Nebula_Hubble_combi.jpg",
+      "author": "ESA/Hubble & NASA, C. Murray, E. Sabbi Acknowledgement: Y.-H. Chu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 3958,
+      "height": 3923,
+      "year": 2023
+    },
+    {
+      "id": "openverse:d852b1c5-4406-4aa5-b21b-a5758c27c97a",
+      "provider": "openverse",
+      "title": "Planetary Nebula NGC 2818",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/34168865@N08/3200167240",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/d852b1c5-4406-4aa5-b21b-a5758c27c97a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3089/3200167240_5e776e2bcb_b.jpg",
+      "author": "Hubble Heritage",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 580
+    },
+    {
+      "id": "nasa:PIA04227",
+      "provider": "nasa",
+      "title": "Orion Nebula and Bow Shock",
+      "category": "space",
+      "url": "https://images.nasa.gov/details/PIA04227",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/PIA04227/PIA04227~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/PIA04227/PIA04227~small.jpg",
+      "author": "NASA and the Hubble Heritage Team STScI/AURA",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1074,
+      "height": 895,
+      "year": 1999
+    },
+    {
+      "id": "wikimediacommons:Frosty_Leo_Nebula_(captured_by_the_Hubble_Space_Telescope).tiff",
+      "provider": "wikimediacommons",
+      "title": "Frosty Leo Nebula (captured by the Hubble Space Telescope)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Frosty_Leo_Nebula_(captured_by_the_Hubble_Space_Telescope).tiff",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Frosty_Leo_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.tiff/lossy-page1-330px-Frosty_Leo_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.tiff.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Frosty_Leo_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.tiff",
+      "author": "ESA/Hubble & NASA",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1006,
+      "height": 1027,
+      "year": 2011
+    },
+    {
+      "id": "openverse:414fe332-7f59-42ea-a76f-9d5d1dbc067a",
+      "provider": "openverse",
+      "title": "Keyhole Nebula",
+      "category": "space",
+      "url": "https://www.flickr.com/photos/34168865@N08/3190647465",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/414fe332-7f59-42ea-a76f-9d5d1dbc067a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3381/3190647465_60406901a6_b.jpg",
+      "author": "Hubble Heritage",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 661
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "slug": "free-svg-icons",
+  "search": {
+    "q": "home",
+    "categories": [
+      "icons"
+    ]
+  },
+  "updatedAt": "2026-11-03T20:54:59.578Z",
+  "images": [
+    {
+      "id": "iconify:material-symbols:home",
+      "provider": "iconify",
+      "title": "home (Material Symbols)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols/home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols/home.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols/home.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols:home-outline",
+      "provider": "iconify",
+      "title": "home outline (Material Symbols)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols/home-outline/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols/home-outline.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols/home-outline.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols:home-outline-rounded",
+      "provider": "iconify",
+      "title": "home outline rounded (Material Symbols)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols/home-outline-rounded/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols/home-outline-rounded.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols/home-outline-rounded.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols:home-rounded",
+      "provider": "iconify",
+      "title": "home rounded (Material Symbols)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols/home-rounded/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols/home-rounded.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols/home-rounded.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols-light:home",
+      "provider": "iconify",
+      "title": "home (Material Symbols Light)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols-light/home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols-light/home.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols-light/home.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols-light:home-outline",
+      "provider": "iconify",
+      "title": "home outline (Material Symbols Light)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols-light/home-outline/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols-light/home-outline.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols-light/home-outline.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols-light:home-outline-rounded",
+      "provider": "iconify",
+      "title": "home outline rounded (Material Symbols Light)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols-light/home-outline-rounded/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols-light/home-outline-rounded.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols-light/home-outline-rounded.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:material-symbols-light:home-rounded",
+      "provider": "iconify",
+      "title": "home rounded (Material Symbols Light)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/material-symbols-light/home-rounded/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/material-symbols-light/home-rounded.svg",
+      "previewUrl": "https://api.iconify.design/material-symbols-light/home-rounded.svg",
+      "author": "Google",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:ic:baseline-home",
+      "provider": "iconify",
+      "title": "baseline home (Google Material Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/ic/baseline-home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/ic/baseline-home.svg",
+      "previewUrl": "https://api.iconify.design/ic/baseline-home.svg",
+      "author": "Material Design Authors",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:ic:outline-home",
+      "provider": "iconify",
+      "title": "outline home (Google Material Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/ic/outline-home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/ic/outline-home.svg",
+      "previewUrl": "https://api.iconify.design/ic/outline-home.svg",
+      "author": "Material Design Authors",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:ic:round-home",
+      "provider": "iconify",
+      "title": "round home (Google Material Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/ic/round-home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/ic/round-home.svg",
+      "previewUrl": "https://api.iconify.design/ic/round-home.svg",
+      "author": "Material Design Authors",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:ic:sharp-home",
+      "provider": "iconify",
+      "title": "sharp home (Google Material Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/ic/sharp-home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/ic/sharp-home.svg",
+      "previewUrl": "https://api.iconify.design/ic/sharp-home.svg",
+      "author": "Material Design Authors",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:ic:twotone-home",
+      "provider": "iconify",
+      "title": "twotone home (Google Material Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/ic/twotone-home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/ic/twotone-home.svg",
+      "previewUrl": "https://api.iconify.design/ic/twotone-home.svg",
+      "author": "Material Design Authors",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    },
+    {
+      "id": "iconify:mdi:home",
+      "provider": "iconify",
+      "title": "home (Material Design Icons)",
+      "category": "icons",
+      "url": "https://icon-sets.iconify.design/mdi/home/",
+      "downloadable": true,
+      "styles": [
+        "icon",
+        "vector",
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.iconify.design/mdi/home.svg",
+      "previewUrl": "https://api.iconify.design/mdi/home.svg",
+      "author": "Pictogrammers",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache 2.0",
+        "url": "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "svg"
+      ],
+      "orientation": "square",
+      "width": 24,
+      "height": 24,
+      "vector": true,
+      "transparent": true
+    }
+  ]
+}

@@ -1,28 +1,28 @@
 {
-  "countedAt": "2026-11-03T20:53:34.968Z",
+  "countedAt": "2026-11-04T12:04:59.538Z",
   "totals": {
     "listings": {
-      "count": 140342499,
+      "count": 140352833,
       "atLeast": true
     },
     "free": {
-      "count": 140342499,
+      "count": 140352833,
       "atLeast": true
     },
     "cc0": {
       "count": 11288
     },
     "directDownload": {
-      "count": 140342499,
+      "count": 140352833,
       "atLeast": true
     },
     "addedLast30Days": 0,
-    "sourcesCounted": 7,
+    "sourcesCounted": 8,
     "sourcesLinked": 25
   },
   "byCategory": {
     "archive": {
-      "count": 1133102
+      "count": 1133163
     },
     "icons": {
       "count": 464444
@@ -52,20 +52,87 @@
   },
   "sources": [
     {
+      "id": "openverse",
+      "name": "Openverse",
+      "homepage": "https://openverse.org",
+      "pricing": "free",
+      "supportsDownload": true,
+      "total": 915519784,
+      "free": 915519784,
+      "byCategory": {},
+      "categories": {
+        "Wikimedia Commons": 88962441,
+        "Animal Diversity Web": 15554,
+        "Biodiversity Heritage Library": 247705,
+        "Brooklyn Museum": 72339,
+        "Cleveland Museum of Art": 42242,
+        "SpaceX": 1360,
+        "SVG Silh": 358942,
+        "Digitalt Museum": 289769,
+        "Thingiverse": 32139,
+        "World Register of Marine Species": 19783,
+        "Smithsonian Institution: National Air and Space Museum": 7030,
+        "Smithsonian Institution: Smithsonian American Art Museum": 13020,
+        "Smithsonian Institution: National Museum of American History": 19975,
+        "Smithsonian Institution: National Museum of the American Indian": 343,
+        "Smithsonian Institution: Smithsonian Gardens": 13598,
+        "Smithsonian Institution: Anacostia Community Museum": 773,
+        "Geograph Britain and Ireland": 1090119,
+        "Metropolitan Museum of Art": 498428,
+        "Museums Victoria": 184155,
+        "NASA": 131756,
+        "Rawpixel": 1268095,
+        "Rijksmuseum": 29999,
+        "Sketchfab": 37872,
+        "Smithsonian Institution: Smithsonian Libraries": 55,
+        "Smithsonian Institution: National Museum of African American History and Culture": 17007,
+        "Smithsonian Institution: National Museum of African Art": 367,
+        "Smithsonian Institution: National Museum of Natural History": 4990743,
+        "Smithsonian Institution: Cooper Hewitt, Smithsonian Design Museum": 92148,
+        "Smithsonian Institution: Freer Gallery of Art": 8878,
+        "Smithsonian Institution: Hirshhorn Museum and Sculpture Garden": 898,
+        "Smithsonian Institution: National Portrait Gallery": 18127,
+        "Smithsonian Institution: National Postal Museum": 12704,
+        "Smithsonian Institution: National Zoo": 462,
+        "Smithsonian Institution Archives": 8314,
+        "WOCinTech Chat": 268,
+        "Finnish Heritage Agency": 316574,
+        "StockSnap.io": 40333,
+        "WP Photo Directory": 43359,
+        "National Gallery of Denmark (SMK)": 53449,
+        "Finnish Satakunnan Museum": 22582,
+        "Just take it free": 221,
+        "PhyloPic": 12980,
+        "National Museum of Finland": 452,
+        "Europeana": 13841364,
+        "iNaturalist": 266268617,
+        "Nappy": 2211,
+        "Wellcome Collection": 92478,
+        "Gulbenkian Art Library": 7852,
+        "Flickr": 536219600,
+        "Science Museum – UK": 106876,
+        "Katmai National Park Service": 2147,
+        "New York Public Library": 1281
+      },
+      "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
+      "mirror": true,
+      "countedAt": "2026-11-04T12:04:59.538Z"
+    },
+    {
       "id": "wikimediacommons",
       "name": "Wikimedia Commons",
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138104162,
-      "free": 138104162,
+      "total": 138114435,
+      "free": 138114435,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5323309,
-        "4K or larger": 78291805
+        "Vector drawings (SVG)": 5323494,
+        "4K or larger": 78303364
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "loc",
@@ -73,13 +140,13 @@
       "homepage": "https://www.loc.gov/photos/",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 1133102,
-      "free": 1133102,
+      "total": 1133163,
+      "free": 1133163,
       "byCategory": {
-        "archive": 1133102
+        "archive": 1133163
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "iconify",
@@ -130,7 +197,7 @@
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "met",
@@ -146,7 +213,7 @@
         "photographs": 37486
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "nasa",
@@ -163,7 +230,7 @@
         "Earth": 41167
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "artic",
@@ -180,7 +247,7 @@
         "paintings": 1874
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     },
     {
       "id": "cleveland",
@@ -198,7 +265,7 @@
         "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-03T20:53:34.968Z"
+      "countedAt": "2026-11-04T12:04:59.538Z"
     }
   ],
   "linked": [

@@ -34,11 +34,15 @@ metadata:
   namespace: image-asset-server
 spec:
   replicas: 1
+  # Replace the pod in place (old one stops, then the new one starts): the
+  # shared worker has no memory to spare for a second pod during a rollout,
+  # so a surge pod stayed Pending and the new version never went out
+  # (2026-11-04). Costs a few seconds of downtime per deploy.
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxUnavailable: 0
-      maxSurge: 1
+      maxUnavailable: 1
+      maxSurge: 0
   selector:
     matchLabels:
       app: image-asset-server

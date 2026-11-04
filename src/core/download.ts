@@ -92,7 +92,8 @@ export function pickDisplay(image: Pick<ImageDetails, "files" | "previewUrl" | "
     const score = (f: ImageFile): number => {
       if (f.format === "svg") return 0;
       const s = size(f);
-      if (s === undefined) return f.role === "thumbnail" ? 4 : 2;
+      // Size unknown: a resized copy beats the original scan (often tens of MB), a thumbnail is a last resort.
+      if (s === undefined) return f.role === "thumbnail" ? 4 : f.role === "rendition" ? 2 : 2.5;
       if (s > 2400) return 2 + s / 100_000; // too heavy to show quickly
       return Math.abs(s - 1280) / 1000 + (f.role === "thumbnail" ? 0.5 : 0);
     };

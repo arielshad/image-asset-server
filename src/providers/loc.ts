@@ -1,3 +1,4 @@
+import { pauseOnRefusal } from "./pause.js";
 import { customLicense, license } from "../core/licence.js";
 import type { ImageAsset, ImageDetails, ImageFile, License, Provider, SourceCensus } from "../core/types.js";
 import type { ImageStyle } from "../core/vocab.js";
@@ -170,6 +171,14 @@ function filesOf(item: LocItem): ImageFile[] {
   return out.sort((a, b) => (a.role === "original" ? -1 : b.role === "original" ? 1 : (b.width ?? 0) - (a.width ?? 0)));
 }
 
+/**
+ * loc.gov sits behind a bot wall that refuses some cloud addresses with 403
+ * (the shep.bot cluster on 2026-11-04) and rate-limits bursts with 429. After
+ * either, pause for 30 minutes (or Retry-After) instead of asking on every
+ * search.
+ */
+export const locPause = pauseOnRefusal("Library of Congress", { status: [403, 429], pauseMs: (e) => (e.retryAfterSec ?? 30 * 60) * 1000 });
+
 export const loc: Provider = {
   id: "loc",
   name: SOURCE_NAME,
@@ -190,7 +199,7 @@ export const loc: Provider = {
     const c = Math.max(1, Math.min(q.limit, MAX_PAGE_SIZE));
     const sp = Math.floor((q.offset ?? 0) / c) + 1;
     const url = `${SITE}/photos/${qs({ q: q.query.trim() || undefined, fo: "json", c, sp: sp > 1 ? sp : undefined, fa: "access-restricted:false", at: "results,pagination" })}`;
-    const res = await ctx.fetch.json<LocSearch>(url, { cacheTtlMs: 60 * 60_000, signal: ctx.signal });
+    const res = await locPause.run(() => ctx.fetch.json<LocSearch>(url, { cacheTtlMs: 60 * 60_000, signal: ctx.signal }));
     const images: ImageAsset[] = [];
     for (const r of res.results ?? []) {
       const d = toImage(r);
@@ -203,7 +212,7 @@ export const loc: Provider = {
 
   async getImage(nativeId, ctx) {
     if (!/^[\w.-]+$/.test(nativeId)) return null;
-    const res = await ctx.fetch.json<LocItem>(`${SITE}/item/${nativeId}/${qs({ fo: "json", at: "item,resources" })}`, { cacheTtlMs: 24 * 60 * 60_000, signal: ctx.signal });
+    const res = await locPause.run(() => ctx.fetch.json<LocItem>(`${SITE}/item/${nativeId}/${qs({ fo: "json", at: "item,resources" })}`, { cacheTtlMs: 24 * 60 * 60_000, signal: ctx.signal }));
     const it = res.item;
     if (!it) return null;
     const files = filesOf(res);

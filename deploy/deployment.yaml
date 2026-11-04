@@ -131,9 +131,14 @@ spec:
               mountPath: /var/run/secrets/image-asset-server
               readOnly: true
           resources:
+            # shep-worker-1 is a shared node whose memory is almost fully
+            # reserved by other tenants: with a 128Mi request this pod stayed
+            # Pending ("Insufficient memory", 2026-11-04). Idle it uses about
+            # 40Mi (an in-memory HTTP cache on top), so the request reflects
+            # that and the limit covers bursts.
             requests:
               cpu: 25m
-              memory: 128Mi
+              memory: 48Mi
             limits:
               cpu: "1"
               memory: 512Mi

@@ -7,7 +7,7 @@
 # No image bytes pass through this pod: thumbnails and previews load in the
 # browser from the sources, and /v1/images/:id/download answers with a 302 to
 # the file on the source. The pod only holds an in-memory HTTP cache, so there
-# is no PVC and rollouts are RollingUpdate. Server-side downloads over MCP stay
+# is no PVC (rollouts replace the pod in place, see strategy). Server-side downloads over MCP stay
 # disabled (IMAGE_SERVER_HTTP_DOWNLOADS unset).
 #
 # Optional `image-asset-server-env` Secret; the pod starts fine without it. It

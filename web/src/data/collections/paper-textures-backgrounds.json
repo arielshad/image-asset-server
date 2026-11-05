@@ -6,7 +6,7 @@
       "background"
     ]
   },
-  "updatedAt": "2026-11-03T20:56:19.419Z",
+  "updatedAt": "2026-11-05T12:18:11.098Z",
   "images": [
     {
       "id": "wikimediacommons:Vintage_Paper_Texture_(9789792113).jpg",
@@ -389,6 +389,363 @@
       "width": 2415,
       "height": 3437,
       "year": 2009
+    },
+    {
+      "id": "openverse:7f4e9ca9-3585-4c0d-99f2-64ef68022726",
+      "provider": "openverse",
+      "title": "handmade paper texture",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/39998818@N06/4269487203",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/7f4e9ca9-3585-4c0d-99f2-64ef68022726/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2732/4269487203_8d49a7f026_b.jpg",
+      "author": "Kim Klassen",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "openverse:5a4748cd-148e-4d46-8550-debca0ad8a6f",
+      "provider": "openverse",
+      "title": "paper texture",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/82734225@N00/2647265848",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/5a4748cd-148e-4d46-8550-debca0ad8a6f/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3257/2647265848_5cd2e50b4a_b.jpg",
+      "author": "Jana Š. (schamka)",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 685
+    },
+    {
+      "id": "openverse:37b116dd-5747-4d7f-b6f2-6185bff39e7a",
+      "provider": "openverse",
+      "title": "paper-texture-14",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585538284",
+      "downloadable": true,
+      "styles": [
+        "illustration"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/37b116dd-5747-4d7f-b6f2-6185bff39e7a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8423/7585538284_4a5282633b_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:0079bd59-a542-48aa-b698-e2358e98be2e",
+      "provider": "openverse",
+      "title": "paper-texture-04",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585522450",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/0079bd59-a542-48aa-b698-e2358e98be2e/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7276/7585522450_da0c74f826_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:389ecd9c-f610-43d6-96b0-b898a14f4495",
+      "provider": "openverse",
+      "title": "paper-texture-17",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585544458",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/389ecd9c-f610-43d6-96b0-b898a14f4495/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7106/7585544458_739498ae5a_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:92602223-acbe-48bd-9ce4-ae51b7382611",
+      "provider": "openverse",
+      "title": "paper-texture-08",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585529248",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/92602223-acbe-48bd-9ce4-ae51b7382611/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7123/7585529248_915105db7c_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:f901b43c-d21b-44b6-9236-27796a6d3170",
+      "provider": "openverse",
+      "title": "Wrinkled Paper Texture",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/89964047@N07/8178175933",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/f901b43c-d21b-44b6-9236-27796a6d3170/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8345/8178175933_29cf256572_b.jpg",
+      "author": "texturezine",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "openverse:9a61c3fc-0df5-431a-bb7d-7bbc1dd6a4e8",
+      "provider": "openverse",
+      "title": "stained-paper-texture-5",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3980091728",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/9a61c3fc-0df5-431a-bb7d-7bbc1dd6a4e8/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3496/3980091728_323e7e8e4a_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:ab67aa6c-ee2b-487a-b9d1-adada180fd38",
+      "provider": "openverse",
+      "title": "Flecked paper texture",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/12266520@N07/3146589344",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/ab67aa6c-ee2b-487a-b9d1-adada180fd38/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3106/3146589344_f4f2f09aa7_b.jpg",
+      "author": "irisb477",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 689
+    },
+    {
+      "id": "openverse:f6a2ea9f-3663-4b74-9d7b-dae24a1eb673",
+      "provider": "openverse",
+      "title": "stained-paper-texture-6",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3980094022",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/f6a2ea9f-3663-4b74-9d7b-dae24a1eb673/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3502/3980094022_d0311f85fc_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:ae7852ed-6557-4a81-b710-901bd1cf7947",
+      "provider": "openverse",
+      "title": "stained-paper-texture-1",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3979322749",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/ae7852ed-6557-4a81-b710-901bd1cf7947/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2664/3979322749_261c40ba3c_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:6a5196e8-3810-4017-bd26-84f0d08b797c",
+      "provider": "openverse",
+      "title": "vintage paper texture",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/76533728@N00/6030107724",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/6a5196e8-3810-4017-bd26-84f0d08b797c/thumb/",
+      "previewUrl": "https://live.staticflickr.com/6135/6030107724_05bfedb44c_b.jpg",
+      "author": "pinkorchid_too (Sandra)",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 904,
+      "height": 1024
+    },
+    {
+      "id": "openverse:60f3e8b6-f175-4ad1-a256-6b8179d84919",
+      "provider": "openverse",
+      "title": "burnt-paper-texture-5",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3198032838",
+      "downloadable": true,
+      "styles": [
+        "transparent"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/60f3e8b6-f175-4ad1-a256-6b8179d84919/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3534/3198032838_b632e5bc54_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 726,
+      "height": 1024,
+      "transparent": true
+    },
+    {
+      "id": "openverse:6979804d-a3ec-476f-b578-06716428e0c7",
+      "provider": "openverse",
+      "title": "burnt-paper-texture-3",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3197187897",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/6979804d-a3ec-476f-b578-06716428e0c7/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3124/3197187897_ddc3ac8268_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 726,
+      "height": 1024
     }
   ]
 }

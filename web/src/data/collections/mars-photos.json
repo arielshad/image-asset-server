@@ -6,7 +6,7 @@
       "space.planets"
     ]
   },
-  "updatedAt": "2026-11-03T20:55:59.204Z",
+  "updatedAt": "2026-11-05T12:18:08.379Z",
   "images": [
     {
       "id": "nasa:PIA10739",
@@ -801,6 +801,215 @@
       "width": 344,
       "height": 231,
       "year": 1969
+    },
+    {
+      "id": "openverse:65f8666d-0fc6-4fcb-9711-971b095b409b",
+      "provider": "openverse",
+      "title": "Mars surface - orbite 25",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/195227719@N04/52479416629",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/65f8666d-0fc6-4fcb-9711-971b095b409b/thumb/",
+      "previewUrl": "https://live.staticflickr.com/65535/52479416629_2f7cd150b3_b.jpg",
+      "author": "Moon's galaxy",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "openverse:bdf49385-d948-43a6-94d3-afda7daf7ea5",
+      "provider": "openverse",
+      "title": "First Mars Surface Photo, 1976",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/37211895@N03/28589479024",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/bdf49385-d948-43a6-94d3-afda7daf7ea5/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8357/28589479024_b71f7cdaab.jpg",
+      "author": "NASAJPL",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 498,
+      "height": 221
+    },
+    {
+      "id": "openverse:e8b7b683-8165-49b6-9996-6a2072ec844a",
+      "provider": "openverse",
+      "title": "Mars surface",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/24965563@N05/8736041172",
+      "downloadable": true,
+      "styles": [
+        "black-white"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/e8b7b683-8165-49b6-9996-6a2072ec844a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7301/8736041172_4d96ba05d7_b.jpg",
+      "author": "Ricardo Cavero",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "openverse:bdd1b806-1cd6-404e-825d-89798bbd6f25",
+      "provider": "openverse",
+      "title": "Mars surface test bed",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/25813399@N00/5356058464",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/bdd1b806-1cd6-404e-825d-89798bbd6f25/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5201/5356058464_592ab3dc88_b.jpg",
+      "author": "flash5",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "openverse:88ed5a9a-c262-44ec-a8c7-f9f7fcc3c39d",
+      "provider": "openverse",
+      "title": "Weird Mars' surface",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/26118971@N06/5406174974",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/88ed5a9a-c262-44ec-a8c7-f9f7fcc3c39d/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5178/5406174974_0e17173a6e_b.jpg",
+      "author": "joravasal",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 797
+    },
+    {
+      "id": "openverse:ec8daec7-78dc-4c97-a23d-b52f9e4b8010",
+      "provider": "openverse",
+      "title": "mars-surface-2",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/49598301@N00/7541602036",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/ec8daec7-78dc-4c97-a23d-b52f9e4b8010/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7264/7541602036_f141d7dca9_b.jpg",
+      "author": "dangerismycat",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 974,
+      "height": 516
+    },
+    {
+      "id": "openverse:4a8db323-34d9-457f-a342-14e10710e56c",
+      "provider": "openverse",
+      "title": "First close-up of Mars’ surface",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/42873702@N05/4457198466",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/4a8db323-34d9-457f-a342-14e10710e56c/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4025/4457198466_74bb7442f2.jpg",
+      "author": "Center for Image in Science and Art _ UL",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 500,
+      "height": 458
+    },
+    {
+      "id": "openverse:9ced9135-e309-4ceb-be94-99f5dcf2ac27",
+      "provider": "openverse",
+      "title": "Mars Surface?",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/24929844@N00/4406893467",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/9ced9135-e309-4ceb-be94-99f5dcf2ac27/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2776/4406893467_d0535e69d2_b.jpg",
+      "author": "Clear Inner Vision",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 673
     }
   ]
 }

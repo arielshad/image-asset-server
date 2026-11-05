@@ -6,7 +6,7 @@
       "space.earth"
     ]
   },
-  "updatedAt": "2026-11-03T20:54:22.910Z",
+  "updatedAt": "2026-11-05T12:17:44.409Z",
   "images": [
     {
       "id": "nasa:iss045e013851",
@@ -430,6 +430,164 @@
       "width": 2720,
       "height": 2000,
       "year": 2002
+    },
+    {
+      "id": "openverse:c1dff77f-3743-46c1-84c8-8230e0126ba1",
+      "provider": "openverse",
+      "title": "NASA's first television picture of Earth from space",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/24662369@N07/4482476686",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "black-white"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/c1dff77f-3743-46c1-84c8-8230e0126ba1/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/c1dff77f-3743-46c1-84c8-8230e0126ba1/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 449,
+      "height": 500
+    },
+    {
+      "id": "openverse:d12f36d3-b47e-4718-9146-4afc51cbb953",
+      "provider": "openverse",
+      "title": "Earth from Space",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/24662369@N07/6049973495",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/d12f36d3-b47e-4718-9146-4afc51cbb953/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/d12f36d3-b47e-4718-9146-4afc51cbb953/thumb/",
+      "author": "NASA Goddard Photo and Video",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "id": "openverse:5c89cd52-0c68-4201-a59f-4bc7a2c956ed",
+      "provider": "openverse",
+      "title": "the earth! from space?",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/95632040@N00/4168519380",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/5c89cd52-0c68-4201-a59f-4bc7a2c956ed/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2624/4168519380_736b094771_b.jpg",
+      "author": "☻☺",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 681
+    },
+    {
+      "id": "openverse:feb65129-0a68-4909-9d3e-1f4f448e0181",
+      "provider": "openverse",
+      "title": "Earth from Space with Stars",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/47422005@N04/6143809369",
+      "downloadable": true,
+      "styles": [
+        "photo",
+        "illustration"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/feb65129-0a68-4909-9d3e-1f4f448e0181/thumb/",
+      "previewUrl": "https://live.staticflickr.com/6176/6143809369_5baf154344_b.jpg",
+      "author": "DonkeyHotey",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "openverse:620be071-a433-496d-a341-80c2c63bc310",
+      "provider": "openverse",
+      "title": "Our Living Earth ... From Space",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/28634332@N05/38407114626",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/620be071-a433-496d-a341-80c2c63bc310/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/620be071-a433-496d-a341-80c2c63bc310/thumb/",
+      "author": "NASA's Marshall Space Flight Center",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 682,
+      "height": 1024
+    },
+    {
+      "id": "openverse:a3a0bac3-b0e8-414f-970f-93fe17d2fdfb",
+      "provider": "openverse",
+      "title": "Earth from Space (Community)",
+      "category": "space.earth",
+      "url": "https://www.flickr.com/photos/14908491@N02/8961070702",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/a3a0bac3-b0e8-414f-970f-93fe17d2fdfb/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3674/8961070702_6faa450cc5.jpg",
+      "author": "The Open University (OU)",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 500,
+      "height": 500
     }
   ]
 }

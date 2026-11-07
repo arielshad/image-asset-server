@@ -6,7 +6,7 @@
       "drawing"
     ]
   },
-  "updatedAt": "2026-11-03T20:54:02.675Z",
+  "updatedAt": "2026-11-07T11:02:01.089Z",
   "images": [
     {
       "id": "met:360446",
@@ -688,36 +688,6 @@
       "year": 2011
     },
     {
-      "id": "cleveland:132623",
-      "provider": "cleveland",
-      "title": "The Botanical Magazine or Flower Garden Displayed: Stately Crinum",
-      "category": "art.drawing",
-      "url": "https://clevelandart.org/art/1955.147",
-      "downloadable": true,
-      "styles": [
-        "drawing"
-      ],
-      "thumbnailUrl": "https://openaccess-cdn.clevelandart.org/1955.147/1955.147_web.jpg",
-      "previewUrl": "https://openaccess-cdn.clevelandart.org/1955.147/1955.147_web.jpg",
-      "author": "S. Curtis",
-      "license": {
-        "id": "LicenseRef-Museum-Open-Access",
-        "name": "Public domain (museum open access, CC0)",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "tif",
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 4592,
-      "height": 3718,
-      "year": 1823
-    },
-    {
       "id": "artic:150828",
       "provider": "artic",
       "title": "Roses in a Vase",
@@ -1015,6 +985,31 @@
       "width": 1024,
       "height": 514,
       "year": 1865
+    },
+    {
+      "id": "openverse:55132b37-f4b3-4079-a690-8797f364b6d0",
+      "provider": "openverse",
+      "title": "Solanum mammosum, nipple fruit, Foster Botanical Garden, Honolulu",
+      "category": "nature.plants",
+      "url": "https://www.flickr.com/photos/40295335@N00/2648345303",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/55132b37-f4b3-4079-a690-8797f364b6d0/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3225/2648345303_024543bb05_b.jpg",
+      "author": "Joel Abroad",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 768
     }
   ]
 }

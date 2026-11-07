@@ -7,7 +7,7 @@
     ],
     "minResolution": 2160
   },
-  "updatedAt": "2026-11-05T12:17:59.086Z",
+  "updatedAt": "2026-11-07T11:02:06.627Z",
   "images": [
     {
       "id": "wikimediacommons:Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg",
@@ -651,35 +651,6 @@
       "year": 2016
     },
     {
-      "id": "wikimediacommons:Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "provider": "wikimediacommons",
-      "title": "Herbstliche Landschaft vom Hambacher Schlosss 2020 IMG 8158",
-      "category": "nature",
-      "url": "https://commons.wikimedia.org/wiki/File:Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg/330px-Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg/1280px-Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "author": "Fischer.H",
-      "license": {
-        "id": "CC-BY-SA-4.0",
-        "name": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 5616,
-      "height": 3744,
-      "year": 2020
-    },
-    {
       "id": "openverse:a18a081c-8c6f-4f92-9388-f9b71e3e521b",
       "provider": "openverse",
       "title": "File:Val-d'Orcia-landscape-1.jpg",
@@ -903,6 +874,35 @@
       "orientation": "landscape",
       "width": 2763,
       "height": 2208
+    },
+    {
+      "id": "wikimediacommons:Dülmen,_Wildpark_--_2019_--_3153-9.jpg",
+      "provider": "wikimediacommons",
+      "title": "Dülmen, Wildpark -- 2019 -- 3153-9",
+      "category": "nature",
+      "url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2019_--_3153-9.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg/330px-D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg/1280px-D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg",
+      "author": "Dietmar Rabich",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6719,
+      "height": 4480,
+      "year": 2019
     }
   ]
 }

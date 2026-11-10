@@ -7,7 +7,7 @@
     ],
     "minResolution": 2160
   },
-  "updatedAt": "2026-11-07T11:02:06.627Z",
+  "updatedAt": "2026-11-10T12:36:27.027Z",
   "images": [
     {
       "id": "wikimediacommons:Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg",
@@ -903,6 +903,36 @@
       "width": 6719,
       "height": 4480,
       "year": 2019
+    },
+    {
+      "id": "nasa:iss075e0118823",
+      "provider": "nasa",
+      "title": "The dramatic landscape of southern Bolivia in the Andean foothills",
+      "category": "nature",
+      "url": "https://images.nasa.gov/details/iss075e0118823",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss075e0118823/iss075e0118823~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/iss075e0118823/iss075e0118823~medium.jpg",
+      "author": "NASA JSC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 8256,
+      "height": 5504,
+      "year": 2026
     }
   ]
 }

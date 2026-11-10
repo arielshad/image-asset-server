@@ -1,19 +1,19 @@
 {
-  "countedAt": "2026-11-09T12:49:22.875Z",
+  "countedAt": "2026-11-10T12:35:57.082Z",
   "totals": {
     "listings": {
-      "count": 140381149,
+      "count": 140375385,
       "atLeast": true
     },
     "free": {
-      "count": 140381149,
+      "count": 140375385,
       "atLeast": true
     },
     "cc0": {
-      "count": 11299
+      "count": 11315
     },
     "directDownload": {
-      "count": 140381149,
+      "count": 140375385,
       "atLeast": true
     },
     "addedLast30Days": 0,
@@ -22,25 +22,25 @@
   },
   "byCategory": {
     "archive": {
-      "count": 1133140
+      "count": 1133151
     },
     "icons": {
-      "count": 465618
+      "count": 467286
     },
     "art": {
       "count": 100902
     }
   },
   "byLicense": {
-    "MIT": 265009,
+    "MIT": 266469,
     "Apache-2.0": 85469,
     "CC-BY-4.0": 64702,
-    "CC-BY-SA-4.0": 21863,
-    "CC0-1.0": 11299,
-    "ISC": 6211,
+    "CC-BY-SA-4.0": 22015,
+    "CC0-1.0": 11315,
+    "ISC": 6249,
     "CC-BY-3.0": 4133,
     "OFL-1.1": 2634,
-    "CC-BY-NC-SA-4.0": 1790,
+    "CC-BY-NC-SA-4.0": 1792,
     "GPL-2.0-or-later": 686,
     "GPL-3.0-or-later": 591,
     "Unlicense": 430,
@@ -116,7 +116,7 @@
       },
       "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
       "mirror": true,
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "wikimediacommons",
@@ -124,15 +124,15 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138141437,
-      "free": 138141437,
+      "total": 138133892,
+      "free": 138133892,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5325950,
-        "4K or larger": 78353812
+        "Vector drawings (SVG)": 5326209,
+        "4K or larger": 78341862
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "loc",
@@ -140,13 +140,13 @@
       "homepage": "https://www.loc.gov/photos/",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 1133140,
-      "free": 1133140,
+      "total": 1133151,
+      "free": 1133151,
       "byCategory": {
-        "archive": 1133140
+        "archive": 1133151
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "iconify",
@@ -154,25 +154,25 @@
       "homepage": "https://iconify.design",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 465618,
-      "free": 465618,
+      "total": 467286,
+      "free": 467286,
       "byCategory": {
-        "icons": 465618
+        "icons": 467286
       },
       "byLicense": {
         "Apache-2.0": 85469,
         "OFL-1.1": 2634,
-        "MIT": 265009,
+        "MIT": 266469,
         "CC-BY-4.0": 64702,
-        "ISC": 6211,
-        "CC-BY-SA-4.0": 21863,
+        "ISC": 6249,
+        "CC-BY-SA-4.0": 22015,
         "MPL-2.0": 288,
         "GPL-2.0-only": 207,
         "GPL-2.0-or-later": 686,
         "BSD-3-Clause": 210,
         "Unlicense": 430,
-        "CC0-1.0": 11299,
-        "CC-BY-NC-SA-4.0": 1790,
+        "CC0-1.0": 11315,
+        "CC-BY-NC-SA-4.0": 1792,
         "CC-BY-SA-3.0": 45,
         "CC-BY-3.0": 4133,
         "GPL-3.0": 51,
@@ -180,24 +180,24 @@
       },
       "categories": {
         "Material": 51523,
-        "UI 24px": 181978,
-        "UI 16px / 32px": 13241,
-        "UI Other / Mixed Grid": 69268,
+        "UI 24px": 183254,
+        "UI 16px / 32px": 13304,
+        "UI Other / Mixed Grid": 69412,
         "UI Multicolor": 30436,
-        "Programming": 7503,
-        "Logos": 33786,
+        "Programming": 7518,
+        "Logos": 33791,
         "Emoji": 25485,
-        "Location": 4911,
+        "Location": 4924,
         "Flags": 1736,
         "Holiday / Seasonal": 6000,
         "Apps": 1000,
         "Thematic": 5001,
-        "High Detail": 17534,
+        "High Detail": 17686,
         "High Detail Multicolor": 1567,
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "met",
@@ -205,15 +205,15 @@
       "homepage": "https://www.metmuseum.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 371365,
-      "free": 371365,
+      "total": 371385,
+      "free": 371385,
       "byCategory": {},
       "categories": {
-        "paintings": 61257,
-        "photographs": 37522
+        "paintings": 61260,
+        "photographs": 37534
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "nasa",
@@ -221,16 +221,16 @@
       "homepage": "https://images.nasa.gov",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 168687,
+      "total": 168769,
       "atLeast": true,
-      "free": 168687,
+      "free": 168769,
       "byCategory": {},
       "categories": {
         "Hubble": 4789,
         "Earth": 41170
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "artic",
@@ -247,7 +247,7 @@
         "paintings": 1874
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     },
     {
       "id": "cleveland",
@@ -265,7 +265,7 @@
         "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-09T12:49:22.875Z"
+      "countedAt": "2026-11-10T12:35:57.082Z"
     }
   ],
   "linked": [

@@ -6,7 +6,7 @@
       "archive.map"
     ]
   },
-  "updatedAt": "2026-11-05T12:18:28.822Z",
+  "updatedAt": "2026-11-11T11:52:00.181Z",
   "images": [
     {
       "id": "loc:2019701186",
@@ -87,31 +87,6 @@
       "year": 1936
     },
     {
-      "id": "wikimediacommons:Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
-      "provider": "wikimediacommons",
-      "title": "Antique map of Lower Egypt showing Babylon Fortress in Old Cairo",
-      "category": "archive.map",
-      "url": "https://commons.wikimedia.org/wiki/File:Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
-      "downloadable": true,
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg/330px-Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Antique_map_of_Lower_Egypt_showing_Babylon_Fortress_in_Old_Cairo.jpg",
-      "author": "The mapmaker is unknown. Professor Park Yong-woo of Soongsil University posted this map.",
-      "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 963,
-      "height": 653
-    },
-    {
       "id": "wikimediacommons:Daidō-an_Ruins_the_old_map_of_Hakata_Narayamachi_Hakata-ku_fukuoka_20231215.jpg",
       "provider": "wikimediacommons",
       "title": "Daidō-an Ruins the old map of Hakata Narayamachi Hakata-ku fukuoka 20231215",
@@ -136,32 +111,6 @@
       "width": 4000,
       "height": 3000,
       "year": 2023
-    },
-    {
-      "id": "wikimediacommons:Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden,_1857_Canvas_Print.jpg",
-      "provider": "wikimediacommons",
-      "title": "Antique Maps - Old Cartographic maps - Antique Map of the Gulf of Aden, 1857 Canvas Print",
-      "category": "archive.map",
-      "url": "https://commons.wikimedia.org/wiki/File:Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden,_1857_Canvas_Print.jpg",
-      "downloadable": true,
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg/330px-Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Antique_Maps_-_Old_Cartographic_maps_-_Antique_Map_of_the_Gulf_of_Aden%2C_1857_Canvas_Print.jpg",
-      "author": "Sam thunder",
-      "license": {
-        "id": "CC-BY-SA-4.0",
-        "name": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 594,
-      "height": 555,
-      "year": 2025
     },
     {
       "id": "openverse:9f621d05-9117-4e63-bdcb-41057e670af7",
@@ -521,6 +470,58 @@
       "orientation": "portrait",
       "width": 729,
       "height": 1024
+    },
+    {
+      "id": "wikimediacommons:Old_Arab_World_map_(old_Russian).jpg",
+      "provider": "wikimediacommons",
+      "title": "Old Arab World map (old Russian)",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Arab_World_map_(old_Russian).jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_Arab_World_map_%28old_Russian%29.jpg/330px-Old_Arab_World_map_%28old_Russian%29.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Old_Arab_World_map_%28old_Russian%29.jpg",
+      "author": "Ahatanhel Krymsky",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 569,
+      "height": 341,
+      "year": 1903
+    },
+    {
+      "id": "wikimediacommons:Old_map_of_Sospel.jpg",
+      "provider": "wikimediacommons",
+      "title": "Old map of Sospel",
+      "category": "archive.map",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_map_of_Sospel.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Old_map_of_Sospel.jpg/330px-Old_map_of_Sospel.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Old_map_of_Sospel.jpg",
+      "author": "ArpoHell",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 911,
+      "height": 768,
+      "year": 2018
     }
   ]
 }

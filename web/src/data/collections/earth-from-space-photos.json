@@ -6,7 +6,7 @@
       "space.earth"
     ]
   },
-  "updatedAt": "2026-11-05T12:17:44.409Z",
+  "updatedAt": "2026-11-12T12:40:13.195Z",
   "images": [
     {
       "id": "nasa:iss045e013851",
@@ -261,35 +261,6 @@
       "width": 590,
       "height": 658,
       "year": 2026
-    },
-    {
-      "id": "wikimediacommons:First_Color_Photograph_of_Earth_from_Space.jpg",
-      "provider": "wikimediacommons",
-      "title": "First Color Photograph of Earth from Space",
-      "category": "space.earth",
-      "url": "https://commons.wikimedia.org/wiki/File:First_Color_Photograph_of_Earth_from_Space.jpg",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/First_Color_Photograph_of_Earth_from_Space.jpg/330px-First_Color_Photograph_of_Earth_from_Space.jpg",
-      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/First_Color_Photograph_of_Earth_from_Space.jpg/1280px-First_Color_Photograph_of_Earth_from_Space.jpg",
-      "author": "Dr. Otto Berg - U.S. Naval Research Laboratory",
-      "license": {
-        "id": "CC0-1.0",
-        "name": "CC0 1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 3000,
-      "height": 1565,
-      "year": 2009
     },
     {
       "id": "wikimediacommons:First_photo_from_space.jpg",
@@ -588,6 +559,32 @@
       "orientation": "square",
       "width": 500,
       "height": 500
+    },
+    {
+      "id": "wikimediacommons:Earth_as_seen_from_space.jpg",
+      "provider": "wikimediacommons",
+      "title": "Earth as seen from space",
+      "category": "space.earth",
+      "url": "https://commons.wikimedia.org/wiki/File:Earth_as_seen_from_space.jpg",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Earth_as_seen_from_space.jpg/330px-Earth_as_seen_from_space.jpg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Earth_as_seen_from_space.jpg",
+      "author": "EnnyIzzy123",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024,
+      "year": 2021
     }
   ]
 }

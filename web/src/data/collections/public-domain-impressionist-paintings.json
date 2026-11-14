@@ -6,7 +6,7 @@
       "art.painting"
     ]
   },
-  "updatedAt": "2026-11-03T20:56:36.162Z",
+  "updatedAt": "2026-11-14T11:28:13.255Z",
   "images": [
     {
       "id": "openverse:a40da463-5b0f-4982-bf83-ba40153052ec",
@@ -614,31 +614,6 @@
       "year": 2026
     },
     {
-      "id": "openverse:d6890ec6-11ff-41dc-a45b-b98111b4535e",
-      "provider": "openverse",
-      "title": "National Museum of Korea - Beyond Impressionism, the Birth of Modern Art 04",
-      "category": "art.painting",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=36228068",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/d6890ec6-11ff-41dc-a45b-b98111b4535e/thumb/",
-      "previewUrl": "https://api.openverse.org/v1/images/d6890ec6-11ff-41dc-a45b-b98111b4535e/thumb/",
-      "author": "KOREA.NET - Official page of the Republic of Korea",
-      "license": {
-        "id": "CC-BY-SA-2.0",
-        "name": "CC BY-SA 2.0",
-        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 4984,
-      "height": 1824
-    },
-    {
       "id": "artic:90333",
       "provider": "artic",
       "title": "An Alcove in the Art Students' League",
@@ -1000,6 +975,32 @@
       "width": 3264,
       "height": 1836,
       "year": 2018
+    },
+    {
+      "id": "wikimediacommons:Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
+      "provider": "wikimediacommons",
+      "title": "Kazimir Malevich - His Path From Impressionism to Suprematism Moscow, 1920",
+      "category": "art.painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png/330px-Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
+      "author": "Unknown author Unknown author",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "png"
+      ],
+      "orientation": "landscape",
+      "width": 976,
+      "height": 619,
+      "year": 1920
     }
   ]
 }

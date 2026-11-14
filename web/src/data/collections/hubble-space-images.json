@@ -6,7 +6,7 @@
       "space"
     ]
   },
-  "updatedAt": "2026-11-03T20:55:17.858Z",
+  "updatedAt": "2026-11-14T11:27:17.218Z",
   "images": [
     {
       "id": "nasa:GSFC_20171208_Archive_e001464",
@@ -427,32 +427,6 @@
       "orientation": "square",
       "width": 985,
       "height": 985
-    },
-    {
-      "id": "wikimediacommons:Flame_Nebula-_Hubble_Observation_(2025-105).png",
-      "provider": "wikimediacommons",
-      "title": "Flame Nebula- Hubble Observation (2025-105)",
-      "category": "space",
-      "url": "https://commons.wikimedia.org/wiki/File:Flame_Nebula-_Hubble_Observation_(2025-105).png",
-      "downloadable": true,
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/330px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
-      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/1280px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
-      "author": "Image: NASA, ESA, CSA, STScI, Michael Meyer (University of Michigan), Matthew De Furio (UT Austin), Massimo Robberto (ST",
-      "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "png"
-      ],
-      "orientation": "portrait",
-      "width": 3934,
-      "height": 4344,
-      "year": 2025
     },
     {
       "id": "nasa:GSFC_20171208_Archive_e002076",
@@ -958,6 +932,33 @@
       "orientation": "landscape",
       "width": 1024,
       "height": 661
+    },
+    {
+      "id": "wikimediacommons:Flame_Nebula-_Hubble_Observation_(2025-105).tiff",
+      "provider": "wikimediacommons",
+      "title": "Flame Nebula- Hubble Observation (2025-105)",
+      "category": "space",
+      "url": "https://commons.wikimedia.org/wiki/File:Flame_Nebula-_Hubble_Observation_(2025-105).tiff",
+      "downloadable": true,
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Flame_Nebula-_Hubble_Observation_%282025-105%29.tiff/lossy-page1-330px-Flame_Nebula-_Hubble_Observation_%282025-105%29.tiff.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Flame_Nebula-_Hubble_Observation_%282025-105%29.tiff/lossy-page1-1280px-Flame_Nebula-_Hubble_Observation_%282025-105%29.tiff.jpg",
+      "author": "Image: NASA, ESA, CSA, STScI, Michael Meyer (University of Michigan), Matthew De Furio (UT Austin), Massimo Robberto (ST",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "tif",
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 3934,
+      "height": 4344,
+      "year": 2025
     }
   ]
 }

@@ -17,4 +17,4 @@ resources:
 images:
   - name: ghcr.io/arielshad/image-asset-server
     # Replaced by CI with the first image built from main.
-    newTag: sha-d65518733e6cb0c43ad5bf73edd4edb98e129348
+    newTag: sha-7928b8ec624d203f663405de7c53ec25457270b0

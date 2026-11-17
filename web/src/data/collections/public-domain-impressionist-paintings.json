@@ -6,7 +6,7 @@
       "art.painting"
     ]
   },
-  "updatedAt": "2026-11-14T11:28:13.255Z",
+  "updatedAt": "2026-11-17T13:21:27.893Z",
   "images": [
     {
       "id": "openverse:a40da463-5b0f-4982-bf83-ba40153052ec",
@@ -64,34 +64,6 @@
       "year": 2023
     },
     {
-      "id": "openverse:a7d3ba6d-d4b2-43da-8174-8e2cd060498f",
-      "provider": "openverse",
-      "title": "Second Impressionism - Saturday in the Park with Friends",
-      "category": "art.painting",
-      "url": "https://www.flickr.com/photos/76154228@N00/182839989",
-      "downloadable": true,
-      "styles": [
-        "painting"
-      ],
-      "thumbnailUrl": "https://api.openverse.org/v1/images/a7d3ba6d-d4b2-43da-8174-8e2cd060498f/thumb/",
-      "previewUrl": "https://live.staticflickr.com/9/182839989_a6567e85fa_b.jpg",
-      "author": "OldOnliner",
-      "license": {
-        "id": "CC-BY-NC-ND-2.0",
-        "name": "CC BY-NC-ND 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 683
-    },
-    {
       "id": "artic:64729",
       "provider": "artic",
       "title": "Early Morning, Tarpon Springs",
@@ -145,31 +117,6 @@
       "width": 4000,
       "height": 2252,
       "year": 2026
-    },
-    {
-      "id": "openverse:4b24e601-818a-4da7-887c-552e58de3cea",
-      "provider": "openverse",
-      "title": "'Place de la Concorde à Paris' (1880) by Giuseppe De Nittis (Barletta 1846-Saint Germain en Laye 1884) - Courtesy Galleria Bottegantica, Milan, now at Exhibition 'From De Nittis to Gemito. Neapolitain Painters in Paris during the Impressionism' at Zevallo",
-      "category": "art.painting",
-      "url": "https://www.flickr.com/photos/70125105@N06/39330812044",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/4b24e601-818a-4da7-887c-552e58de3cea/thumb/",
-      "previewUrl": "https://live.staticflickr.com/4662/39330812044_dc42a6e976_b.jpg",
-      "author": "Carlo Raso",
-      "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "check-terms",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 816
     },
     {
       "id": "wikimediacommons:20260324_Exhibition_\"Under_the_mask\"_in_the_Museum_of_Russian_Impressionism_(41336).jpg",
@@ -1001,6 +948,59 @@
       "width": 976,
       "height": 619,
       "year": 1920
+    },
+    {
+      "id": "openverse:11b157e4-df9b-40a8-8f18-df73a73e8d88",
+      "provider": "openverse",
+      "title": "[ impressionism ]",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/48989364@N00/4681091061",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/11b157e4-df9b-40a8-8f18-df73a73e8d88/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4053/4681091061_a1e37b881f_b.jpg",
+      "author": "Riccardo Romano",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "openverse:b08cf65c-befb-46e5-9f7f-02ba0749f2f7",
+      "provider": "openverse",
+      "title": "Impressionism in Richmond",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/73068437@N00/49449105857",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/b08cf65c-befb-46e5-9f7f-02ba0749f2f7/thumb/",
+      "previewUrl": "https://live.staticflickr.com/65535/49449105857_53ee448834_b.jpg",
+      "author": "marc.barrot",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 576
     }
   ]
 }

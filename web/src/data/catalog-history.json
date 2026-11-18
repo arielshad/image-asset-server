@@ -297,5 +297,25 @@
       "artic": 59120,
       "cleveland": 41902
     }
+  },
+  {
+    "date": "2026-11-18",
+    "listings": 140461992,
+    "free": 140461992,
+    "byCategory": {
+      "archive": 1133204,
+      "icons": 545721,
+      "art": 101022
+    },
+    "sources": {
+      "openverse": 915519784,
+      "wikimediacommons": 138141630,
+      "loc": 1133204,
+      "iconify": 545721,
+      "met": 371482,
+      "nasa": 168933,
+      "artic": 59120,
+      "cleveland": 41902
+    }
   }
 ]

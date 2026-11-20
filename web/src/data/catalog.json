@@ -1,19 +1,19 @@
 {
-  "countedAt": "2026-11-19T12:59:01.552Z",
+  "countedAt": "2026-11-20T12:50:14.417Z",
   "totals": {
     "listings": {
-      "count": 140458106,
+      "count": 140471863,
       "atLeast": true
     },
     "free": {
-      "count": 140458106,
+      "count": 140471863,
       "atLeast": true
     },
     "cc0": {
       "count": 11321
     },
     "directDownload": {
-      "count": 140458106,
+      "count": 140471863,
       "atLeast": true
     },
     "addedLast30Days": 0,
@@ -116,7 +116,7 @@
       },
       "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
       "mirror": true,
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "wikimediacommons",
@@ -124,15 +124,15 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138137083,
-      "free": 138137083,
+      "total": 138150799,
+      "free": 138150799,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5330347,
-        "4K or larger": 78319137
+        "Vector drawings (SVG)": 5331863,
+        "4K or larger": 78320325
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "loc",
@@ -146,7 +146,7 @@
         "archive": 1133222
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "iconify",
@@ -197,7 +197,7 @@
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "met",
@@ -205,15 +205,15 @@
       "homepage": "https://www.metmuseum.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 371484,
-      "free": 371484,
+      "total": 371511,
+      "free": 371511,
       "byCategory": {},
       "categories": {
-        "paintings": 61280,
-        "photographs": 37608
+        "paintings": 61284,
+        "photographs": 37624
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "nasa",
@@ -221,16 +221,16 @@
       "homepage": "https://images.nasa.gov",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 168933,
+      "total": 168947,
       "atLeast": true,
-      "free": 168933,
+      "free": 168947,
       "byCategory": {},
       "categories": {
         "Hubble": 4789,
-        "Earth": 41212
+        "Earth": 41213
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "artic",
@@ -247,7 +247,7 @@
         "paintings": 1898
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     },
     {
       "id": "cleveland",
@@ -265,7 +265,7 @@
         "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-19T12:59:01.552Z"
+      "countedAt": "2026-11-20T12:50:14.417Z"
     }
   ],
   "linked": [

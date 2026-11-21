@@ -6,7 +6,7 @@
       "drawing"
     ]
   },
-  "updatedAt": "2026-11-07T11:02:01.089Z",
+  "updatedAt": "2026-11-21T12:36:41.531Z",
   "images": [
     {
       "id": "met:360446",
@@ -92,36 +92,6 @@
       "width": 3200,
       "height": 2133,
       "year": 2014
-    },
-    {
-      "id": "nasa:iss074e0711168",
-      "provider": "nasa",
-      "title": "NASA astronaut Jessica Meir activates tubes filled with microbial and botanical samples",
-      "category": "space.missions",
-      "url": "https://images.nasa.gov/details/iss074e0711168",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss074e0711168/iss074e0711168~thumb.jpg",
-      "previewUrl": "https://images-assets.nasa.gov/image/iss074e0711168/iss074e0711168~medium.jpg",
-      "author": "NASA JSC",
-      "license": {
-        "id": "LicenseRef-NASA-Media",
-        "name": "NASA media (public domain in the US)",
-        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true,
-        "editorial": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 8256,
-      "height": 5504,
-      "year": 2026
     },
     {
       "id": "loc:2019675284",
@@ -1010,6 +980,36 @@
       "orientation": "landscape",
       "width": 1024,
       "height": 768
+    },
+    {
+      "id": "nasa:iss074e0711179",
+      "provider": "nasa",
+      "title": "NASA astronaut Jessica Meir activates tubes filled with microbial and botanical samples",
+      "category": "space.missions",
+      "url": "https://images.nasa.gov/details/iss074e0711179",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss074e0711179/iss074e0711179~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/iss074e0711179/iss074e0711179~large.jpg",
+      "author": "NASA JSC",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 5504,
+      "height": 8256,
+      "year": 2026
     }
   ]
 }

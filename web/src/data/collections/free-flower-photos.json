@@ -6,7 +6,7 @@
       "nature.plants"
     ]
   },
-  "updatedAt": "2026-11-03T20:54:58.353Z",
+  "updatedAt": "2026-11-21T12:37:20.559Z",
   "images": [
     {
       "id": "nasa:GSFC_20171208_Archive_e002014",
@@ -174,36 +174,6 @@
       "height": 683
     },
     {
-      "id": "nasa:iss046e017204",
-      "provider": "nasa",
-      "title": "Zinnia flower in Columbus module",
-      "category": "nature.plants",
-      "url": "https://images.nasa.gov/details/iss046e017204",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss046e017204/iss046e017204~thumb.jpg",
-      "previewUrl": "https://images-assets.nasa.gov/image/iss046e017204/iss046e017204~medium.jpg",
-      "author": "NASA/Scott Kelly",
-      "license": {
-        "id": "LicenseRef-NASA-Media",
-        "name": "NASA media (public domain in the US)",
-        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true,
-        "editorial": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 4928,
-      "height": 3280,
-      "year": 2016
-    },
-    {
       "id": "openverse:251538b4-8810-4b6d-be29-ce81fce7be8f",
       "provider": "openverse",
       "title": "Pink flower",
@@ -361,36 +331,6 @@
       "width": 3874,
       "height": 2866,
       "year": 2017
-    },
-    {
-      "id": "nasa:MAF_20210526_SuperFlowerMoon11",
-      "provider": "nasa",
-      "title": "Super Flower Blood Moon over New Orleans",
-      "category": "nature.plants",
-      "url": "https://images.nasa.gov/details/MAF_20210526_SuperFlowerMoon11",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://images-assets.nasa.gov/image/MAF_20210526_SuperFlowerMoon11/MAF_20210526_SuperFlowerMoon11~thumb.jpg",
-      "previewUrl": "https://images-assets.nasa.gov/image/MAF_20210526_SuperFlowerMoon11/MAF_20210526_SuperFlowerMoon11~medium.jpg",
-      "author": "NASA/Michael DeMocker",
-      "license": {
-        "id": "LicenseRef-NASA-Media",
-        "name": "NASA media (public domain in the US)",
-        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true,
-        "editorial": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 7304,
-      "height": 4872,
-      "year": 2021
     },
     {
       "id": "wikimediacommons:Paris_quadrifolia_flower_-_Keila.jpg",
@@ -991,6 +931,66 @@
       "width": 1409,
       "height": 1455,
       "year": 2011
+    },
+    {
+      "id": "nasa:iss046e017207",
+      "provider": "nasa",
+      "title": "Zinnia flower in Columbus module",
+      "category": "nature.plants",
+      "url": "https://images.nasa.gov/details/iss046e017207",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/iss046e017207/iss046e017207~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/iss046e017207/iss046e017207~medium.jpg",
+      "author": "NASA/Scott Kelly",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 4928,
+      "height": 3280,
+      "year": 2016
+    },
+    {
+      "id": "nasa:MAF_20210526_SuperFlowerMoon10",
+      "provider": "nasa",
+      "title": "Super Flower Blood Moon over New Orleans",
+      "category": "nature.plants",
+      "url": "https://images.nasa.gov/details/MAF_20210526_SuperFlowerMoon10",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://images-assets.nasa.gov/image/MAF_20210526_SuperFlowerMoon10/MAF_20210526_SuperFlowerMoon10~thumb.jpg",
+      "previewUrl": "https://images-assets.nasa.gov/image/MAF_20210526_SuperFlowerMoon10/MAF_20210526_SuperFlowerMoon10~medium.jpg",
+      "author": "NASA/Michael DeMocker",
+      "license": {
+        "id": "LicenseRef-NASA-Media",
+        "name": "NASA media (public domain in the US)",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true,
+        "editorial": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7905,
+      "height": 5273,
+      "year": 2021
     }
   ]
 }

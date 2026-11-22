@@ -6,7 +6,7 @@
       "archive.map"
     ]
   },
-  "updatedAt": "2026-11-18T13:01:48.702Z",
+  "updatedAt": "2026-11-22T12:36:37.033Z",
   "images": [
     {
       "id": "loc:2019701186",
@@ -113,84 +113,6 @@
       "year": 2023
     },
     {
-      "id": "openverse:9f621d05-9117-4e63-bdcb-41057e670af7",
-      "provider": "openverse",
-      "title": "old map II - free 2 use BG/TEX",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/30426423@N07/4347396768",
-      "downloadable": true,
-      "styles": [
-        "illustration"
-      ],
-      "thumbnailUrl": "https://api.openverse.org/v1/images/9f621d05-9117-4e63-bdcb-41057e670af7/thumb/",
-      "previewUrl": "https://live.staticflickr.com/2745/4347396768_25c5d69edb_b.jpg",
-      "author": "H.Adam",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 556
-    },
-    {
-      "id": "openverse:5b91bc96-93ae-4fb8-9ca7-583e037da0a5",
-      "provider": "openverse",
-      "title": "110 Mapa antiguo América del Sur (South America old map)",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3386270644",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/5b91bc96-93ae-4fb8-9ca7-583e037da0a5/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3579/3386270644_b965d40c86_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 869
-    },
-    {
-      "id": "openverse:dcc27e1d-98a5-474f-9cbf-f8d3ab6b3516",
-      "provider": "openverse",
-      "title": "Old map of Brazil (1787)",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3388665913",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/dcc27e1d-98a5-474f-9cbf-f8d3ab6b3516/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3625/3388665913_5f96d92e32_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 674
-    },
-    {
       "id": "openverse:7557ac48-3848-45ed-aead-a4e46c2c7051",
       "provider": "openverse",
       "title": "50 Mapa antiguo América del Sur (South America old map)",
@@ -216,84 +138,6 @@
       "height": 1024
     },
     {
-      "id": "openverse:8469a92b-2a52-4ae5-b56e-5fa9d6cf66dd",
-      "provider": "openverse",
-      "title": "25 Mapa antiguo América del Sur (South America old map)",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3386095628",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/8469a92b-2a52-4ae5-b56e-5fa9d6cf66dd/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3454/3386095628_e4178db78d_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 831
-    },
-    {
-      "id": "openverse:2740d475-4ea8-4e9a-89a3-0e8be76f2982",
-      "provider": "openverse",
-      "title": "Old map of SOUTH AMERICA (1879)",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3388682183",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/2740d475-4ea8-4e9a-89a3-0e8be76f2982/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3655/3388682183_c7d5481977_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "portrait",
-      "width": 836,
-      "height": 1024
-    },
-    {
-      "id": "openverse:4b34b136-2e1a-45cd-8113-0ad3d818b899",
-      "provider": "openverse",
-      "title": "old map I - free 2 use BG/TEX",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/30426423@N07/4347396776",
-      "downloadable": true,
-      "styles": [
-        "illustration"
-      ],
-      "thumbnailUrl": "https://api.openverse.org/v1/images/4b34b136-2e1a-45cd-8113-0ad3d818b899/thumb/",
-      "previewUrl": "https://live.staticflickr.com/4024/4347396776_7c110eec90_b.jpg",
-      "author": "H.Adam",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 666
-    },
-    {
       "id": "openverse:87f136fd-04a8-499c-a591-b9d0c622158d",
       "provider": "openverse",
       "title": "Viejo mapa de las regiones administrativas de Chile (old map of Chile´s administrative regions).",
@@ -316,31 +160,6 @@
       ],
       "orientation": "portrait",
       "width": 627,
-      "height": 1024
-    },
-    {
-      "id": "openverse:bb255d0e-a93a-40e6-b179-b36d37098670",
-      "provider": "openverse",
-      "title": "112 Mapa antiguo América del Sur (South America old map)",
-      "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3385137939",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/bb255d0e-a93a-40e6-b179-b36d37098670/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3464/3385137939_a378c27de4_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "portrait",
-      "width": 729,
       "height": 1024
     },
     {
@@ -396,14 +215,43 @@
       "year": 2018
     },
     {
-      "id": "openverse:da6e621c-f544-4b00-9698-cc9ab524ac1f",
+      "id": "openverse:2905557f-8d1a-4e49-8f14-4945cb1869a9",
+      "provider": "openverse",
+      "title": "Old maps",
+      "category": "archive.map",
+      "url": "https://www.flickr.com/photos/55231259@N00/1800752012",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/2905557f-8d1a-4e49-8f14-4945cb1869a9/thumb/",
+      "previewUrl": "https://live.staticflickr.com/2243/1800752012_0707202dcf_b.jpg",
+      "author": "futureshape",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "openverse:06c26168-5242-47c7-bddb-28650ae356e1",
       "provider": "openverse",
       "title": "Old map",
       "category": "archive.map",
-      "url": "https://www.flickr.com/photos/36546102@N04/7564205546",
+      "url": "https://www.flickr.com/photos/36546102@N04/7564198852",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/da6e621c-f544-4b00-9698-cc9ab524ac1f/thumb/",
-      "previewUrl": "https://live.staticflickr.com/8142/7564205546_63212dfdb8.jpg",
+      "styles": [
+        "illustration",
+        "vector"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/06c26168-5242-47c7-bddb-28650ae356e1/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7132/7564198852_bfdc31f9f8.jpg",
       "author": "Photoshop Roadmap",
       "license": {
         "id": "CC-BY-2.0",
@@ -418,17 +266,17 @@
       ],
       "orientation": "landscape",
       "width": 500,
-      "height": 357
+      "height": 344
     },
     {
-      "id": "openverse:56399601-c219-413e-b5d3-6e4191a25138",
+      "id": "openverse:4a46e2fe-a076-47b5-af88-1b06474e153e",
       "provider": "openverse",
-      "title": "South America old map (1776)",
+      "title": "106 Mapa antiguo América del Sur (South America old map)",
       "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3385457461",
+      "url": "https://www.flickr.com/photos/50694521@N00/3386269950",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/56399601-c219-413e-b5d3-6e4191a25138/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3546/3385457461_be5eef6b3d_b.jpg",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/4a46e2fe-a076-47b5-af88-1b06474e153e/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3589/3386269950_b16c30e70c_b.jpg",
       "author": "thejourney1972 (South America addicted)",
       "license": {
         "id": "CC-BY-2.0",
@@ -441,20 +289,20 @@
       "formats": [
         "jpg"
       ],
-      "orientation": "square",
+      "orientation": "landscape",
       "width": 1024,
-      "height": 1014
+      "height": 935
     },
     {
-      "id": "openverse:420f97af-9700-419d-984c-6252967da9fc",
+      "id": "openverse:7b865a73-3a5f-4731-a811-610b2454ffd2",
       "provider": "openverse",
-      "title": "Old map of Bolivia, Ecuador & Peru (1902)",
+      "title": "WHAT'S IN AN OLD MAP?",
       "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/3389474946",
+      "url": "https://www.flickr.com/photos/8521690@N02/7703582122",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/420f97af-9700-419d-984c-6252967da9fc/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3579/3389474946_d93a9c7e1a_b.jpg",
-      "author": "thejourney1972 (South America addicted)",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/7b865a73-3a5f-4731-a811-610b2454ffd2/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8155/7703582122_6bbcb7236d_b.jpg",
+      "author": "summonedbyfells",
       "license": {
         "id": "CC-BY-2.0",
         "name": "CC BY 2.0",
@@ -467,18 +315,43 @@
         "jpg"
       ],
       "orientation": "portrait",
-      "width": 657,
+      "width": 649,
       "height": 1024
     },
     {
-      "id": "openverse:fe71c3b2-b686-4e08-9b57-ca684a4792fc",
+      "id": "openverse:e098e57f-b835-4f59-9178-0a88d024e7a7",
       "provider": "openverse",
-      "title": "Mapa antiguo de Tierra del Fuego, Patagonia (old map of Tierra del Fuego, Patagonia).",
+      "title": "114 Mapa antiguo América del Sur (South America old map)",
       "category": "archive.map",
-      "url": "https://www.flickr.com/photos/50694521@N00/823185700",
+      "url": "https://www.flickr.com/photos/50694521@N00/3386376688",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/fe71c3b2-b686-4e08-9b57-ca684a4792fc/thumb/",
-      "previewUrl": "https://live.staticflickr.com/1197/823185700_02ce0946fb.jpg",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/e098e57f-b835-4f59-9178-0a88d024e7a7/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3578/3386376688_85c6f155fe_b.jpg",
+      "author": "thejourney1972 (South America addicted)",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 779
+    },
+    {
+      "id": "openverse:220e1e22-0897-4ec9-8517-49cecf221e18",
+      "provider": "openverse",
+      "title": "Mapa antiguo del norte argentino (old map of Northern Argentina).",
+      "category": "archive.map",
+      "url": "https://www.flickr.com/photos/50694521@N00/821781476",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/220e1e22-0897-4ec9-8517-49cecf221e18/thumb/",
+      "previewUrl": "https://live.staticflickr.com/1134/821781476_4eb2949206.jpg",
       "author": "thejourney1972 (South America addicted)",
       "license": {
         "id": "CC-BY-2.0",
@@ -493,23 +366,23 @@
       ],
       "orientation": "landscape",
       "width": 480,
-      "height": 288
+      "height": 384
     },
     {
-      "id": "openverse:bc672a11-31c7-4db4-8f30-089730944a61",
+      "id": "openverse:13ca4307-885e-483c-9571-44ec4f3da545",
       "provider": "openverse",
-      "title": "Gustavia - Old Maps in Museum",
+      "title": "Old map of Lüderitz, Namibia. Windhoek railway museum",
       "category": "archive.map",
-      "url": "https://www.flickr.com/photos/24736216@N07/7150474275",
+      "url": "https://www.flickr.com/photos/27998473@N02/15249376289",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/bc672a11-31c7-4db4-8f30-089730944a61/thumb/",
-      "previewUrl": "https://live.staticflickr.com/7131/7150474275_9f08bde946_b.jpg",
-      "author": "roger4336",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/13ca4307-885e-483c-9571-44ec4f3da545/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3932/15249376289_bf44265a48_b.jpg",
+      "author": "jbdodane",
       "license": {
-        "id": "CC-BY-SA-2.0",
-        "name": "CC BY-SA 2.0",
-        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "verdict": "restricted",
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
         "attributionRequired": true
       },
       "free": true,
@@ -518,7 +391,32 @@
       ],
       "orientation": "landscape",
       "width": 1024,
-      "height": 751
+      "height": 683
+    },
+    {
+      "id": "openverse:933b31ec-b73a-457e-8beb-0462d729e629",
+      "provider": "openverse",
+      "title": "texture - old map",
+      "category": "archive.map",
+      "url": "https://www.flickr.com/photos/42396059@N07/4705528337",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/933b31ec-b73a-457e-8beb-0462d729e629/thumb/",
+      "previewUrl": "https://live.staticflickr.com/1282/4705528337_f26a6d73fe_b.jpg",
+      "author": "Lenabem-Anna J.",
+      "license": {
+        "id": "CC-BY-NC-SA-2.0",
+        "name": "CC BY-NC-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 727,
+      "height": 1024
     }
   ]
 }

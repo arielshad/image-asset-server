@@ -6,7 +6,7 @@
       "art.painting"
     ]
   },
-  "updatedAt": "2026-11-19T13:01:11.927Z",
+  "updatedAt": "2026-11-22T12:36:06.193Z",
   "images": [
     {
       "id": "openverse:a40da463-5b0f-4982-bf83-ba40153052ec",
@@ -924,32 +924,6 @@
       "year": 2018
     },
     {
-      "id": "wikimediacommons:Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
-      "provider": "wikimediacommons",
-      "title": "Kazimir Malevich - His Path From Impressionism to Suprematism Moscow, 1920",
-      "category": "art.painting",
-      "url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow,_1920.png",
-      "downloadable": true,
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png/330px-Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Kazimir_Malevich_-_His_Path_From_Impressionism_to_Suprematism_Moscow%2C_1920.png",
-      "author": "Unknown author Unknown author",
-      "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "png"
-      ],
-      "orientation": "landscape",
-      "width": 976,
-      "height": 619,
-      "year": 1920
-    },
-    {
       "id": "openverse:11b157e4-df9b-40a8-8f18-df73a73e8d88",
       "provider": "openverse",
       "title": "[ impressionism ]",
@@ -1001,6 +975,34 @@
       "orientation": "landscape",
       "width": 1024,
       "height": 576
+    },
+    {
+      "id": "openverse:a7d3ba6d-d4b2-43da-8174-8e2cd060498f",
+      "provider": "openverse",
+      "title": "Second Impressionism - Saturday in the Park with Friends",
+      "category": "art.painting",
+      "url": "https://www.flickr.com/photos/76154228@N00/182839989",
+      "downloadable": true,
+      "styles": [
+        "painting"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/a7d3ba6d-d4b2-43da-8174-8e2cd060498f/thumb/",
+      "previewUrl": "https://live.staticflickr.com/9/182839989_a6567e85fa_b.jpg",
+      "author": "OldOnliner",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
     }
   ]
 }

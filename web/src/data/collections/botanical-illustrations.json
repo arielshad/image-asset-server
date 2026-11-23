@@ -6,7 +6,7 @@
       "drawing"
     ]
   },
-  "updatedAt": "2026-11-21T12:36:41.531Z",
+  "updatedAt": "2026-11-23T14:33:19.337Z",
   "images": [
     {
       "id": "met:360446",
@@ -797,31 +797,6 @@
       "year": 2022
     },
     {
-      "id": "loc:2021669500",
-      "provider": "loc",
-      "title": "Botanical Garden: Avenue of Imperial Palms.",
-      "category": "nature.plants",
-      "url": "https://www.loc.gov/item/2021669500/",
-      "downloadable": true,
-      "thumbnailUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:01:61:9:wdl_01619:icon1018525/full/pct:3.125/0/default.jpg",
-      "previewUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:01:61:9:wdl_01619:icon1018525/full/pct:100/0/default.jpg",
-      "author": "rafael castro y ordóñez",
-      "license": {
-        "id": "LicenseRef-Rights-not-stated",
-        "name": "Rights not stated",
-        "url": "https://www.loc.gov/rr/print/195_copr.html",
-        "verdict": "check-terms"
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "portrait",
-      "width": 6027,
-      "height": 8704,
-      "year": 1862
-    },
-    {
       "id": "wikimediacommons:Madhavaram_Botanical_garden.jpg",
       "provider": "wikimediacommons",
       "title": "Madhavaram Botanical garden",
@@ -1010,6 +985,34 @@
       "width": 5504,
       "height": 8256,
       "year": 2026
+    },
+    {
+      "id": "openverse:1c5d3537-47cb-4605-9300-de7c52fc9a9a",
+      "provider": "openverse",
+      "title": "Toronto Ontario ~ Canada ~ Edwards Botanical Gardens ~ Pink Mimosa",
+      "category": "nature.plants",
+      "url": "https://www.flickr.com/photos/7156765@N05/51416997269",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/1c5d3537-47cb-4605-9300-de7c52fc9a9a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/65535/51416997269_a44ec8de01_m.jpg",
+      "author": "Onasill - Bill Badzo - 149 Million Views - Thank Y",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "check-terms",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 240,
+      "height": 220
     }
   ]
 }

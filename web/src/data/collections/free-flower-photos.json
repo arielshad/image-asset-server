@@ -6,7 +6,7 @@
       "nature.plants"
     ]
   },
-  "updatedAt": "2026-11-22T12:34:35.187Z",
+  "updatedAt": "2026-11-23T14:33:35.254Z",
   "images": [
     {
       "id": "nasa:GSFC_20171208_Archive_e002014",
@@ -918,15 +918,15 @@
       "year": 2021
     },
     {
-      "id": "openverse:00ee1f97-cbcb-47da-9ae9-703fdd601fea",
+      "id": "openverse:1e3c99f8-0f52-4e38-9095-dd04b0508c9f",
       "provider": "openverse",
-      "title": "flower",
+      "title": "Flower",
       "category": "nature.plants",
-      "url": "https://www.flickr.com/photos/61099830@N00/4951743684",
+      "url": "https://www.flickr.com/photos/119728555@N05/14213723434",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/00ee1f97-cbcb-47da-9ae9-703fdd601fea/thumb/",
-      "previewUrl": "https://live.staticflickr.com/4109/4951743684_1229872abc_b.jpg",
-      "author": "hannahsmetana",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/1e3c99f8-0f52-4e38-9095-dd04b0508c9f/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5563/14213723434_f652ee85f5_b.jpg",
+      "author": "Cahroi",
       "license": {
         "id": "CC-BY-SA-2.0",
         "name": "CC BY-SA 2.0",
@@ -943,20 +943,20 @@
       "height": 768
     },
     {
-      "id": "openverse:e717e227-813d-4064-89d1-4b273aa50e5f",
+      "id": "openverse:c0c8784a-22f1-433a-9f41-c06b715a6c3f",
       "provider": "openverse",
-      "title": "flowers",
+      "title": "Flowers",
       "category": "nature.plants",
-      "url": "https://www.flickr.com/photos/104815519@N08/13947289473",
+      "url": "https://www.flickr.com/photos/30801973@N04/6208738454",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/e717e227-813d-4064-89d1-4b273aa50e5f/thumb/",
-      "previewUrl": "https://live.staticflickr.com/7096/13947289473_7b4a6db8f5_b.jpg",
-      "author": "expansion1234",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/c0c8784a-22f1-433a-9f41-c06b715a6c3f/thumb/",
+      "previewUrl": "https://live.staticflickr.com/6170/6208738454_9cb8b28234_b.jpg",
+      "author": "tejvanphotos",
       "license": {
-        "id": "CC-BY-NC-ND-2.0",
-        "name": "CC BY-NC-ND 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
-        "verdict": "no",
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
         "attributionRequired": true
       },
       "free": true,
@@ -965,43 +965,18 @@
       ],
       "orientation": "landscape",
       "width": 1024,
-      "height": 683
+      "height": 768
     },
     {
-      "id": "openverse:e9c048dc-78c5-4148-ad87-27d07219e0c7",
+      "id": "openverse:3a333b30-7480-48c7-aff5-ce831197ae9c",
       "provider": "openverse",
-      "title": "Two Yellow Flowers+",
+      "title": "October Flowers",
       "category": "nature.plants",
-      "url": "https://www.flickr.com/photos/34534185@N00/120196332",
+      "url": "https://www.flickr.com/photos/37668923@N03/5081775750",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/e9c048dc-78c5-4148-ad87-27d07219e0c7/thumb/",
-      "previewUrl": "https://live.staticflickr.com/47/120196332_8c39341d37_b.jpg",
-      "author": "Sheba Also 18 Million Views",
-      "license": {
-        "id": "CC-BY-SA-2.0",
-        "name": "CC BY-SA 2.0",
-        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 757
-    },
-    {
-      "id": "openverse:9f7a121c-706c-41aa-aa5a-579ec45ca421",
-      "provider": "openverse",
-      "title": "Orange flower",
-      "category": "nature.plants",
-      "url": "https://www.flickr.com/photos/29468339@N02/6029492661",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/9f7a121c-706c-41aa-aa5a-579ec45ca421/thumb/",
-      "previewUrl": "https://live.staticflickr.com/6127/6029492661_585458f7a1_b.jpg",
-      "author": "@Doug88888",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/3a333b30-7480-48c7-aff5-ce831197ae9c/thumb/",
+      "previewUrl": "https://live.staticflickr.com/4007/5081775750_e48004717c_b.jpg",
+      "author": "Rosa Dik 009 -- catching up !",
       "license": {
         "id": "CC-BY-NC-SA-2.0",
         "name": "CC BY-NC-SA 2.0",
@@ -1013,9 +988,9 @@
       "formats": [
         "jpg"
       ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 819
+      "orientation": "portrait",
+      "width": 929,
+      "height": 1024
     }
   ]
 }

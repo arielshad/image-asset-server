@@ -6,7 +6,7 @@
       "space.planets"
     ]
   },
-  "updatedAt": "2026-11-22T12:35:32.459Z",
+  "updatedAt": "2026-11-23T14:33:46.062Z",
   "images": [
     {
       "id": "nasa:PIA10739",
@@ -856,109 +856,6 @@
       "height": 458
     },
     {
-      "id": "openverse:99b283b5-6569-43cc-8524-07ec88f62430",
-      "provider": "openverse",
-      "title": "Mars surface - orbite 25",
-      "category": "space.planets",
-      "url": "https://www.flickr.com/photos/195227719@N04/52482829816",
-      "downloadable": true,
-      "styles": [
-        "photo"
-      ],
-      "thumbnailUrl": "https://api.openverse.org/v1/images/99b283b5-6569-43cc-8524-07ec88f62430/thumb/",
-      "previewUrl": "https://live.staticflickr.com/65535/52482829816_1b2c118f9f_b.jpg",
-      "author": "Moon's galaxy",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 818
-    },
-    {
-      "id": "openverse:c60e9b32-ad20-4f8c-8d60-4ec9bf8e80a5",
-      "provider": "openverse",
-      "title": "Mars surface",
-      "category": "space.planets",
-      "url": "https://www.flickr.com/photos/23299283@N05/6337259852",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/c60e9b32-ad20-4f8c-8d60-4ec9bf8e80a5/thumb/",
-      "previewUrl": "https://live.staticflickr.com/6036/6337259852_d44a7f6159.jpg",
-      "author": "*@LeninLuna*",
-      "license": {
-        "id": "CC-BY-NC-ND-2.0",
-        "name": "CC BY-NC-ND 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "square",
-      "width": 500,
-      "height": 500
-    },
-    {
-      "id": "openverse:baea8d47-5248-46c3-a4f1-8c5bc9bfb56d",
-      "provider": "openverse",
-      "title": "Looking Under Mars' Surface 1",
-      "category": "space.planets",
-      "url": "https://www.flickr.com/photos/24354425@N03/15564955459",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/baea8d47-5248-46c3-a4f1-8c5bc9bfb56d/thumb/",
-      "previewUrl": "https://live.staticflickr.com/5610/15564955459_eb80ea6a0c_b.jpg",
-      "author": "sjrankin",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 889
-    },
-    {
-      "id": "openverse:cf0f58a0-528f-4a98-ab3a-43491236decb",
-      "provider": "openverse",
-      "title": "Looking Under Mars' Surface 2",
-      "category": "space.planets",
-      "url": "https://www.flickr.com/photos/24354425@N03/15752375352",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/cf0f58a0-528f-4a98-ab3a-43491236decb/thumb/",
-      "previewUrl": "https://live.staticflickr.com/7573/15752375352_7ca1d2db8b_b.jpg",
-      "author": "sjrankin",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 889
-    },
-    {
       "id": "openverse:e71a3c17-2767-4bc2-b208-3cbeaf4f8137",
       "provider": "openverse",
       "title": "Mars surface - Crater Holden and Uzboi Vallis",
@@ -984,15 +881,96 @@
       "height": 576
     },
     {
-      "id": "openverse:b0bdd2e4-9717-4ab8-9818-625751b951d3",
+      "id": "openverse:65f8666d-0fc6-4fcb-9711-971b095b409b",
       "provider": "openverse",
-      "title": "Truffle (on black line) and image of Mars surface=cocoa on M",
+      "title": "Mars surface - orbite 25",
       "category": "space.planets",
-      "url": "https://www.flickr.com/photos/36438878@N00/3657088123",
+      "url": "https://www.flickr.com/photos/195227719@N04/52479416629",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/b0bdd2e4-9717-4ab8-9818-625751b951d3/thumb/",
-      "previewUrl": "https://live.staticflickr.com/2475/3657088123_110e70c465_b.jpg",
-      "author": "geosteph",
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/65f8666d-0fc6-4fcb-9711-971b095b409b/thumb/",
+      "previewUrl": "https://live.staticflickr.com/65535/52479416629_2f7cd150b3_b.jpg",
+      "author": "Moon's galaxy",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "openverse:e8b7b683-8165-49b6-9996-6a2072ec844a",
+      "provider": "openverse",
+      "title": "Mars surface",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/24965563@N05/8736041172",
+      "downloadable": true,
+      "styles": [
+        "black-white"
+      ],
+      "thumbnailUrl": "https://api.openverse.org/v1/images/e8b7b683-8165-49b6-9996-6a2072ec844a/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7301/8736041172_4d96ba05d7_b.jpg",
+      "author": "Ricardo Cavero",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 683
+    },
+    {
+      "id": "openverse:bdd1b806-1cd6-404e-825d-89798bbd6f25",
+      "provider": "openverse",
+      "title": "Mars surface test bed",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/25813399@N00/5356058464",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/bdd1b806-1cd6-404e-825d-89798bbd6f25/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5201/5356058464_592ab3dc88_b.jpg",
+      "author": "flash5",
+      "license": {
+        "id": "CC-BY-NC-2.0",
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "openverse:88ed5a9a-c262-44ec-a8c7-f9f7fcc3c39d",
+      "provider": "openverse",
+      "title": "Weird Mars' surface",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/26118971@N06/5406174974",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/88ed5a9a-c262-44ec-a8c7-f9f7fcc3c39d/thumb/",
+      "previewUrl": "https://live.staticflickr.com/5178/5406174974_0e17173a6e_b.jpg",
+      "author": "joravasal",
       "license": {
         "id": "CC-BY-NC-SA-2.0",
         "name": "CC BY-NC-SA 2.0",
@@ -1006,7 +984,32 @@
       ],
       "orientation": "landscape",
       "width": 1024,
-      "height": 819
+      "height": 797
+    },
+    {
+      "id": "openverse:ec8daec7-78dc-4c97-a23d-b52f9e4b8010",
+      "provider": "openverse",
+      "title": "mars-surface-2",
+      "category": "space.planets",
+      "url": "https://www.flickr.com/photos/49598301@N00/7541602036",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/ec8daec7-78dc-4c97-a23d-b52f9e4b8010/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7264/7541602036_f141d7dca9_b.jpg",
+      "author": "dangerismycat",
+      "license": {
+        "id": "CC-BY-NC-ND-2.0",
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 974,
+      "height": 516
     }
   ]
 }

@@ -6,7 +6,7 @@
       "space"
     ]
   },
-  "updatedAt": "2026-11-24T14:51:28.218Z",
+  "updatedAt": "2026-11-25T14:17:32.656Z",
   "images": [
     {
       "id": "nasa:GSFC_20171208_Archive_e001464",
@@ -934,30 +934,29 @@
       "height": 661
     },
     {
-      "id": "wikimediacommons:Flame_Nebula-_Hubble_Observation_(2025-105).png",
-      "provider": "wikimediacommons",
-      "title": "Flame Nebula- Hubble Observation (2025-105)",
+      "id": "openverse:ae4248cf-ca74-4acf-bf06-4e297e986e5a",
+      "provider": "openverse",
+      "title": "Hubble Observes Glowing, Fiery Shells of Gas",
       "category": "space",
-      "url": "https://commons.wikimedia.org/wiki/File:Flame_Nebula-_Hubble_Observation_(2025-105).png",
+      "url": "https://www.flickr.com/photos/24662369@N07/8519681192",
       "downloadable": true,
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/330px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
-      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Flame_Nebula-_Hubble_Observation_%282025-105%29.png/1280px-Flame_Nebula-_Hubble_Observation_%282025-105%29.png",
-      "author": "Image: NASA, ESA, CSA, STScI, Michael Meyer (University of Michigan), Matthew De Furio (UT Austin), Massimo Robberto (ST",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/ae4248cf-ca74-4acf-bf06-4e297e986e5a/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/ae4248cf-ca74-4acf-bf06-4e297e986e5a/thumb/",
+      "author": "NASA Goddard Photo and Video",
       "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
       },
       "free": true,
       "formats": [
-        "png"
+        "jpg"
       ],
-      "orientation": "portrait",
-      "width": 3934,
-      "height": 4344,
-      "year": 2025
+      "orientation": "square",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

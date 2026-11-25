@@ -7,7 +7,7 @@
     ],
     "minResolution": 2160
   },
-  "updatedAt": "2026-11-24T14:51:06.527Z",
+  "updatedAt": "2026-11-25T14:17:26.294Z",
   "images": [
     {
       "id": "wikimediacommons:Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg",
@@ -826,56 +826,6 @@
       "height": 4000
     },
     {
-      "id": "openverse:107ec536-7628-4bd1-bec0-427f1975ed48",
-      "provider": "openverse",
-      "title": "Hamedan landscape (3982153153)",
-      "category": "nature",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=32705227",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/107ec536-7628-4bd1-bec0-427f1975ed48/thumb/",
-      "previewUrl": "https://api.openverse.org/v1/images/107ec536-7628-4bd1-bec0-427f1975ed48/thumb/",
-      "author": "dynamosquito from France",
-      "license": {
-        "id": "CC-BY-SA-2.0",
-        "name": "CC BY-SA 2.0",
-        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 3648,
-      "height": 2736
-    },
-    {
-      "id": "openverse:a9ef5a09-4ed9-455f-8362-1651022c917f",
-      "provider": "openverse",
-      "title": "File:Common lionfish at Shaab El Erg reef (landscape crop).JPG",
-      "category": "nature.ocean",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=25512789",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/a9ef5a09-4ed9-455f-8362-1651022c917f/thumb/",
-      "previewUrl": "https://api.openverse.org/v1/images/a9ef5a09-4ed9-455f-8362-1651022c917f/thumb/",
-      "author": "Alexander Vasenin",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 2763,
-      "height": 2208
-    },
-    {
       "id": "nasa:iss075e0118823",
       "provider": "nasa",
       "title": "The dramatic landscape of southern Bolivia in the Andean foothills",
@@ -906,18 +856,90 @@
       "year": 2026
     },
     {
-      "id": "wikimediacommons:Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "provider": "wikimediacommons",
-      "title": "Herbstliche Landschaft vom Hambacher Schlosss 2020 IMG 8158",
+      "id": "openverse:4c87bacb-a6cf-4f2f-a747-6e9b9789438a",
+      "provider": "openverse",
+      "title": "Landscape with Fisherman by Gustave Courbet, 1872 - Corcoran Gallery of Art - DSC01349",
       "category": "nature",
-      "url": "https://commons.wikimedia.org/wiki/File:Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=21186049",
       "downloadable": true,
-      "styles": [
-        "photo"
+      "thumbnailUrl": "https://api.openverse.org/v1/images/4c87bacb-a6cf-4f2f-a747-6e9b9789438a/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/4c87bacb-a6cf-4f2f-a747-6e9b9789438a/thumb/",
+      "author": "Daderot",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "jpg"
       ],
-      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg/330px-Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg/1280px-Herbstliche_Landschaft_vom_Hambacher_Schlosss_2020_IMG_8158.jpg",
-      "author": "Fischer.H",
+      "orientation": "landscape",
+      "width": 3829,
+      "height": 3104
+    },
+    {
+      "id": "openverse:1f75e54b-6c6a-4d7e-a297-f8bc4465c867",
+      "provider": "openverse",
+      "title": "Torregrotta landscape",
+      "category": "nature",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=25411211",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/1f75e54b-6c6a-4d7e-a297-f8bc4465c867/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/1f75e54b-6c6a-4d7e-a297-f8bc4465c867/thumb/",
+      "author": "Alphacentauri2007",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 7192,
+      "height": 3300
+    },
+    {
+      "id": "openverse:860fd74d-1523-4634-acf1-8c3ca2c62d4a",
+      "provider": "openverse",
+      "title": "Tessellated Pavement Sunrise Landscape",
+      "category": "nature.sky",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=5810617",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/860fd74d-1523-4634-acf1-8c3ca2c62d4a/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/860fd74d-1523-4634-acf1-8c3ca2c62d4a/thumb/",
+      "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "license": {
+        "id": "CC-BY-SA-2.5",
+        "name": "CC BY-SA 2.5",
+        "url": "https://creativecommons.org/licenses/by-sa/2.5/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 3587,
+      "height": 2391
+    },
+    {
+      "id": "openverse:e94171d9-1417-4e31-aa9d-91b8b8b4a135",
+      "provider": "openverse",
+      "title": "Alessandria panorama landscape pontemeier mandrogni lisondria tanaro",
+      "category": "nature",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=106982515",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/e94171d9-1417-4e31-aa9d-91b8b8b4a135/thumb/",
+      "previewUrl": "https://api.openverse.org/v1/images/e94171d9-1417-4e31-aa9d-91b8b8b4a135/thumb/",
+      "author": "Lampofinale",
       "license": {
         "id": "CC-BY-SA-4.0",
         "name": "CC BY-SA 4.0",
@@ -930,9 +952,37 @@
         "jpg"
       ],
       "orientation": "landscape",
-      "width": 5616,
-      "height": 3744,
-      "year": 2020
+      "width": 8000,
+      "height": 6000
+    },
+    {
+      "id": "wikimediacommons:Dülmen,_Wildpark_--_2019_--_3153-9.jpg",
+      "provider": "wikimediacommons",
+      "title": "Dülmen, Wildpark -- 2019 -- 3153-9",
+      "category": "nature",
+      "url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2019_--_3153-9.jpg",
+      "downloadable": true,
+      "styles": [
+        "photo"
+      ],
+      "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg/330px-D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg",
+      "previewUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg/1280px-D%C3%BClmen%2C_Wildpark_--_2019_--_3153-9.jpg",
+      "author": "Dietmar Rabich",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "landscape",
+      "width": 6719,
+      "height": 4480,
+      "year": 2019
     }
   ]
 }

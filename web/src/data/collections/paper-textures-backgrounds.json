@@ -6,7 +6,7 @@
       "background"
     ]
   },
-  "updatedAt": "2026-11-05T12:18:11.098Z",
+  "updatedAt": "2026-11-25T14:17:48.798Z",
   "images": [
     {
       "id": "wikimediacommons:Vintage_Paper_Texture_(9789792113).jpg",
@@ -569,56 +569,6 @@
       "height": 683
     },
     {
-      "id": "openverse:9a61c3fc-0df5-431a-bb7d-7bbc1dd6a4e8",
-      "provider": "openverse",
-      "title": "stained-paper-texture-5",
-      "category": "background",
-      "url": "https://www.flickr.com/photos/28920179@N03/3980091728",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/9a61c3fc-0df5-431a-bb7d-7bbc1dd6a4e8/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3496/3980091728_323e7e8e4a_b.jpg",
-      "author": "designshard",
-      "license": {
-        "id": "CC-BY-2.0",
-        "name": "CC BY 2.0",
-        "url": "https://creativecommons.org/licenses/by/2.0/",
-        "verdict": "check-terms",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "portrait",
-      "width": 744,
-      "height": 1024
-    },
-    {
-      "id": "openverse:ab67aa6c-ee2b-487a-b9d1-adada180fd38",
-      "provider": "openverse",
-      "title": "Flecked paper texture",
-      "category": "background",
-      "url": "https://www.flickr.com/photos/12266520@N07/3146589344",
-      "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/ab67aa6c-ee2b-487a-b9d1-adada180fd38/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3106/3146589344_f4f2f09aa7_b.jpg",
-      "author": "irisb477",
-      "license": {
-        "id": "CC-BY-NC-2.0",
-        "name": "CC BY-NC 2.0",
-        "url": "https://creativecommons.org/licenses/by-nc/2.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "jpg"
-      ],
-      "orientation": "landscape",
-      "width": 1024,
-      "height": 689
-    },
-    {
       "id": "openverse:f6a2ea9f-3663-4b74-9d7b-dae24a1eb673",
       "provider": "openverse",
       "title": "stained-paper-texture-6",
@@ -694,17 +644,14 @@
       "height": 1024
     },
     {
-      "id": "openverse:60f3e8b6-f175-4ad1-a256-6b8179d84919",
+      "id": "openverse:15992c55-fd20-4f09-8848-aeec66db50bc",
       "provider": "openverse",
-      "title": "burnt-paper-texture-5",
+      "title": "paper-texture-18",
       "category": "background",
-      "url": "https://www.flickr.com/photos/28920179@N03/3198032838",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585513866",
       "downloadable": true,
-      "styles": [
-        "transparent"
-      ],
-      "thumbnailUrl": "https://api.openverse.org/v1/images/60f3e8b6-f175-4ad1-a256-6b8179d84919/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3534/3198032838_b632e5bc54_b.jpg",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/15992c55-fd20-4f09-8848-aeec66db50bc/thumb/",
+      "previewUrl": "https://live.staticflickr.com/7125/7585513866_f55d134738_b.jpg",
       "author": "designshard",
       "license": {
         "id": "CC-BY-2.0",
@@ -718,19 +665,43 @@
         "jpg"
       ],
       "orientation": "portrait",
-      "width": 726,
-      "height": 1024,
-      "transparent": true
+      "width": 744,
+      "height": 1024
     },
     {
-      "id": "openverse:6979804d-a3ec-476f-b578-06716428e0c7",
+      "id": "openverse:9b7184cd-403c-497c-8f1d-659005a44615",
       "provider": "openverse",
-      "title": "burnt-paper-texture-3",
+      "title": "paper-texture-11",
       "category": "background",
-      "url": "https://www.flickr.com/photos/28920179@N03/3197187897",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585534508",
       "downloadable": true,
-      "thumbnailUrl": "https://api.openverse.org/v1/images/6979804d-a3ec-476f-b578-06716428e0c7/thumb/",
-      "previewUrl": "https://live.staticflickr.com/3124/3197187897_ddc3ac8268_b.jpg",
+      "thumbnailUrl": "https://api.openverse.org/v1/images/9b7184cd-403c-497c-8f1d-659005a44615/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8151/7585534508_d510a4683e_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
+      "height": 1024
+    },
+    {
+      "id": "openverse:c9778937-ba33-432f-b9ea-e42619a23575",
+      "provider": "openverse",
+      "title": "burnt-paper-texture-11",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/3198034776",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/c9778937-ba33-432f-b9ea-e42619a23575/thumb/",
+      "previewUrl": "https://live.staticflickr.com/3327/3198034776_1523e480d2_b.jpg",
       "author": "designshard",
       "license": {
         "id": "CC-BY-2.0",
@@ -745,6 +716,31 @@
       ],
       "orientation": "portrait",
       "width": 726,
+      "height": 1024
+    },
+    {
+      "id": "openverse:dc002f3b-8364-4186-a13e-7fcf49a591ba",
+      "provider": "openverse",
+      "title": "paper-texture-12",
+      "category": "background",
+      "url": "https://www.flickr.com/photos/28920179@N03/7585536104",
+      "downloadable": true,
+      "thumbnailUrl": "https://api.openverse.org/v1/images/dc002f3b-8364-4186-a13e-7fcf49a591ba/thumb/",
+      "previewUrl": "https://live.staticflickr.com/8020/7585536104_73264b8c65_b.jpg",
+      "author": "designshard",
+      "license": {
+        "id": "CC-BY-2.0",
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "jpg"
+      ],
+      "orientation": "portrait",
+      "width": 744,
       "height": 1024
     }
   ]

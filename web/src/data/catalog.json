@@ -1,19 +1,19 @@
 {
-  "countedAt": "2026-11-25T14:16:45.446Z",
+  "countedAt": "2026-11-26T13:51:47.400Z",
   "totals": {
     "listings": {
-      "count": 140520922,
+      "count": 140553880,
       "atLeast": true
     },
     "free": {
-      "count": 140520922,
+      "count": 140553880,
       "atLeast": true
     },
     "cc0": {
       "count": 11348
     },
     "directDownload": {
-      "count": 140520922,
+      "count": 140553880,
       "atLeast": true
     },
     "addedLast30Days": 0,
@@ -22,25 +22,25 @@
   },
   "byCategory": {
     "archive": {
-      "count": 1133536
+      "count": 1133564
     },
     "icons": {
-      "count": 549652
+      "count": 555494
     },
     "art": {
       "count": 101085
     }
   },
   "byLicense": {
-    "MIT": 347556,
+    "MIT": 349419,
     "Apache-2.0": 85527,
-    "CC-BY-4.0": 65725,
-    "CC-BY-SA-4.0": 21999,
+    "CC-BY-4.0": 69683,
+    "CC-BY-SA-4.0": 22000,
     "CC0-1.0": 11348,
-    "ISC": 6412,
+    "ISC": 6431,
     "CC-BY-3.0": 4133,
     "OFL-1.1": 2634,
-    "CC-BY-NC-SA-4.0": 1816,
+    "CC-BY-NC-SA-4.0": 1817,
     "GPL-2.0-or-later": 680,
     "GPL-3.0-or-later": 591,
     "Unlicense": 430,
@@ -116,7 +116,7 @@
       },
       "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
       "mirror": true,
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "wikimediacommons",
@@ -124,15 +124,15 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138196133,
-      "free": 138196133,
+      "total": 138223204,
+      "free": 138223204,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5336150,
-        "4K or larger": 78311315
+        "Vector drawings (SVG)": 5337073,
+        "4K or larger": 78330545
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "loc",
@@ -140,13 +140,13 @@
       "homepage": "https://www.loc.gov/photos/",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 1133536,
-      "free": 1133536,
+      "total": 1133564,
+      "free": 1133564,
       "byCategory": {
-        "archive": 1133536
+        "archive": 1133564
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "iconify",
@@ -154,25 +154,25 @@
       "homepage": "https://iconify.design",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 549652,
-      "free": 549652,
+      "total": 555494,
+      "free": 555494,
       "byCategory": {
-        "icons": 549652
+        "icons": 555494
       },
       "byLicense": {
         "Apache-2.0": 85527,
         "OFL-1.1": 2634,
-        "MIT": 347556,
-        "CC-BY-4.0": 65725,
-        "ISC": 6412,
-        "CC-BY-SA-4.0": 21999,
+        "MIT": 349419,
+        "CC-BY-4.0": 69683,
+        "ISC": 6431,
+        "CC-BY-SA-4.0": 22000,
         "MPL-2.0": 288,
         "GPL-2.0-only": 207,
         "GPL-2.0-or-later": 680,
         "BSD-3-Clause": 210,
         "Unlicense": 430,
         "CC0-1.0": 11348,
-        "CC-BY-NC-SA-4.0": 1816,
+        "CC-BY-NC-SA-4.0": 1817,
         "CC-BY-SA-3.0": 45,
         "CC-BY-3.0": 4133,
         "GPL-3.0": 51,
@@ -180,24 +180,24 @@
       },
       "categories": {
         "Material": 51581,
-        "UI 24px": 264989,
+        "UI 24px": 266840,
         "UI 16px / 32px": 13311,
         "UI Other / Mixed Grid": 69568,
         "UI Multicolor": 30436,
-        "Programming": 7590,
-        "Logos": 34053,
-        "Emoji": 25486,
+        "Programming": 7605,
+        "Logos": 34068,
+        "Emoji": 29445,
         "Location": 4926,
         "Flags": 1736,
         "Holiday / Seasonal": 6000,
         "Apps": 1000,
-        "Thematic": 5091,
+        "Thematic": 5093,
         "High Detail": 17669,
         "High Detail Multicolor": 1567,
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "met",
@@ -205,15 +205,15 @@
       "homepage": "https://www.metmuseum.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 371527,
-      "free": 371527,
+      "total": 371544,
+      "free": 371544,
       "byCategory": {},
       "categories": {
-        "paintings": 61293,
-        "photographs": 37634
+        "paintings": 61315,
+        "photographs": 37652
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "nasa",
@@ -230,7 +230,7 @@
         "Earth": 41243
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "artic",
@@ -247,7 +247,7 @@
         "paintings": 1936
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     },
     {
       "id": "cleveland",
@@ -262,10 +262,10 @@
       },
       "categories": {
         "paintings": 3964,
-        "photographs": 0
+        "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-25T14:16:45.446Z"
+      "countedAt": "2026-11-26T13:51:47.400Z"
     }
   ],
   "linked": [

@@ -1,19 +1,19 @@
 {
-  "countedAt": "2026-11-26T13:51:47.400Z",
+  "countedAt": "2026-11-27T13:49:16.127Z",
   "totals": {
     "listings": {
-      "count": 140553880,
+      "count": 140595724,
       "atLeast": true
     },
     "free": {
-      "count": 140553880,
+      "count": 140595724,
       "atLeast": true
     },
     "cc0": {
       "count": 11348
     },
     "directDownload": {
-      "count": 140553880,
+      "count": 140595724,
       "atLeast": true
     },
     "addedLast30Days": 0,
@@ -22,7 +22,7 @@
   },
   "byCategory": {
     "archive": {
-      "count": 1133564
+      "count": 1133507
     },
     "icons": {
       "count": 555494
@@ -57,15 +57,15 @@
       "homepage": "https://openverse.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 915519784,
-      "free": 915519784,
+      "total": 918054044,
+      "free": 918054044,
       "byCategory": {},
       "categories": {
-        "Wikimedia Commons": 88962441,
+        "Wikimedia Commons": 90714760,
         "Animal Diversity Web": 15554,
         "Biodiversity Heritage Library": 247705,
         "Brooklyn Museum": 72339,
-        "Cleveland Museum of Art": 42242,
+        "Cleveland Museum of Art": 42648,
         "SpaceX": 1360,
         "SVG Silh": 358942,
         "Digitalt Museum": 289769,
@@ -78,10 +78,10 @@
         "Smithsonian Institution: Smithsonian Gardens": 13598,
         "Smithsonian Institution: Anacostia Community Museum": 773,
         "Geograph Britain and Ireland": 1090119,
-        "Metropolitan Museum of Art": 498428,
+        "Metropolitan Museum of Art": 500842,
         "Museums Victoria": 184155,
         "NASA": 131756,
-        "Rawpixel": 1268095,
+        "Rawpixel": 1291963,
         "Rijksmuseum": 29999,
         "Sketchfab": 37872,
         "Smithsonian Institution: Smithsonian Libraries": 55,
@@ -96,27 +96,27 @@
         "Smithsonian Institution: National Zoo": 462,
         "Smithsonian Institution Archives": 8314,
         "WOCinTech Chat": 268,
-        "Finnish Heritage Agency": 316574,
+        "Finnish Heritage Agency": 318492,
         "StockSnap.io": 40333,
-        "WP Photo Directory": 43359,
-        "National Gallery of Denmark (SMK)": 53449,
-        "Finnish Satakunnan Museum": 22582,
+        "WP Photo Directory": 47398,
+        "National Gallery of Denmark (SMK)": 53557,
+        "Finnish Satakunnan Museum": 27542,
         "Just take it free": 221,
-        "PhyloPic": 12980,
+        "PhyloPic": 13448,
         "National Museum of Finland": 452,
-        "Europeana": 13841364,
+        "Europeana": 14024280,
         "iNaturalist": 266268617,
         "Nappy": 2211,
         "Wellcome Collection": 92478,
         "Gulbenkian Art Library": 7852,
-        "Flickr": 536219600,
+        "Flickr": 536780402,
         "Science Museum – UK": 106876,
-        "Katmai National Park Service": 2147,
+        "Katmai National Park Service": 2189,
         "New York Public Library": 1281
       },
       "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
       "mirror": true,
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "wikimediacommons",
@@ -124,15 +124,15 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138223204,
-      "free": 138223204,
+      "total": 138265104,
+      "free": 138265104,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5337073,
-        "4K or larger": 78330545
+        "Vector drawings (SVG)": 5341252,
+        "4K or larger": 78355098
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "loc",
@@ -140,13 +140,13 @@
       "homepage": "https://www.loc.gov/photos/",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 1133564,
-      "free": 1133564,
+      "total": 1133507,
+      "free": 1133507,
       "byCategory": {
-        "archive": 1133564
+        "archive": 1133507
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "iconify",
@@ -197,7 +197,7 @@
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "met",
@@ -205,15 +205,15 @@
       "homepage": "https://www.metmuseum.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 371544,
-      "free": 371544,
+      "total": 371545,
+      "free": 371545,
       "byCategory": {},
       "categories": {
         "paintings": 61315,
         "photographs": 37652
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "nasa",
@@ -230,7 +230,7 @@
         "Earth": 41243
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "artic",
@@ -247,7 +247,7 @@
         "paintings": 1936
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     },
     {
       "id": "cleveland",
@@ -265,7 +265,7 @@
         "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-26T13:51:47.400Z"
+      "countedAt": "2026-11-27T13:49:16.127Z"
     }
   ],
   "linked": [

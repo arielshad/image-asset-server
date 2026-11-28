@@ -1,19 +1,19 @@
 {
-  "countedAt": "2026-11-27T13:49:16.127Z",
+  "countedAt": "2026-11-28T12:56:51.000Z",
   "totals": {
     "listings": {
-      "count": 140595724,
+      "count": 140542707,
       "atLeast": true
     },
     "free": {
-      "count": 140595724,
+      "count": 140542707,
       "atLeast": true
     },
     "cc0": {
-      "count": 11348
+      "count": 11371
     },
     "directDownload": {
-      "count": 140595724,
+      "count": 140542707,
       "atLeast": true
     },
     "addedLast30Days": 0,
@@ -22,25 +22,25 @@
   },
   "byCategory": {
     "archive": {
-      "count": 1133507
+      "count": 1036920
     },
     "icons": {
-      "count": 555494
+      "count": 568524
     },
     "art": {
       "count": 101085
     }
   },
   "byLicense": {
-    "MIT": 349419,
+    "MIT": 358394,
     "Apache-2.0": 85527,
-    "CC-BY-4.0": 69683,
-    "CC-BY-SA-4.0": 22000,
-    "CC0-1.0": 11348,
-    "ISC": 6431,
+    "CC-BY-4.0": 73696,
+    "CC-BY-SA-4.0": 22001,
+    "CC0-1.0": 11371,
+    "ISC": 6448,
     "CC-BY-3.0": 4133,
     "OFL-1.1": 2634,
-    "CC-BY-NC-SA-4.0": 1817,
+    "CC-BY-NC-SA-4.0": 1818,
     "GPL-2.0-or-later": 680,
     "GPL-3.0-or-later": 591,
     "Unlicense": 430,
@@ -116,7 +116,7 @@
       },
       "method": "api.openverse.org /v1/images/stats/: media_count per source, summed",
       "mirror": true,
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "wikimediacommons",
@@ -124,15 +124,15 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 138265104,
-      "free": 138265104,
+      "total": 138295648,
+      "free": 138295648,
       "byCategory": {},
       "categories": {
-        "Vector drawings (SVG)": 5341252,
-        "4K or larger": 78355098
+        "Vector drawings (SVG)": 5344421,
+        "4K or larger": 78372673
       },
       "method": "MediaWiki search totalhits for filetype:bitmap|drawing (and filetype:drawing, filew/fileh for the tiers)",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "loc",
@@ -140,13 +140,13 @@
       "homepage": "https://www.loc.gov/photos/",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 1133507,
-      "free": 1133507,
+      "total": 1036920,
+      "free": 1036920,
       "byCategory": {
-        "archive": 1133507
+        "archive": 1036920
       },
       "method": "loc.gov /photos/ pagination.of with fa=access-restricted:false",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "iconify",
@@ -154,25 +154,25 @@
       "homepage": "https://iconify.design",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 555494,
-      "free": 555494,
+      "total": 568524,
+      "free": 568524,
       "byCategory": {
-        "icons": 555494
+        "icons": 568524
       },
       "byLicense": {
         "Apache-2.0": 85527,
         "OFL-1.1": 2634,
-        "MIT": 349419,
-        "CC-BY-4.0": 69683,
-        "ISC": 6431,
-        "CC-BY-SA-4.0": 22000,
+        "MIT": 358394,
+        "CC-BY-4.0": 73696,
+        "ISC": 6448,
+        "CC-BY-SA-4.0": 22001,
         "MPL-2.0": 288,
         "GPL-2.0-only": 207,
         "GPL-2.0-or-later": 680,
         "BSD-3-Clause": 210,
         "Unlicense": 430,
-        "CC0-1.0": 11348,
-        "CC-BY-NC-SA-4.0": 1817,
+        "CC0-1.0": 11371,
+        "CC-BY-NC-SA-4.0": 1818,
         "CC-BY-SA-3.0": 45,
         "CC-BY-3.0": 4133,
         "GPL-3.0": 51,
@@ -180,24 +180,24 @@
       },
       "categories": {
         "Material": 51581,
-        "UI 24px": 266840,
+        "UI 24px": 279267,
         "UI 16px / 32px": 13311,
-        "UI Other / Mixed Grid": 69568,
+        "UI Other / Mixed Grid": 70132,
         "UI Multicolor": 30436,
-        "Programming": 7605,
-        "Logos": 34068,
-        "Emoji": 29445,
-        "Location": 4926,
+        "Programming": 7609,
+        "Logos": 34081,
+        "Emoji": 29446,
+        "Location": 4949,
         "Flags": 1736,
         "Holiday / Seasonal": 6000,
         "Apps": 1000,
         "Thematic": 5093,
-        "High Detail": 17669,
+        "High Detail": 17667,
         "High Detail Multicolor": 1567,
         "Archive / Unmaintained": 14649
       },
       "method": "api.iconify.design /collections: `total` per icon set, summed",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "met",
@@ -213,7 +213,7 @@
         "photographs": 37652
       },
       "method": "collectionapi.metmuseum.org v1.1 search totals with hasImages=true&isPublicDomain=true",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "nasa",
@@ -221,16 +221,16 @@
       "homepage": "https://images.nasa.gov",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 168989,
+      "total": 168985,
       "atLeast": true,
-      "free": 168989,
+      "free": 168985,
       "byCategory": {},
       "categories": {
         "Hubble": 4789,
-        "Earth": 41243
+        "Earth": 41231
       },
       "method": "images-api.nasa.gov search total_hits for media_type=image (q=nasa matches almost every item, so it is a lower bound)",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "artic",
@@ -247,7 +247,7 @@
         "paintings": 1936
       },
       "method": "api.artic.edu artworks/search pagination.total with is_public_domain=true and an image_id",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     },
     {
       "id": "cleveland",
@@ -265,7 +265,7 @@
         "photographs": 1011
       },
       "method": "openaccess-api.clevelandart.org info.total with has_image=1&cc0=1 (and type= for the breakdown)",
-      "countedAt": "2026-11-27T13:49:16.127Z"
+      "countedAt": "2026-11-28T12:56:51.000Z"
     }
   ],
   "linked": [
